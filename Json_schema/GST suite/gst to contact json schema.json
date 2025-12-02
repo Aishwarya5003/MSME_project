@@ -1,0 +1,212 @@
+{
+    "case1": {
+        "http_response_code": 200,
+        "request_id": "37b58c1e-95ee-4dc7-9fb5-afc87cacfb9d",
+        "client_ref_num": "gstin-testing",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case2": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case3": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case4": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case5": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case6": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case7": {
+        "http_response_code": 200,
+        "request_id": "283d02a2-e439-4513-967a-fc5cda81a911",
+        "client_ref_num": "gstin-testing",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case8": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case9": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case10": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case11": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case12": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case13": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case14": {
+        "http_response_code": 200,
+        "request_id": "d900e7fc-a2d6-41b0-ae5e-2a8bf922abe4",
+        "client_ref_num": "gstin-testing",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case15": {
+        "http_response_code": 400,
+        "request_id": "610fcf2e-091d-4f45-a137-f7cebaeeedf9",
+        "client_ref_num": "!@#$%^&",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case16": {
+        "http_response_code": 400,
+        "request_id": "610fcf2e-091d-4f45-a137-f7cebaeeedf9",
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case17": {
+        "http_response_code": 400,
+        "request_id": "610fcf2e-091d-4f45-a137-f7cebaeeedf9",
+        "client_ref_num": "test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1111",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case18": {
+        "http_response_code": 200,
+        "request_id": "d900e7fc-a2d6-41b0-ae5e-2a8bf922abe4",
+        "client_ref_num": "test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case19": {
+        "http_response_code": 400,
+        "request_id": "610fcf2e-091d-4f45-a137-f7cebaeeedf9",
+        "client_ref_num": " ",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case20": {
+        "http_response_code": 200,
+        "request_id": "b570d564-4e82-4381-b2cf-51980ccb9580",
+        "client_ref_num": "gstin-testing",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case21": {
+        "http_response_code": 401,
+        "request_id": "e560b69c-89c9-4d0b-ac01-561efefc1780",
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case22": {
+        "http_response_code": 401,
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case23": {
+        "http_response_code": 401,
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case24": {
+        "http_response_code": 401,
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case25": {
+        "http_response_code": 401,
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case26": {
+        "http_response_code": 401,
+        "client_ref_num": "",
+        "error": "Client Authentication Failed"
+    },
+    "case27": {
+        "http_response_code": 200,
+        "request_id": "c9dc0b26-8abd-4f8e-80d0-7146eff196c0",
+        "client_ref_num": "33AAZPN3164F1ZF",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case28": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case29": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case30": {
+        "http_response_code": 400,
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case31": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case32": {
+        "http_response_code": 200,
+        "client_ref_num": "gstin-testing",
+        "result_code": 101,
+        "result": {
+            "mobile": "9600721999",
+            "email": "nehrupandian61@gmail.com"
+        }
+    },
+    "case33": {
+        "http_response_code": 400,
+        "client_ref_num": "gstin-testing",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case34": {
+        "http_response_code": 503,
+        "request_id": "0b294298-77dc-4c93-bfe3-326193b9d017",
+        "client_ref_num": "gstin-testing",
+        "error": "Source is busy or unavailable. Try again later"
+    }
+}

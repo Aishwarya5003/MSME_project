@@ -1,0 +1,330 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "request_id": "53b25b97-2a18-489e-a3af-a16540b47a22",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "9987174427",
+            "gstin": "29AAHCD5090M1Z3",
+            "legal_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "trade_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED"
+        },
+        {
+            "mobile": "9987174427",
+            "gstin": "37AAGCD1717L1ZJ",
+            "legal_name": "Dribling Sports Private Limited",
+            "trade_name": "NA"
+        }
+    ]
+},
+  "case2": {
+    "http_response_code": 200,
+    "request_id": "aada2929-ade8-44d0-99a9-32545345126f",
+    "client_ref_num": "Almond",
+    "result_code": 103,
+    "message": "No record found for the given input"
+},
+  "case3": {
+    "http_response_code": 400,
+    "request_id": "a8e13b6e-6c9d-4752-972d-4d8dda868eb1",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case4":{
+    "http_response_code": 200,
+    "request_id": "53b25b97-2a18-489e-a3af-a16540b47a22",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "9987174427",
+            "gstin": "29AAHCD5090M1Z3",
+            "legal_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "trade_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED"
+        },
+        {
+            "mobile": "9987174427",
+            "gstin": "37AAGCD1717L1ZJ",
+            "legal_name": "Dribling Sports Private Limited",
+            "trade_name": "NA"
+        }
+    ]
+},
+  "case5": {
+    "http_response_code": 200,
+    "request_id": "fa2f7640-86c2-4d81-80ee-e7b2794b5f42",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "7665026583",
+            "gstin": "08AAJCD7303D1ZW",
+            "legal_name": "DESURI FARMER PRODUCER COMPANY LIMITED",
+            "trade_name": "DESURI FARMER PRODUCER COMPANY LIMITED"
+        }
+    ]
+},
+  "case6": {
+    "http_response_code": 200,
+    "request_id": "7cd2a814-01bc-437b-a707-1c1c5a606bdb",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "6376228120",
+            "gstin": "09AABCO8891K1ZP",
+            "legal_name": "ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED",
+            "trade_name": "M/S ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED"
+        }
+    ]
+},
+  "case7":{
+    "http_response_code": 200,
+    "request_id": "ac29ce41-bc97-4b93-94af-f99590df4bfa",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "8056312197",
+            "gstin": "32AAHCE9806G1ZO",
+            "legal_name": "ENREGEN FARMERS PRODUCER COMPANY LIMITED",
+            "trade_name": "NA"
+        }
+    ]
+},
+  "case8":{
+    "http_response_code": 400,
+    "request_id": "e93dbb98-4bbf-46b8-bfa5-03404e9166ee",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case9": {
+    "http_response_code": 400,
+    "request_id": "e93dbb98-4bbf-46b8-bfa5-03404e9166ee",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case10": {
+    "http_response_code": 400,
+    "request_id": "77ce6494-6c96-4af0-905e-9f3537ab5f5c",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case11":{
+    "http_response_code": 400,
+    "request_id": "a62afcfc-c312-4252-b9e8-42b0e8a2beb8",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case12": {
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case13":{
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case14":{
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case15":{
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case16": {
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case17":{
+    "http_response_code": 400,
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case18": {
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case19":{
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case20":{
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case21":{
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case22": {
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case23":{
+    "http_response_code": 400,
+    "request_id": "8eeed830-b35c-47f5-876d-f5006fd0f41d",
+    "client_ref_num": "Almond",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case24":{
+    "http_response_code": 200,
+    "request_id": "53b25b97-2a18-489e-a3af-a16540b47a22",
+    "client_ref_num": "Almond",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "9987174427",
+            "gstin": "29AAHCD5090M1Z3",
+            "legal_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "trade_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED"
+        },
+        {
+            "mobile": "9987174427",
+            "gstin": "37AAGCD1717L1ZJ",
+            "legal_name": "Dribling Sports Private Limited",
+            "trade_name": "NA"
+        }
+    ]
+},
+  "case25": {
+    "http_response_code": 400,
+    "request_id": "fc8461c5-f52a-47ce-acdf-1f795761755f",
+    "client_ref_num": "Almond##",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case26":{
+    "http_response_code": 400,
+    "request_id": "fc8461c5-f52a-47ce-acdf-1f795761755f",
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case27":{
+    "http_response_code": 400,
+    "request_id": "fc8461c5-f52a-47ce-acdf-1f795761755f",
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case28":  {
+    "http_response_code": 400,
+    "request_id": "5ee95574-c9e3-4326-8167-60a7a49b371e",
+    "client_ref_num": " Almond ",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case29":{
+    "http_response_code": 200,
+    "request_id": "c1d3c117-4f78-4e0d-bc7c-edfe3a88d91c",
+    "client_ref_num": "Almond_-",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "6376228120",
+            "gstin": "09AABCO8891K1ZP",
+            "legal_name": "ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED",
+            "trade_name": "M/S ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED"
+        }
+    ]
+},
+  "case30": {
+    "http_response_code": 400,
+    "request_id": "b107c260-181f-4017-87e7-992286b98f95",
+    "client_ref_num": "test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test11",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case31": {
+    "http_response_code": 200,
+    "request_id": "597c6386-a29d-4f08-b349-c01c1bd6e66a",
+    "client_ref_num": "test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1",
+    "result_code": 101,
+    "result": [
+        {
+            "mobile": "6376228120",
+            "gstin": "09AABCO8891K1ZP",
+            "legal_name": "ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED",
+            "trade_name": "M/S ORGANIC INDIA FARMERS PRODUCER COMPANY LIMITED"
+        }
+    ]
+},
+  "case32": {
+    "http_response_code": 400,
+    "request_id": "b107c260-181f-4017-87e7-992286b98f95",
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong or missing"
+},
+  "case33": {
+    "http_response_code": 503,
+    "request_id": "106f43d6-89bb-4fca-bd4d-d69ab75873a3",
+    "client_ref_num": "Almond",
+    "error": "Source is busy or unavailable. Try again later"
+},
+  "case34": {
+    "http_response_code": 503,
+    "request_id": "14e572cd-6a4f-4756-b661-a6f3dd2def9d",
+    "client_ref_num": "Almond",
+    "error": "Source is busy or unavailable. Try again later"
+},
+  "case35":{
+    "http_response_code": 503,
+    "request_id": "b50b830d-4e40-44d2-9769-7e53e9d6d14a",
+    "client_ref_num": "Almond",
+    "error": "Source is busy or unavailable. Try again later"
+},
+  "case36": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+  "case37":{
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+  "case38": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+  "case39": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+"case40": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+"case41": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+"case42": {
+    "http_response_code": 401,
+    "client_ref_num": "",
+    "error": "Client Authentication Failed"
+},
+"case43":{
+  "http_response_code": 400,
+  "request_id": "e73b1c09-59a7-4757-8cb2-aaa872bb0829",
+  "client_ref_num": "Almond",
+  "error": "One or more parameters format is wrong or missing"
+}
+}

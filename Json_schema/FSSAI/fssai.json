@@ -1,0 +1,494 @@
+{
+    "case1":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "fd58106c-4c2e-4967-9172-9d2379e849b4",
+    "result_code": 101,
+    "result": {
+        "company_name": " TATA CONSUMER PRODUCTS LIMITED ",
+        "address": "C/o9/10, VLB Nagar, Kovai Pudur Road, Coimbatore, Tamil Nadu - 641 042",
+        "license_number": "10014042001477",
+        "license_type": "Central License",
+        "validity_status": "Inactive",
+        "products_sold": [
+            {
+                "kob_name": "Supplier",
+                "product_name": [
+                    "99 - Substances added to food",
+                    "15 - Ready-to-eat savouries",
+                    "14 - Beverages, excluding dairy products",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "11 - Sweeteners, including honey",
+                    "10 - Eggs and egg products",
+                    "07 - Bakery products",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "05 - Confectionery",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "02 - Fats and oils, and fat emulsions",
+                    "01 - Dairy products and analogues, excluding products of food category 2.0"
+                ]
+            },
+            {
+                "kob_name": "Storage (Except Controlled Atmosphere and Cold)",
+                "product_name": [
+                    "01 - Dairy products and analogues, excluding products of food category 2.0",
+                    "02 - Fats and oils, and fat emulsions",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "05 - Confectionery",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "07 - Bakery products",
+                    "10 - Eggs and egg products",
+                    "11 - Sweeteners, including honey",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "14 - Beverages, excluding dairy products",
+                    "15 - Ready-to-eat savouries",
+                    "99 - Substances added to food"
+                ]
+            }
+        ]
+    }
+},
+    "case2": {
+        "http_response_code": 400,
+        "request_id": "baa0b5a3-894d-4316-84b8-2a61f790ec2b",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case3":{
+        "http_response_code": 200,
+        "request_id": "9426eed3-699a-4799-9749-930bb788e0eb",
+        "client_ref_num": "FSSAI",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case4":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "e9c56779-cc91-4b13-9a41-f7b80f0578af",
+    "result_code": 101,
+    "result": {
+        "company_name": " S Nadhini ",
+        "address": "66B,Puthupatti, Shanarpatti Post, Dindigul Dt - 624306",
+        "license_number": "22423050000432",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case5":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "8da5de80-40d3-4ce0-b18e-50cac08a431a",
+    "result_code": 101,
+    "result": {
+        "company_name": " Dreams Unleashedmart Private Limited ",
+        "address": "SHOP NO. 30,31, CSC DDA MARKET  SECTOR -17, ROHINI, NEW DELHI",
+        "license_number": "13319005000245",
+        "license_type": "State License",
+        "validity_status": "Inactive",
+        "products_sold": [
+            {
+                "kob_name": "Retailer",
+                "product_name": [
+                    "14 - Beverages, excluding dairy products",
+                    "05 - Confectionery",
+                    "07 - Bakery products",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "11 - Sweeteners, including honey",
+                    "03 - Edible ices, including sherbet and sorbe",
+                    "10 - Eggs and egg products",
+                    "15 - Ready-to-eat savouries"
+                ]
+            },
+            {
+                "kob_name": "Wholesaler",
+                "product_name": [
+                    "14 - Beverages, excluding dairy products",
+                    "05 - Confectionery",
+                    "07 - Bakery products",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "11 - Sweeteners, including honey",
+                    "03 - Edible ices, including sherbet and sorbe",
+                    "10 - Eggs and egg products",
+                    "15 - Ready-to-eat savouries"
+                ]
+            }
+        ]
+    }
+},
+    "case6":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "fd58106c-4c2e-4967-9172-9d2379e849b4",
+    "result_code": 101,
+    "result": {
+        "company_name": " TATA CONSUMER PRODUCTS LIMITED ",
+        "address": "C/o9/10, VLB Nagar, Kovai Pudur Road, Coimbatore, Tamil Nadu - 641 042",
+        "license_number": "10014042001477",
+        "license_type": "Central License",
+        "validity_status": "Inactive",
+        "products_sold": [
+            {
+                "kob_name": "Supplier",
+                "product_name": [
+                    "99 - Substances added to food",
+                    "15 - Ready-to-eat savouries",
+                    "14 - Beverages, excluding dairy products",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "11 - Sweeteners, including honey",
+                    "10 - Eggs and egg products",
+                    "07 - Bakery products",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "05 - Confectionery",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "02 - Fats and oils, and fat emulsions",
+                    "01 - Dairy products and analogues, excluding products of food category 2.0"
+                ]
+            },
+            {
+                "kob_name": "Storage (Except Controlled Atmosphere and Cold)",
+                "product_name": [
+                    "01 - Dairy products and analogues, excluding products of food category 2.0",
+                    "02 - Fats and oils, and fat emulsions",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "05 - Confectionery",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "07 - Bakery products",
+                    "10 - Eggs and egg products",
+                    "11 - Sweeteners, including honey",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "14 - Beverages, excluding dairy products",
+                    "15 - Ready-to-eat savouries",
+                    "99 - Substances added to food"
+                ]
+            }
+        ]
+    }
+},
+    "case7":{
+        "http_response_code": 400,
+        "request_id": "a6009a52-0afc-42d2-8715-91de9dbbe798",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case8":{
+        "http_response_code": 400,
+        "request_id": "270f494b-4ce9-4d2c-8134-5767168f5a21",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case9":{
+        "http_response_code": 400,
+        "request_id": "08a7a20c-ea2b-4acd-8bea-f8a19e85e8e3",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case10":{
+        "http_response_code": 400,
+        "request_id": "bf946290-aeef-4b5b-a039-37c2290e0f72",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case11":{
+        "http_response_code": 400,
+        "request_id": "a9b5299e-53c0-4676-9f16-3d5e540e7599",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case12": {
+        "http_response_code": 400,
+        "request_id": "c9b0c7e6-0fbd-458a-b75d-a03863e16267",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case13": {
+        "http_response_code": 400,
+        "request_id": "70b97417-f667-4ebe-b95d-c32e8aa5b120",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case14": {
+        "http_response_code": 400,
+        "request_id": "b0c4c10c-3ee6-466a-b4f5-350d5b60fe67",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case15": {
+        "http_response_code": 400,
+        "request_id": "06d920e2-c888-45a0-a074-32b0cf4ce415",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case16": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "0c08c1fb-08ee-44ec-989c-e729182ae86b",
+    "result_code": 101,
+    "result": {
+        "company_name": " NADHINI UDHAYAKUMAR ",
+        "address": "2-271 GANDHI NAGAR SOLAMPALLAM  MALLAMOOPATTI SURAMAGALAM",
+        "license_number": "22421580000652",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case17": {
+        "http_response_code": 200,
+        "request_id": "d2f167cc-0cec-4734-92dd-db312f123ca9",
+        "client_ref_num": "FSSAI",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case18": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "67421841-d437-420b-9c92-2b8bfeccbe0a",
+    "result_code": 101,
+    "result": {
+        "company_name": " SONU SINGH/MOBILE FOOD VENDOR ",
+        "address": "NORTH RAILWAY STATION ERNAKULAM",
+        "license_number": "21319187000983",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case19": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "bf41415f-55b5-4334-b17d-b52d662e19b5",
+    "result_code": 101,
+    "result": {
+        "company_name": "AMOL DEVIDAS SALUNKE/ SAI AMRUT MILK DIARY ",
+        "address": "AT POST GALA NO.117  MANOOR TA VAIJAPUR  DIST AURANGABAD",
+        "license_number": "21523075001217",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case20": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "bf41415f-55b5-4334-b17d-b52d662e19b5",
+    "result_code": 101,
+    "result": {
+        "company_name": "AMOL DEVIDAS SALUNKE/ SAI AMRUT MILK DIARY ",
+        "address": "AT POST GALA NO.117  MANOOR TA VAIJAPUR  DIST AURANGABAD",
+        "license_number": "21523075001217",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case21": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "bf41415f-55b5-4334-b17d-b52d662e19b5",
+    "result_code": 101,
+    "result": {
+        "company_name": "AMOL DEVIDAS SALUNKE/ SAI AMRUT MILK DIARY ",
+        "address": "AT POST GALA NO.117  MANOOR TA VAIJAPUR  DIST AURANGABAD",
+        "license_number": "21523075001217",
+        "license_type": "Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case22":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "fd58106c-4c2e-4967-9172-9d2379e849b4",
+    "result_code": 101,
+    "result": {
+        "company_name": " TATA CONSUMER PRODUCTS LIMITED ",
+        "address": "C/o9/10, VLB Nagar, Kovai Pudur Road, Coimbatore, Tamil Nadu - 641 042",
+        "license_number": "10014042001477",
+        "license_type": "Central License",
+        "validity_status": "Inactive",
+        "products_sold": [
+            {
+                "kob_name": "Supplier",
+                "product_name": [
+                    "99 - Substances added to food",
+                    "15 - Ready-to-eat savouries",
+                    "14 - Beverages, excluding dairy products",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "11 - Sweeteners, including honey",
+                    "10 - Eggs and egg products",
+                    "07 - Bakery products",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "05 - Confectionery",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "02 - Fats and oils, and fat emulsions",
+                    "01 - Dairy products and analogues, excluding products of food category 2.0"
+                ]
+            },
+            {
+                "kob_name": "Storage (Except Controlled Atmosphere and Cold)",
+                "product_name": [
+                    "01 - Dairy products and analogues, excluding products of food category 2.0",
+                    "02 - Fats and oils, and fat emulsions",
+                    "04 - Fruits and vegetables (including mushrooms and fungi, roots and tubers, fresh pulses and legumes, and aloe vera), seaweeds, and nuts and seeds",
+                    "05 - Confectionery",
+                    "06 - Cereals and cereal products, derived from cereal grains, from roots and tubers, pulses, legumes and pith or soft core of palm tree, excluding bakery wares of food category 7.0",
+                    "07 - Bakery products",
+                    "10 - Eggs and egg products",
+                    "11 - Sweeteners, including honey",
+                    "12 - Salts, spices, soups, sauces, salads and protein products",
+                    "14 - Beverages, excluding dairy products",
+                    "15 - Ready-to-eat savouries",
+                    "99 - Substances added to food"
+                ]
+            }
+        ]
+    }
+},
+    "case23": {
+        "http_response_code": 400,
+        "request_id": "33efc72c-e793-4df4-8da2-2320ce71e635",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case24": {
+        "http_response_code": 400,
+        "request_id": "f24eadff-4375-48b4-af9e-bc560edf50bc",
+        "client_ref_num": "FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case25": {
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI",
+    "request_id": "4f7a34f2-c0a3-4e22-8029-914943f22534",
+    "result_code": 101,
+    "result": {
+        "company_name": "Syed Mohammad Salim Representative Rajasthan Beverages Pvt. Ltd and Brooke Bond Liptin India Ltd",
+        "address": "Refreshment Stall, Platform No. 01, Near Waiting Room, Railway Station Ajmer Jn.",
+        "license_number": "22221091000093",
+        "license_type": "Indian Railway Registration",
+        "validity_status": "Active",
+        "products_sold": []
+    }
+},
+    "case26": {
+        "http_response_code": 400,
+        "request_id": "ae18e88e-4f44-45cf-a386-b016bfa2dac1",
+        "client_ref_num": "FSSAI!@#$",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case27": {
+        "http_response_code": 400,
+        "request_id": "55e15169-2ae8-4f86-babc-e37a062d7149",
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case28": {
+        "http_response_code": 400,
+        "request_id": "fcb5d58a-5cbf-4753-b983-f5f272a0bd8a",
+        "client_ref_num": " ",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case29": {
+        "http_response_code": 400,
+        "request_id": "2389df4f-6f02-49e8-8e29-e95383b39df0",
+        "client_ref_num": " FSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case30": {
+        "http_response_code": 400,
+        "request_id": "9800b169-cb54-454b-89b9-7d97a3dc0637",
+        "client_ref_num": "FSSAI ",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case31":{
+    "http_response_code": 200,
+    "client_ref_num": "FSSAI_-.",
+    "request_id": "46bb199e-c68c-4d56-8e1d-2751782adbda",
+    "result_code": 101,
+    "result": {
+        "company_name": "G.GANESAN - TIFFEN CENTER",
+        "address": "ROAD SIDE OF PLATFORM, P.V.RAJAMANNAR SALAI, (OPP TO AMMA UNAVAGAM), SALIGRAMAM, CHENNAI - 600093.",
+        "license_number": "22418545000561",
+        "license_type": "Registration",
+        "validity_status": "Inactive",
+        "products_sold": []
+    }
+},
+    "case32": {
+        "http_response_code": 400,
+        "request_id": "2cfb29f9-1dc6-4a65-aa20-c5aa4e798ed2",
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case33": {
+        "http_response_code": 400,
+        "request_id": "c85fbe77-ee92-4a00-af88-bee0b6305112",
+        "client_ref_num": "FSSAIFFSSAIFSSAIFSSAIFSSAIFSSAIFSSAIFSSAISSAIFSSAI",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case34": {
+        "http_response_code": 200,
+        "client_ref_num": "FSSAIFSSAIFSSAIFSSAIFSSAIFSSAIFSSAIFSSAIFSSAI",
+        "request_id": "b4091580-ed45-4b3d-b3b4-973cb9cf8f73",
+        "result_code": 101,
+       "result": {
+        "company_name": "G.GANESAN - TIFFEN CENTER",
+        "address": "ROAD SIDE OF PLATFORM, P.V.RAJAMANNAR SALAI, (OPP TO AMMA UNAVAGAM), SALIGRAMAM, CHENNAI - 600093.",
+        "license_number": "22418545000561",
+        "license_type": "Registration",
+        "validity_status": "Inactive",
+        "products_sold": []
+    }
+},
+    "case35": {
+        "http_response_code": 400,
+        "request_id": "0985bf1d-8116-45d4-9bd7-0152aa5c2b38",
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong or missing"
+    },
+    "case36": {
+        "http_response_code": 503,
+        "request_id": "3990523b-4ae5-460a-a785-ea198b99039a",
+        "client_ref_num": "FSSAI",
+        "error": "Source is busy or unavailable. Try again later"
+    },
+    "case37": {
+        "http_response_code": 401,
+        "request_id": "93a16e32-78f2-4058-8b17-1e948987eb97",
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case38": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case39": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case40": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case41": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case42": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    },
+    "case43": {
+        "http_response_code": 401,
+        "client_ref_num": "FSSAI",
+        "error": "Client Authentication Failed"
+    }
+}
