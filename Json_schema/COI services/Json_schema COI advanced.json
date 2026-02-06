@@ -1,0 +1,3685 @@
+{
+  "case1": {
+    "http_response_code": 200,
+    "request_id": "eb87bae8-f13f-11f0-9411-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U72900KA2019PTC129553",
+          "company_id": "",
+          "company_llp_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "129553",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "1000000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "13/11/2019",
+          "registered_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar, athalli, Bangalore, Bangalore, Karnataka, India, 560037",
+          "email_id": "knageen@gmail.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "Bangalore",
+          "company_registered_pin_code": "560037",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "27/09/2025",
+          "date_of_balance_sheet": "31/03/2025",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "07784146",
+              "name": "NAGEEN KOMMU",
+              "date_of_appointment": "13/11/2019",
+              "pan": "*****5404B",
+              "mobile_number": "XXXXXXX427",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXen@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            },
+            {
+              "din_pan": "09752932",
+              "name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU",
+              "date_of_appointment": "01/10/2022",
+              "pan": "*****7533P",
+              "mobile_number": "XXXXXXX475",
+              "educational_qualification": "",
+              "email_address": "XXXXXharaprasad@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "09053516",
+              "name": "ANKOOR DAS",
+              "date_of_appointment": "",
+              "pan": "*****2603F",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "08609632",
+              "name": "HIMANSHU BHALOTIA",
+              "date_of_appointment": "13/11/2019",
+              "pan": "*****2658A",
+              "mobile_number": "XXXXXXX282",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXshubhalotia@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U72200KA2020PTC132270",
+              "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED",
+              "date_of_incorporation": "03/02/2020",
+              "din": "07784146"
+            },
+            {
+              "company_cin": "U74999AP2017PTC105830",
+              "company_name": "DRIBLING SPORTS PRIVATE LIMITED",
+              "date_of_incorporation": "15/05/2017",
+              "din": "07784146"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "NAGEEN KOMMU",
+              "director_din": "07784146",
+              "director_designation": "Director",
+              "director_date_of_appointment": "13/11/2019",
+              "directorship": [
+                {
+                  "company_cin": "U72200KA2020PTC132270",
+                  "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED",
+                  "date_of_incorporation": "03/02/2020"
+                },
+                {
+                  "company_cin": "U72900KA2019PTC129553",
+                  "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                  "date_of_incorporation": "13/11/2019"
+                },
+                {
+                  "company_cin": "U74999AP2017PTC105830",
+                  "company_name": "DRIBLING SPORTS PRIVATE LIMITED",
+                  "date_of_incorporation": "15/05/2017"
+                }
+              ]
+            },
+            {
+              "director_name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU",
+              "director_din": "09752932",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/10/2022",
+              "directorship": [
+                {
+                  "company_cin": "U72900KA2019PTC129553",
+                  "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                  "date_of_incorporation": "01/10/2022"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case2": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "U72890KA2012PTC349541",
+      "company_id": "",
+      "status": "Invalid"
+    }
+  },
+  "case3": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case4": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case5": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case6": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case7": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case8": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case9": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case10": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case11": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case12": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case13": {
+    "http_response_code": 200,
+    "request_id": "6dc754c7-f140-11f0-8865-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U99999MH1911PLC007676",
+          "company_id": "",
+          "company_llp_name": "THE BANK OF BARODA LIMITED",
+          "roc_code": "ROC Mumbai",
+          "registration_number": "007676",
+          "company_category": "Company limited by guarantee",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Public",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "0",
+          "date_of_incorporation": "02/03/1911",
+          "registered_address": "NA, AT POST DEUL GALLI LOHA, NA, Maharashtra, India, 431708",
+          "email_id": "",
+          "company_registered_state": "Maharashtra",
+          "company_registered_city": "NA",
+          "company_registered_pin_code": "431708",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Inactive for e-filing",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case14": {
+    "http_response_code": 200,
+    "request_id": "a4b80503-f140-11f0-ba84-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U92490TZ2020PTC035264",
+          "company_id": "",
+          "company_llp_name": "MAKE MAGIC CREATIONS PRIVATE LIMITED",
+          "roc_code": "ROC Coimbatore",
+          "registration_number": "035264",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "1000000",
+          "paid_up_capital": "20000",
+          "number_of_members": "",
+          "date_of_incorporation": "25/12/2020",
+          "registered_address": "W/O V NAGAKEDRAN, D.NO 250/G   METUPALAYAM ROAD, SAIBABACOLONY, Coimbatore, COIMBATORE, Tamil Nadu, India, 641043",
+          "email_id": "Magicmomentsphotography.in@gmail.com",
+          "company_registered_state": "Tamil Nadu",
+          "company_registered_city": "COIMBATORE",
+          "company_registered_pin_code": "641043",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Strike Off",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "09010113",
+              "name": "NITINLAL",
+              "date_of_appointment": "25/12/2020",
+              "pan": "*****2677R",
+              "mobile_number": "XXXXXXX454",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXeddycreations@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            },
+            {
+              "din_pan": "09010114",
+              "name": "GAYATHRI",
+              "date_of_appointment": "25/12/2020",
+              "pan": "*****1245G",
+              "mobile_number": "XXXXXXX821",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXhrikarthikeyan1711@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case15": {
+    "http_response_code": 200,
+    "request_id": "06064792-f141-11f0-ad26-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U72900WB2016PTC218292",
+          "company_id": "",
+          "company_llp_name": "PN SOFTWARE PRIVATE LIMITED",
+          "roc_code": "ROC Kolkata",
+          "registration_number": "218292",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "15/11/2016",
+          "registered_address": "WEST JAGADANANDAPUR   BETHUADAHARI, Nadia, NADIA, West Bengal, India, 741126",
+          "email_id": "contact@rnsoftware.org",
+          "company_registered_state": "West Bengal",
+          "company_registered_city": "NADIA",
+          "company_registered_pin_code": "741126",
+          "active_compliance": "ACTIVE non-compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Under process of striking off",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "07613713",
+              "name": "PROSANTA NAG",
+              "date_of_appointment": "15/11/2016",
+              "pan": "*****0265D",
+              "mobile_number": "XXXXXXX055",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXnta.nag01@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07610793",
+              "name": "RUMPA NAG",
+              "date_of_appointment": "15/11/2016",
+              "pan": "*****2916C",
+              "mobile_number": "XXXXXXX114",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXX.nag01@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U72200WB2016PTC218295",
+              "company_name": "HARIDIPSANT TECHNOSOFT PRIVATE LIMITED",
+              "date_of_incorporation": "15/11/2016",
+              "din": "07613713"
+            },
+            {
+              "company_cin": "U73100KA2025PTC205075",
+              "company_name": "PN COMPLIANCE PRIVATE LIMITED",
+              "date_of_incorporation": "04/07/2025",
+              "din": "07613713"
+            },
+            {
+              "company_cin": "U70200WB2025PTC281456",
+              "company_name": "PN EXPLORE PRIVATE LIMITED",
+              "date_of_incorporation": "30/07/2025",
+              "din": "07613713"
+            },
+            {
+              "company_cin": "U58200WB2024PTC274494",
+              "company_name": "PN SOFTWARE TECH PRIVATE LIMITED",
+              "date_of_incorporation": "11/11/2024",
+              "din": "07613713"
+            },
+            {
+              "company_cin": "U73100KA2025PTC205075",
+              "company_name": "PN COMPLIANCE PRIVATE LIMITED",
+              "date_of_incorporation": "04/07/2025",
+              "din": "07610793"
+            },
+            {
+              "company_cin": "U70200WB2025PTC281456",
+              "company_name": "PN EXPLORE PRIVATE LIMITED",
+              "date_of_incorporation": "30/07/2025",
+              "din": "07610793"
+            },
+            {
+              "company_cin": "U58200WB2024PTC274494",
+              "company_name": "PN SOFTWARE TECH PRIVATE LIMITED",
+              "date_of_incorporation": "11/11/2024",
+              "din": "07610793"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "PROSANTA NAG",
+              "director_din": "07613713",
+              "director_designation": "Director",
+              "director_date_of_appointment": "15/11/2016",
+              "directorship": [
+                {
+                  "company_cin": "U72200WB2016PTC218295",
+                  "company_name": "HARIDIPSANT TECHNOSOFT PRIVATE LIMITED",
+                  "date_of_incorporation": "15/11/2016"
+                },
+                {
+                  "company_cin": "U72900WB2016PTC218292",
+                  "company_name": "PN SOFTWARE PRIVATE LIMITED",
+                  "date_of_incorporation": "15/11/2016"
+                },
+                {
+                  "company_cin": "U73100KA2025PTC205075",
+                  "company_name": "PN COMPLIANCE PRIVATE LIMITED",
+                  "date_of_incorporation": "04/07/2025"
+                },
+                {
+                  "company_cin": "U70200WB2025PTC281456",
+                  "company_name": "PN EXPLORE PRIVATE LIMITED",
+                  "date_of_incorporation": "30/07/2025"
+                },
+                {
+                  "company_cin": "U58200WB2024PTC274494",
+                  "company_name": "PN SOFTWARE TECH PRIVATE LIMITED",
+                  "date_of_incorporation": "11/11/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "RUMPA NAG",
+              "director_din": "07610793",
+              "director_designation": "Director",
+              "director_date_of_appointment": "15/11/2016",
+              "directorship": [
+                {
+                  "company_cin": "U72900WB2016PTC218292",
+                  "company_name": "PN SOFTWARE PRIVATE LIMITED",
+                  "date_of_incorporation": "15/11/2016"
+                },
+                {
+                  "company_cin": "U73100KA2025PTC205075",
+                  "company_name": "PN COMPLIANCE PRIVATE LIMITED",
+                  "date_of_incorporation": "04/07/2025"
+                },
+                {
+                  "company_cin": "U70200WB2025PTC281456",
+                  "company_name": "PN EXPLORE PRIVATE LIMITED",
+                  "date_of_incorporation": "30/07/2025"
+                },
+                {
+                  "company_cin": "U58200WB2024PTC274494",
+                  "company_name": "PN SOFTWARE TECH PRIVATE LIMITED",
+                  "date_of_incorporation": "11/11/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case16": {
+    "http_response_code": 200,
+    "request_id": "19959eae-f141-11f0-9e88-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U70109DL2006PTC149536",
+          "company_id": "",
+          "company_llp_name": "SLOTCO BUILDWELL PRIVATE LIMITED",
+          "roc_code": "ROC Delhi",
+          "registration_number": "149536",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "10000000",
+          "paid_up_capital": "6100000",
+          "number_of_members": "",
+          "date_of_incorporation": "07/06/2006",
+          "registered_address": "B-66,Naraina Industrial Area   Phase II, New Delhi, Delhi, India, 110027",
+          "email_id": "info@slotcogroup.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "New Delhi",
+          "company_registered_pin_code": "110027",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "31/12/2020",
+          "date_of_balance_sheet": "31/03/2020",
+          "company_status": "Converted to LLP",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case17": {
+    "http_response_code": 200,
+    "request_id": "3bcf2a4b-f141-11f0-8b8a-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "",
+          "company_id": "F06385",
+          "company_llp_name": "JSC RUSSIAN EXPORT CENTER",
+          "roc_code": "ROC Delhi",
+          "registration_number": "",
+          "company_category": "",
+          "company_subcategory": "",
+          "class_of_company": "",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "",
+          "date_of_incorporation": "15/09/2018",
+          "registered_address": "Shop No.11, Arcade Ground Floor,   World Trade Centre, Cuffe Parade, Colaba, , Mumbai, Maharashtra, India, 400005",
+          "email_id": "vekilov@exportcenter.ru",
+          "company_registered_state": "",
+          "company_registered_city": "",
+          "company_registered_pin_code": "",
+          "active_compliance": "",
+          "whether_listed_or_not": "",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "",
+              "name": "MAMED AKHMEDOV",
+              "date_of_appointment": "21/10/2025",
+              "pan": "*****9034B",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "Russian",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "",
+              "name": "ANNA BENEDIKTOVA",
+              "date_of_appointment": "18/02/2025",
+              "pan": "*****6827E",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "Russian",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "MAMED AKHMEDOV",
+              "director_din": "",
+              "director_designation": "Authorised Representative",
+              "director_date_of_appointment": "28/11/2025",
+              "directorship": [
+                {
+                  "company_cin": "F06385",
+                  "company_name": "JSC RUSSIAN EXPORT CENTER",
+                  "date_of_incorporation": ""
+                }
+              ]
+            },
+            {
+              "director_name": "ANNA BENEDIKTOVA",
+              "director_din": "",
+              "director_designation": "Authorised Representative",
+              "director_date_of_appointment": "03/04/2025",
+              "directorship": [
+                {
+                  "company_cin": "F06385",
+                  "company_name": "JSC RUSSIAN EXPORT CENTER",
+                  "date_of_incorporation": ""
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case18": {
+    "http_response_code": 200,
+    "request_id": "4fe24ba7-f141-11f0-b93f-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "",
+          "company_id": "F05023",
+          "company_llp_name": "HANWHA Q CELLS CORP",
+          "roc_code": "ROC Delhi",
+          "registration_number": "",
+          "company_category": "",
+          "company_subcategory": "",
+          "class_of_company": "",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "",
+          "date_of_incorporation": "15/02/2016",
+          "registered_address": "OFFICE 116/117, RECTANGLE 1,   COMMERCIAL COMPLEX D-4, SAKET, NEW DELHI, Delhi, India, 110017",
+          "email_id": "henry.bhan@hanwha-qcells.com",
+          "company_registered_state": "",
+          "company_registered_city": "",
+          "company_registered_pin_code": "",
+          "active_compliance": "",
+          "whether_listed_or_not": "",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Inactive for e-filing",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "07859757",
+              "name": "BEUM HO JOE",
+              "date_of_appointment": "01/01/2017",
+              "pan": "*****6092E",
+              "mobile_number": "XXXXXXX086",
+              "educational_qualification": "PGDM",
+              "email_address": "XXXXXe@hanwha-qcells.com",
+              "nationality": "Korean",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case19": {
+    "http_response_code": 200,
+    "request_id": "70377a19-f141-11f0-95f9-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "",
+          "company_id": "AAE-9630",
+          "company_llp_name": "AJAY AGGARWAL PROPERTIES LLP",
+          "roc_code": "ROC Delhi",
+          "registration_number": "",
+          "company_category": "",
+          "company_subcategory": "",
+          "class_of_company": "",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "",
+          "date_of_incorporation": "30/03/2016",
+          "registered_address": "LGF-10, VASANT SQUARE MALL, PLOT-A, SECTOR-B,   POCKET-V, COMMUNITY CENTRE, VASANT KUNJ, NEW DELHI, South West Delhi, NEW DELHI, Delhi, India, 110070",
+          "email_id": "dept2007@rediffmail.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "NEW DELHI",
+          "company_registered_pin_code": "110070",
+          "active_compliance": "",
+          "whether_listed_or_not": "",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "00129266",
+              "name": "ANKIT GOEL",
+              "date_of_appointment": "30/03/2016",
+              "pan": "*****5421H",
+              "mobile_number": "XXXXXXX111",
+              "educational_qualification": "",
+              "email_address": "XXXXX@suncityprojects.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "00031438",
+              "name": "LAXMI NARAIN GOEL",
+              "date_of_appointment": "30/03/2016",
+              "pan": "*****2531Q",
+              "mobile_number": "XXXXXXX000",
+              "educational_qualification": "",
+              "email_address": "XXXXXl2020@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "02287153",
+              "name": "VARUN AGGARWAL",
+              "date_of_appointment": "20/06/2024",
+              "pan": "*****2425D",
+              "mobile_number": "XXXXXXX021",
+              "educational_qualification": "",
+              "email_address": "XXXXX@suncityprojects.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U45200MH2005PTC152917",
+              "company_name": "E-CITY REALTY HOLDINGS PVT. LTD.",
+              "date_of_incorporation": "01/04/2014",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL1996PTC079163",
+              "company_name": "M.N. PROPERTY PRIVATE LIMITED",
+              "date_of_incorporation": "30/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL1996PTC083906",
+              "company_name": "MAATESHWARI PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "18/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201GJ2003PTC096260",
+              "company_name": "SUNCITY BUILDCON PRIVATE LIMITED",
+              "date_of_incorporation": "11/12/2013",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL2003PTC121742",
+              "company_name": "SUNCITY REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "14/05/2007",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL2003PTC121997",
+              "company_name": "A.T. PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "16/01/2016",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL2005PTC141757",
+              "company_name": "PAARTH PROMOTERS AND DEVELOPERS PVT LTD",
+              "date_of_incorporation": "26/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45201DL2005PTC142581",
+              "company_name": "MATRIX PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "15/12/2011",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U45400DL2008PTC179304",
+              "company_name": "SUNCITY CONSTRUCTWELL PRIVATE LIMITED",
+              "date_of_incorporation": "14/12/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70101DL2005PTC132899",
+              "company_name": "A.A.BUILDCON PRIVATE LIMITED",
+              "date_of_incorporation": "15/01/2016",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70101DL2005PTC132904",
+              "company_name": "TARUN AGGARWAL PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "07/03/2016",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70101DL2006PTC144686",
+              "company_name": "MAHAKETU PROMOTERS AND DEVELOPERS PRIVATE LIMITED",
+              "date_of_incorporation": "23/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70109DL2006PTC149674",
+              "company_name": "VIRESH PROMOTERS & DEVELOPERS PRIVATE LIMITED.",
+              "date_of_incorporation": "21/08/2017",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70109DL2006PTC149997",
+              "company_name": "AKSHAJ PROJECTS PRIVATE LIMITED.",
+              "date_of_incorporation": "23/04/2018",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70109DL2006PTC152860",
+              "company_name": "PADMESH BUILDTECH PRIVATE LIMITED",
+              "date_of_incorporation": "15/03/2010",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70109DL2006PTC153498",
+              "company_name": "PADMESH BUILDWELL PRIVATE LIMITED",
+              "date_of_incorporation": "26/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U70109DL2006PTC153743",
+              "company_name": "RADHESH REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "27/03/2015",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U65923MH2005PTC153012",
+              "company_name": "SUNCITY EQUIFIN PIVATE LIMITED",
+              "date_of_incorporation": "28/05/2010",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U92490DL2007PTC158621",
+              "company_name": "JOVIAL ENTERTAINMENT PRIVATE LIMITED",
+              "date_of_incorporation": "01/02/2007",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U24231UR1891PLC000005",
+              "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
+              "date_of_incorporation": "27/09/2011",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U74899DL1994PTC061699",
+              "company_name": "UDDAR GAGAN PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "30/07/2024",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U74999HR2016PTC064862",
+              "company_name": "SECUREBYTE CYBER SOLUTIONS PRIVATE LIMITED",
+              "date_of_incorporation": "01/11/2023",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U74899DL1989PTC054735",
+              "company_name": "SHARAD FARMS AND HOLDINGS PRIVATE LIMITED",
+              "date_of_incorporation": "30/07/2024",
+              "din": "00129266"
+            },
+            {
+              "company_cin": "U74900DL1995PTC073253",
+              "company_name": "YATHARTH PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "25/08/2008",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U10300DL2008PTC177554",
+              "company_name": "L N MINERALS PRIVATE LIMITED",
+              "date_of_incorporation": "01/05/2008",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45200DL2008PTC179966",
+              "company_name": "SUNCITY PROPWELL PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL1996PTC083905",
+              "company_name": "PRIYATAM PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL1996PTC083915",
+              "company_name": "SUNCITY PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "18/12/1996",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2003PTC121743",
+              "company_name": "A T BUILDCON PRIVATE LIMITED",
+              "date_of_incorporation": "25/08/2008",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2003PTC121769",
+              "company_name": "GLORIOUS PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "14/07/2005",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2003PTC121998",
+              "company_name": "AJAY AGGARWAL PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2005PTC132906",
+              "company_name": "AJAY AGGARWAL PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2005PTC135204",
+              "company_name": "SHIVALIK BUILDCON PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2005PTC140016",
+              "company_name": "GIRDHAR BUILDTECH PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45201DL2005PTC144177",
+              "company_name": "VANSIDHAR PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U45400HR2008PTC065996",
+              "company_name": "RADHAK INFRACOLONIZERS PRIVATE LIMITED",
+              "date_of_incorporation": "31/08/2017",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70100CH2005PTC027906",
+              "company_name": "ANTRIKSH HOUSING PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL1996PTC079043",
+              "company_name": "SUSHEEL PROPERTY PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2005PTC132898",
+              "company_name": "T.A.PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2005PTC132901",
+              "company_name": "TARUN AGGARWAL PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2005PTC139420",
+              "company_name": "GYANESHWAR REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "25/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2005PTC143887",
+              "company_name": "DEEPANKAR BUILDTECH PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2005PTC144070",
+              "company_name": "VANSIDHAR REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101DL2006PTC144438",
+              "company_name": "SAMDARSHI PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101HR2016PTC058641",
+              "company_name": "APARAJITA BUSINESS VENTURE PRIVATE LIMITED",
+              "date_of_incorporation": "31/08/2017",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101RJ2005PTC021091",
+              "company_name": "MODI BUILDESTATE (INDIA) PRIVATE LIMITED",
+              "date_of_incorporation": "31/08/2017",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70101RJ2016PTC049640",
+              "company_name": "ARADHAK BUILDCON PRIVATE LIMITED",
+              "date_of_incorporation": "31/08/2017",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2006PTC150062",
+              "company_name": "AJITESH COLONIZERS PRIVATE LIMITED.",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2006PTC151324",
+              "company_name": "SUNCITY DHOOT COLONIZERS PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2006PTC152860",
+              "company_name": "PADMESH BUILDTECH PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2006PTC152966",
+              "company_name": "PADMESH REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "15/10/2007",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2006PTC152967",
+              "company_name": "KRISHANG PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "25/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U70109DL2008PTC175569",
+              "company_name": "SUNCITY INFRABUILDWELL PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1994PTC061385",
+              "company_name": "DHARIYA PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "25/12/2008",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC066865",
+              "company_name": "LOVING MEMORIES PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "25/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC066875",
+              "company_name": "O.G. PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC066876",
+              "company_name": "SEE-SAW PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "28/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC066955",
+              "company_name": "PICNIC SPOTS BUILDERS PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC067189",
+              "company_name": "OPEN FIELDS DEVELOPERS PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC070111",
+              "company_name": "CITY-WELL DEVELOPERS PRIVATE LIMITED",
+              "date_of_incorporation": "24/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC070112",
+              "company_name": "TIP-TOP PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL1995PTC070133",
+              "company_name": "IMARAT PROPERTIES PRIVATE LIMITED",
+              "date_of_incorporation": "25/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL2005PTC141289",
+              "company_name": "MRITYUNJAY PROJECTS PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL2005PTC142762",
+              "company_name": "SURYAPRABHA REALTORS PRIVATE LIMITED",
+              "date_of_incorporation": "29/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U74899DL2005PTC143741",
+              "company_name": "PULKIT BUILDWELL PRIVATE LIMITED",
+              "date_of_incorporation": "27/04/2009",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U24231UR1891PLC000005",
+              "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
+              "date_of_incorporation": "30/12/2008",
+              "din": "00031438"
+            },
+            {
+              "company_cin": "U85420DL2023NPL423916",
+              "company_name": "EKAL BHARAT MEDIA FOUNDATION",
+              "date_of_incorporation": "15/12/2023",
+              "din": "00031438"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "ANKIT GOEL",
+              "director_din": "00129266",
+              "director_designation": "",
+              "director_date_of_appointment": "",
+              "directorship": [
+                {
+                  "company_cin": "U45200MH2005PTC152917",
+                  "company_name": "E-CITY REALTY HOLDINGS PVT. LTD.",
+                  "date_of_incorporation": "01/04/2014"
+                },
+                {
+                  "company_cin": "U45201DL1996PTC079163",
+                  "company_name": "M.N. PROPERTY PRIVATE LIMITED",
+                  "date_of_incorporation": "30/03/2015"
+                },
+                {
+                  "company_cin": "U45201DL1996PTC083906",
+                  "company_name": "MAATESHWARI PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "18/03/2015"
+                },
+                {
+                  "company_cin": "U45201GJ2003PTC096260",
+                  "company_name": "SUNCITY BUILDCON PRIVATE LIMITED",
+                  "date_of_incorporation": "11/12/2013"
+                },
+                {
+                  "company_cin": "U45201DL2003PTC121742",
+                  "company_name": "SUNCITY REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "14/05/2007"
+                },
+                {
+                  "company_cin": "U45201DL2003PTC121997",
+                  "company_name": "A.T. PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "16/01/2016"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC141757",
+                  "company_name": "PAARTH PROMOTERS AND DEVELOPERS PVT LTD",
+                  "date_of_incorporation": "26/03/2015"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC142581",
+                  "company_name": "MATRIX PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "15/12/2011"
+                },
+                {
+                  "company_cin": "U45400DL2008PTC179304",
+                  "company_name": "SUNCITY CONSTRUCTWELL PRIVATE LIMITED",
+                  "date_of_incorporation": "14/12/2015"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC132899",
+                  "company_name": "A.A.BUILDCON PRIVATE LIMITED",
+                  "date_of_incorporation": "15/01/2016"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC132904",
+                  "company_name": "TARUN AGGARWAL PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "07/03/2016"
+                },
+                {
+                  "company_cin": "U70101DL2006PTC144686",
+                  "company_name": "MAHAKETU PROMOTERS AND DEVELOPERS PRIVATE LIMITED",
+                  "date_of_incorporation": "23/03/2015"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC149674",
+                  "company_name": "VIRESH PROMOTERS & DEVELOPERS PRIVATE LIMITED.",
+                  "date_of_incorporation": "21/08/2017"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC149997",
+                  "company_name": "AKSHAJ PROJECTS PRIVATE LIMITED.",
+                  "date_of_incorporation": "23/04/2018"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC152860",
+                  "company_name": "PADMESH BUILDTECH PRIVATE LIMITED",
+                  "date_of_incorporation": "15/03/2010"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC153498",
+                  "company_name": "PADMESH BUILDWELL PRIVATE LIMITED",
+                  "date_of_incorporation": "26/03/2015"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC153743",
+                  "company_name": "RADHESH REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "27/03/2015"
+                },
+                {
+                  "company_cin": "U65923MH2005PTC153012",
+                  "company_name": "SUNCITY EQUIFIN PIVATE LIMITED",
+                  "date_of_incorporation": "28/05/2010"
+                },
+                {
+                  "company_cin": "U92490DL2007PTC158621",
+                  "company_name": "JOVIAL ENTERTAINMENT PRIVATE LIMITED",
+                  "date_of_incorporation": "01/02/2007"
+                },
+                {
+                  "company_cin": "U24231UR1891PLC000005",
+                  "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
+                  "date_of_incorporation": "27/09/2011"
+                },
+                {
+                  "company_cin": "U74899DL1994PTC061699",
+                  "company_name": "UDDAR GAGAN PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "30/07/2024"
+                },
+                {
+                  "company_cin": "U74999HR2016PTC064862",
+                  "company_name": "SECUREBYTE CYBER SOLUTIONS PRIVATE LIMITED",
+                  "date_of_incorporation": "01/11/2023"
+                },
+                {
+                  "company_cin": "U74899DL1989PTC054735",
+                  "company_name": "SHARAD FARMS AND HOLDINGS PRIVATE LIMITED",
+                  "date_of_incorporation": "30/07/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "LAXMI NARAIN GOEL",
+              "director_din": "00031438",
+              "director_designation": "",
+              "director_date_of_appointment": "",
+              "directorship": [
+                {
+                  "company_cin": "U74900DL1995PTC073253",
+                  "company_name": "YATHARTH PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "25/08/2008"
+                },
+                {
+                  "company_cin": "U10300DL2008PTC177554",
+                  "company_name": "L N MINERALS PRIVATE LIMITED",
+                  "date_of_incorporation": "01/05/2008"
+                },
+                {
+                  "company_cin": "U45200DL2008PTC179966",
+                  "company_name": "SUNCITY PROPWELL PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL1996PTC083905",
+                  "company_name": "PRIYATAM PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL1996PTC083915",
+                  "company_name": "SUNCITY PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "18/12/1996"
+                },
+                {
+                  "company_cin": "U45201DL2003PTC121743",
+                  "company_name": "A T BUILDCON PRIVATE LIMITED",
+                  "date_of_incorporation": "25/08/2008"
+                },
+                {
+                  "company_cin": "U45201DL2003PTC121769",
+                  "company_name": "GLORIOUS PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "14/07/2005"
+                },
+                {
+                  "company_cin": "U45201DL2003PTC121998",
+                  "company_name": "AJAY AGGARWAL PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC132906",
+                  "company_name": "AJAY AGGARWAL PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC135204",
+                  "company_name": "SHIVALIK BUILDCON PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC140016",
+                  "company_name": "GIRDHAR BUILDTECH PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U45201DL2005PTC144177",
+                  "company_name": "VANSIDHAR PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U45400HR2008PTC065996",
+                  "company_name": "RADHAK INFRACOLONIZERS PRIVATE LIMITED",
+                  "date_of_incorporation": "31/08/2017"
+                },
+                {
+                  "company_cin": "U70100CH2005PTC027906",
+                  "company_name": "ANTRIKSH HOUSING PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL1996PTC079043",
+                  "company_name": "SUSHEEL PROPERTY PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC132898",
+                  "company_name": "T.A.PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC132901",
+                  "company_name": "TARUN AGGARWAL PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC139420",
+                  "company_name": "GYANESHWAR REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "25/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC143887",
+                  "company_name": "DEEPANKAR BUILDTECH PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2005PTC144070",
+                  "company_name": "VANSIDHAR REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U70101DL2006PTC144438",
+                  "company_name": "SAMDARSHI PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U70101HR2016PTC058641",
+                  "company_name": "APARAJITA BUSINESS VENTURE PRIVATE LIMITED",
+                  "date_of_incorporation": "31/08/2017"
+                },
+                {
+                  "company_cin": "U70101RJ2005PTC021091",
+                  "company_name": "MODI BUILDESTATE (INDIA) PRIVATE LIMITED",
+                  "date_of_incorporation": "31/08/2017"
+                },
+                {
+                  "company_cin": "U70101RJ2016PTC049640",
+                  "company_name": "ARADHAK BUILDCON PRIVATE LIMITED",
+                  "date_of_incorporation": "31/08/2017"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC150062",
+                  "company_name": "AJITESH COLONIZERS PRIVATE LIMITED.",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC151324",
+                  "company_name": "SUNCITY DHOOT COLONIZERS PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC152860",
+                  "company_name": "PADMESH BUILDTECH PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC152966",
+                  "company_name": "PADMESH REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "15/10/2007"
+                },
+                {
+                  "company_cin": "U70109DL2006PTC152967",
+                  "company_name": "KRISHANG PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "25/04/2009"
+                },
+                {
+                  "company_cin": "U70109DL2008PTC175569",
+                  "company_name": "SUNCITY INFRABUILDWELL PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1994PTC061385",
+                  "company_name": "DHARIYA PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "25/12/2008"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC066865",
+                  "company_name": "LOVING MEMORIES PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "25/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC066875",
+                  "company_name": "O.G. PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC066876",
+                  "company_name": "SEE-SAW PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "28/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC066955",
+                  "company_name": "PICNIC SPOTS BUILDERS PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC067189",
+                  "company_name": "OPEN FIELDS DEVELOPERS PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC070111",
+                  "company_name": "CITY-WELL DEVELOPERS PRIVATE LIMITED",
+                  "date_of_incorporation": "24/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC070112",
+                  "company_name": "TIP-TOP PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL1995PTC070133",
+                  "company_name": "IMARAT PROPERTIES PRIVATE LIMITED",
+                  "date_of_incorporation": "25/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL2005PTC141289",
+                  "company_name": "MRITYUNJAY PROJECTS PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL2005PTC142762",
+                  "company_name": "SURYAPRABHA REALTORS PRIVATE LIMITED",
+                  "date_of_incorporation": "29/04/2009"
+                },
+                {
+                  "company_cin": "U74899DL2005PTC143741",
+                  "company_name": "PULKIT BUILDWELL PRIVATE LIMITED",
+                  "date_of_incorporation": "27/04/2009"
+                },
+                {
+                  "company_cin": "U24231UR1891PLC000005",
+                  "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
+                  "date_of_incorporation": "30/12/2008"
+                },
+                {
+                  "company_cin": "U85420DL2023NPL423916",
+                  "company_name": "EKAL BHARAT MEDIA FOUNDATION",
+                  "date_of_incorporation": "15/12/2023"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case20": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "",
+      "company_id": "F063680",
+      "status": "Invalid"
+    }
+  },
+  "case21": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "",
+      "company_id": "F049900",
+      "status": "Invalid"
+    }
+  },
+  "case22": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "",
+      "company_id": "A0009622",
+      "status": "Invalid"
+    }
+  },
+  "case23": {
+    "http_response_code": 200,
+    "request_id": "958cd85b-f141-11f0-ae16-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74999KA2016PTC098609",
+          "company_id": "",
+          "company_llp_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "098609",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "20/12/2016",
+          "registered_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR, Bangalore, BANGALORE, Karnataka, India, 560043",
+          "email_id": "info@wellcarefacility.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "BANGALORE",
+          "company_registered_pin_code": "560043",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2022",
+          "date_of_balance_sheet": "31/03/2022",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "10554631",
+              "name": "DIVAKARAN DEEKARAM",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****5406J",
+              "mobile_number": "XXXXXXX908",
+              "educational_qualification": "Secondary education",
+              "email_address": "XXXXXthink@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10554686",
+              "name": "BANDI PRABHU PRASANTH",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****4093E",
+              "mobile_number": "XXXXXXX994",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXuvarman1@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "ABFPU8468G",
+              "name": ". .",
+              "date_of_appointment": "",
+              "pan": "",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "ATHPJ6122C",
+              "name": ". . .",
+              "date_of_appointment": "",
+              "pan": "*****6122C",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208265",
+              "name": "YELAHANKA KUSHALA GOVINDARAJU",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****3995C",
+              "mobile_number": "XXXXXXX704",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX.740@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208267",
+              "name": "ASHOK",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****7121D",
+              "mobile_number": "XXXXXXX599",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX@wellcarefacility.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "DIVAKARAN DEEKARAM",
+              "director_din": "10554631",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "BANDI PRABHU PRASANTH",
+              "director_din": "10554686",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case24": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "U72890KA2012PTC349541",
+      "company_id": "",
+      "status": "Invalid"
+    }
+  },
+  "case25": {
+    "http_response_code": 200,
+    "request_id": "ad7313a2-f141-11f0-af41-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74899DL1994PTC061340",
+          "company_id": "",
+          "company_llp_name": "UDAAN INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Delhi",
+          "registration_number": "061340",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "22500000",
+          "paid_up_capital": "22500000",
+          "number_of_members": "",
+          "date_of_incorporation": "07/09/1994",
+          "registered_address": "309 312 SOMDUTT CHAMBERS   II9 BHIKAJI CAMA PLACE, NEW DELHI, Delhi, India, 110066",
+          "email_id": "accounts@udaanindia.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "NEW DELHI",
+          "company_registered_pin_code": "110066",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2025",
+          "date_of_balance_sheet": "31/03/2025",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "AA7509843",
+            "charge_id": "100028309",
+            "charge_holder_name": "Others",
+            "charge_amount": "49500000",
+            "date_of_creation": "16/03/2016",
+            "date_of_modification": "08/03/2019",
+            "date_of_satisfaction": "16/04/2024",
+            "address": "2nd Floor, 9-10 Express Building, Bahadur Shah Zaffar Marg, New Delhi, Delhi India 110002",
+            "status": "CLOSED",
+            "charge_reg_by_other_entity": "No",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          },
+          {
+            "srn": "B74087693",
+            "charge_id": "10268233",
+            "charge_holder_name": "INDUSIND BANK LTD.",
+            "charge_amount": "10000000",
+            "date_of_creation": "22/01/2011",
+            "date_of_modification": "",
+            "date_of_satisfaction": "25/04/2013",
+            "address": "1, RING ROAD, LAJPAT NAGAR IV, NEW DELHI, Delhi India 110024",
+            "status": "CLOSED",
+            "charge_reg_by_other_entity": "No",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          },
+          {
+            "srn": "G08561268",
+            "charge_id": "10411233",
+            "charge_holder_name": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+            "charge_amount": "30000000",
+            "date_of_creation": "13/03/2013",
+            "date_of_modification": "",
+            "date_of_satisfaction": "27/07/2016",
+            "address": "25, Barakhamba Road, Delhi, Delhi India 110001",
+            "status": "CLOSED",
+            "charge_reg_by_other_entity": "No",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "01133616",
+              "name": "RAJAN DUA",
+              "date_of_appointment": "17/09/1994",
+              "pan": "*****0924R",
+              "mobile_number": "XXXXXXX356",
+              "educational_qualification": "",
+              "email_address": "XXXXXaanindia.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10827662",
+              "name": "DEEPAK YADUVIRSINGH RAWAT",
+              "date_of_appointment": "25/11/2024",
+              "pan": "*****6588C",
+              "mobile_number": "XXXXXXX995",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXkR@Onevasco.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10799730",
+              "name": "TROY LOBO",
+              "date_of_appointment": "11/10/2024",
+              "pan": "*****0235B",
+              "mobile_number": "XXXXXXX000",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXX@onevasco.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U63000DL2015PTC286547",
+              "company_name": "UDAAN VISA FACILITATION PRIVATE LIMITED",
+              "date_of_incorporation": "16/10/2015",
+              "din": "01133616"
+            },
+            {
+              "company_cin": "U73100DL2021PTC378122",
+              "company_name": "GUR SCIENCES DE LAA VIE PRIVATE LIMITED",
+              "date_of_incorporation": "08/03/2021",
+              "din": "01133616"
+            },
+            {
+              "company_cin": "U56100DL2025PTC450802",
+              "company_name": "RUMRS HOSPITALITY PRIVATE LIMITED",
+              "date_of_incorporation": "07/09/2025",
+              "din": "01133616"
+            },
+            {
+              "company_cin": "U63090TN2013FTC092523",
+              "company_name": "VASCO WORLDWIDE INDIA PRIVATE LIMITED",
+              "date_of_incorporation": "14/11/2024",
+              "din": "10799730"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "RAJAN DUA",
+              "director_din": "01133616",
+              "director_designation": "Managing Director",
+              "director_date_of_appointment": "12/05/2020",
+              "directorship": [
+                {
+                  "company_cin": "U63000DL2015PTC286547",
+                  "company_name": "UDAAN VISA FACILITATION PRIVATE LIMITED",
+                  "date_of_incorporation": "16/10/2015"
+                },
+                {
+                  "company_cin": "U73100DL2021PTC378122",
+                  "company_name": "GUR SCIENCES DE LAA VIE PRIVATE LIMITED",
+                  "date_of_incorporation": "08/03/2021"
+                },
+                {
+                  "company_cin": "U74899DL1994PTC061340",
+                  "company_name": "UDAAN INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "17/09/1994"
+                },
+                {
+                  "company_cin": "U56100DL2025PTC450802",
+                  "company_name": "RUMRS HOSPITALITY PRIVATE LIMITED",
+                  "date_of_incorporation": "07/09/2025"
+                }
+              ]
+            },
+            {
+              "director_name": "DEEPAK YADUVIRSINGH RAWAT",
+              "director_din": "10827662",
+              "director_designation": "Director",
+              "director_date_of_appointment": "06/12/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74899DL1994PTC061340",
+                  "company_name": "UDAAN INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "25/11/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "TROY LOBO",
+              "director_din": "10799730",
+              "director_designation": "Director",
+              "director_date_of_appointment": "24/10/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74899DL1994PTC061340",
+                  "company_name": "UDAAN INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "11/10/2024"
+                },
+                {
+                  "company_cin": "U63090TN2013FTC092523",
+                  "company_name": "VASCO WORLDWIDE INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "14/11/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case26": {
+    "http_response_code": 200,
+    "client_ref_num": "Apple",
+    "result_code": 103,
+    "result": {
+      "cin": "U72890KA2012PTC349541",
+      "company_id": "",
+      "status": "Invalid"
+    }
+  },
+  "case27": {
+    "http_response_code": 200,
+    "request_id": "c32caa9d-f141-11f0-bde2-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U99999MH1911PLC007676",
+          "company_id": "",
+          "company_llp_name": "THE BANK OF BARODA LIMITED",
+          "roc_code": "ROC Mumbai",
+          "registration_number": "007676",
+          "company_category": "Company limited by guarantee",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Public",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "0",
+          "date_of_incorporation": "02/03/1911",
+          "registered_address": "NA, AT POST DEUL GALLI LOHA, NA, Maharashtra, India, 431708",
+          "email_id": "",
+          "company_registered_state": "Maharashtra",
+          "company_registered_city": "NA",
+          "company_registered_pin_code": "431708",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Inactive for e-filing",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case28": {
+    "http_response_code": 200,
+    "request_id": "00720a5c-f142-11f0-ba76-8dd23fb25575",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "",
+          "company_id": "F06368",
+          "company_llp_name": "AVP ELECTRONICS LIMITED",
+          "roc_code": "ROC Delhi",
+          "registration_number": "",
+          "company_category": "",
+          "company_subcategory": "",
+          "class_of_company": "",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "",
+          "date_of_incorporation": "10/08/2018",
+          "registered_address": "305   TPWER-B, DLF TOWERS, JASOLA, Delhi, India, 110025",
+          "email_id": "vishakha.jalali@avp-electronics.com",
+          "company_registered_state": "",
+          "company_registered_city": "",
+          "company_registered_pin_code": "",
+          "active_compliance": "",
+          "whether_listed_or_not": "",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "07099608",
+              "name": "VISHAKHA KAK JALALI",
+              "date_of_appointment": "10/08/2018",
+              "pan": "*****1126N",
+              "mobile_number": "",
+              "educational_qualification": "DIPL",
+              "email_address": "XXXXXkha.jalali@intextechnologies.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "VISHAKHA KAK JALALI",
+              "director_din": "07099608",
+              "director_designation": "Authorised Representative",
+              "director_date_of_appointment": "10/08/2018",
+              "directorship": [
+                {
+                  "company_cin": "F06368",
+                  "company_name": "AVP ELECTRONICS LIMITED",
+                  "date_of_incorporation": ""
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case29": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case30": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case31": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case32": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case33": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case34": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case35": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case36": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case37": {
+    "http_response_code": 200,
+    "request_id": "0424e2f7-f144-11f0-83d1-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74999KA2016PTC098609",
+          "company_id": "",
+          "company_llp_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "098609",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "20/12/2016",
+          "registered_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR, Bangalore, BANGALORE, Karnataka, India, 560043",
+          "email_id": "info@wellcarefacility.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "BANGALORE",
+          "company_registered_pin_code": "560043",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2022",
+          "date_of_balance_sheet": "31/03/2022",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "10554631",
+              "name": "DIVAKARAN DEEKARAM",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****5406J",
+              "mobile_number": "XXXXXXX908",
+              "educational_qualification": "Secondary education",
+              "email_address": "XXXXXthink@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10554686",
+              "name": "BANDI PRABHU PRASANTH",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****4093E",
+              "mobile_number": "XXXXXXX994",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXuvarman1@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "ABFPU8468G",
+              "name": ". .",
+              "date_of_appointment": "",
+              "pan": "",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "ATHPJ6122C",
+              "name": ". . .",
+              "date_of_appointment": "",
+              "pan": "*****6122C",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208265",
+              "name": "YELAHANKA KUSHALA GOVINDARAJU",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****3995C",
+              "mobile_number": "XXXXXXX704",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX.740@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208267",
+              "name": "ASHOK",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****7121D",
+              "mobile_number": "XXXXXXX599",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX@wellcarefacility.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "DIVAKARAN DEEKARAM",
+              "director_din": "10554631",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "BANDI PRABHU PRASANTH",
+              "director_din": "10554686",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case38": {
+    "http_response_code": 200,
+    "request_id": "0424e2f7-f144-11f0-83d1-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74999KA2016PTC098609",
+          "company_id": "",
+          "company_llp_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "098609",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "20/12/2016",
+          "registered_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR, Bangalore, BANGALORE, Karnataka, India, 560043",
+          "email_id": "info@wellcarefacility.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "BANGALORE",
+          "company_registered_pin_code": "560043",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2022",
+          "date_of_balance_sheet": "31/03/2022",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "10554631",
+              "name": "DIVAKARAN DEEKARAM",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****5406J",
+              "mobile_number": "XXXXXXX908",
+              "educational_qualification": "Secondary education",
+              "email_address": "XXXXXthink@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10554686",
+              "name": "BANDI PRABHU PRASANTH",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****4093E",
+              "mobile_number": "XXXXXXX994",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXuvarman1@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "ABFPU8468G",
+              "name": ". .",
+              "date_of_appointment": "",
+              "pan": "",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "ATHPJ6122C",
+              "name": ". . .",
+              "date_of_appointment": "",
+              "pan": "*****6122C",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208265",
+              "name": "YELAHANKA KUSHALA GOVINDARAJU",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****3995C",
+              "mobile_number": "XXXXXXX704",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX.740@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208267",
+              "name": "ASHOK",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****7121D",
+              "mobile_number": "XXXXXXX599",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX@wellcarefacility.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "DIVAKARAN DEEKARAM",
+              "director_din": "10554631",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "BANDI PRABHU PRASANTH",
+              "director_din": "10554686",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case39": {
+    "http_response_code": 200,
+    "request_id": "0424e2f7-f144-11f0-83d1-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74999KA2016PTC098609",
+          "company_id": "",
+          "company_llp_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "098609",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "20/12/2016",
+          "registered_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR, Bangalore, BANGALORE, Karnataka, India, 560043",
+          "email_id": "info@wellcarefacility.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "BANGALORE",
+          "company_registered_pin_code": "560043",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2022",
+          "date_of_balance_sheet": "31/03/2022",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "10554631",
+              "name": "DIVAKARAN DEEKARAM",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****5406J",
+              "mobile_number": "XXXXXXX908",
+              "educational_qualification": "Secondary education",
+              "email_address": "XXXXXthink@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10554686",
+              "name": "BANDI PRABHU PRASANTH",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****4093E",
+              "mobile_number": "XXXXXXX994",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXuvarman1@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "ABFPU8468G",
+              "name": ". .",
+              "date_of_appointment": "",
+              "pan": "",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "ATHPJ6122C",
+              "name": ". . .",
+              "date_of_appointment": "",
+              "pan": "*****6122C",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208265",
+              "name": "YELAHANKA KUSHALA GOVINDARAJU",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****3995C",
+              "mobile_number": "XXXXXXX704",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX.740@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208267",
+              "name": "ASHOK",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****7121D",
+              "mobile_number": "XXXXXXX599",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX@wellcarefacility.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "DIVAKARAN DEEKARAM",
+              "director_din": "10554631",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "BANDI PRABHU PRASANTH",
+              "director_din": "10554686",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case40": {
+    "http_response_code": 200,
+    "request_id": "0424e2f7-f144-11f0-83d1-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U74999KA2016PTC098609",
+          "company_id": "",
+          "company_llp_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "098609",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "100000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "20/12/2016",
+          "registered_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR, Bangalore, BANGALORE, Karnataka, India, 560043",
+          "email_id": "info@wellcarefacility.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "BANGALORE",
+          "company_registered_pin_code": "560043",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "30/09/2022",
+          "date_of_balance_sheet": "31/03/2022",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "10554631",
+              "name": "DIVAKARAN DEEKARAM",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****5406J",
+              "mobile_number": "XXXXXXX908",
+              "educational_qualification": "Secondary education",
+              "email_address": "XXXXXthink@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "10554686",
+              "name": "BANDI PRABHU PRASANTH",
+              "date_of_appointment": "01/03/2024",
+              "pan": "*****4093E",
+              "mobile_number": "XXXXXXX994",
+              "educational_qualification": "Bachelor's degree",
+              "email_address": "XXXXXuvarman1@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "ABFPU8468G",
+              "name": ". .",
+              "date_of_appointment": "",
+              "pan": "",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "ATHPJ6122C",
+              "name": ". . .",
+              "date_of_appointment": "",
+              "pan": "*****6122C",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208265",
+              "name": "YELAHANKA KUSHALA GOVINDARAJU",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****3995C",
+              "mobile_number": "XXXXXXX704",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX.740@gmail.com",
+              "nationality": "Indian",
+              "gender": "Female",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "07208267",
+              "name": "ASHOK",
+              "date_of_appointment": "20/12/2016",
+              "pan": "*****7121D",
+              "mobile_number": "XXXXXXX599",
+              "educational_qualification": "Grad",
+              "email_address": "XXXXX@wellcarefacility.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ]
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "DIVAKARAN DEEKARAM",
+              "director_din": "10554631",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            },
+            {
+              "director_name": "BANDI PRABHU PRASANTH",
+              "director_din": "10554686",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/05/2024",
+              "directorship": [
+                {
+                  "company_cin": "U74999KA2016PTC098609",
+                  "company_name": "WELLCARE FACILITY INDIA PRIVATE LIMITED",
+                  "date_of_incorporation": "01/03/2024"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case41": {
+    "http_response_code": 200,
+    "request_id": "93e43f81-f144-11f0-896c-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "",
+          "company_id": "AAE-9622",
+          "company_llp_name": "ROBOTEK LLP",
+          "roc_code": "ROC Delhi",
+          "registration_number": "",
+          "company_category": "",
+          "company_subcategory": "",
+          "class_of_company": "",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "",
+          "date_of_incorporation": "06/01/2016",
+          "registered_address": "PLOT NO. 1010 GROUND FLOOR, BLOCK-G DSIIDC,NARELA, Narela, North West Delhi, Delhi, Delhi, India, 110040",
+          "email_id": "robotekindia2012@gmail.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "Delhi",
+          "company_registered_pin_code": "110040",
+          "active_compliance": "",
+          "whether_listed_or_not": "",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "M28696855",
+            "charge_id": "100901370",
+            "charge_holder_name": "IDBI Bank Limited",
+            "charge_amount": "2000000",
+            "date_of_creation": "27/03/2024",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "IDBI BANK LTD, BT-2, North West Delhi, Delhi, Delhi India 110088",
+            "status": "OPEN",
+            "charge_reg_by_other_entity": "No",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "05345570",
+              "name": "AMAN AGGARWAL",
+              "date_of_appointment": "06/01/2016",
+              "pan": "*****0423D",
+              "mobile_number": "XXXXXXX008",
+              "educational_qualification": "",
+              "email_address": "XXXXXggarwal@me.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "05345548",
+              "name": "SAHIL AGGARWAL",
+              "date_of_appointment": "17/08/2018",
+              "pan": "*****5424H",
+              "mobile_number": "XXXXXXX530",
+              "educational_qualification": "",
+              "email_address": "XXXXX141188@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U31900DL2021PTC378629",
+              "company_name": "SIEGER TECHNO PRIVATE LIMITED",
+              "date_of_incorporation": "16/03/2021",
+              "din": "05345570"
+            },
+            {
+              "company_cin": "U51900DL2012PTC246513",
+              "company_name": "ROBOTEK PRIVATE LIMITED",
+              "date_of_incorporation": "20/12/2012",
+              "din": "05345570"
+            },
+            {
+              "company_cin": "U27320HR2025PTC132586",
+              "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
+              "date_of_incorporation": "27/05/2025",
+              "din": "05345570"
+            },
+            {
+              "company_cin": "U27320HR2025PTC132586",
+              "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
+              "date_of_incorporation": "27/05/2025",
+              "din": "05345548"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "AMAN AGGARWAL",
+              "director_din": "05345570",
+              "director_designation": "",
+              "director_date_of_appointment": "",
+              "directorship": [
+                {
+                  "company_cin": "U31900DL2021PTC378629",
+                  "company_name": "SIEGER TECHNO PRIVATE LIMITED",
+                  "date_of_incorporation": "16/03/2021"
+                },
+                {
+                  "company_cin": "U51900DL2012PTC246513",
+                  "company_name": "ROBOTEK PRIVATE LIMITED",
+                  "date_of_incorporation": "20/12/2012"
+                },
+                {
+                  "company_cin": "U27320HR2025PTC132586",
+                  "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
+                  "date_of_incorporation": "27/05/2025"
+                }
+              ]
+            },
+            {
+              "director_name": "SAHIL AGGARWAL",
+              "director_din": "05345548",
+              "director_designation": "",
+              "director_date_of_appointment": "",
+              "directorship": [
+                {
+                  "company_cin": "U27320HR2025PTC132586",
+                  "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
+                  "date_of_incorporation": "27/05/2025"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case42": {
+    "http_response_code": 200,
+    "request_id": "ab78aa13-f144-11f0-bb8d-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U99999MH1911PLC007676",
+          "company_id": "",
+          "company_llp_name": "THE BANK OF BARODA LIMITED",
+          "roc_code": "ROC Mumbai",
+          "registration_number": "007676",
+          "company_category": "Company limited by guarantee",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Public",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "0",
+          "date_of_incorporation": "02/03/1911",
+          "registered_address": "NA, AT POST DEUL GALLI LOHA, NA, Maharashtra, India, 431708",
+          "email_id": "",
+          "company_registered_state": "Maharashtra",
+          "company_registered_city": "NA",
+          "company_registered_pin_code": "431708",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Inactive for e-filing",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case43": {
+    "http_response_code": 200,
+    "request_id": "ba4f356b-f144-11f0-83f2-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U99999MH1911PLC007676",
+          "company_id": "",
+          "company_llp_name": "THE BANK OF BARODA LIMITED",
+          "roc_code": "ROC Mumbai",
+          "registration_number": "007676",
+          "company_category": "Company limited by guarantee",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Public",
+          "authorised_capital": "",
+          "paid_up_capital": "",
+          "number_of_members": "0",
+          "date_of_incorporation": "02/03/1911",
+          "registered_address": "NA, AT POST DEUL GALLI LOHA, NA, Maharashtra, India, 431708",
+          "email_id": "",
+          "company_registered_state": "Maharashtra",
+          "company_registered_city": "NA",
+          "company_registered_pin_code": "431708",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "",
+          "date_of_balance_sheet": "",
+          "company_status": "Inactive for e-filing",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case44": {
+    "http_response_code": 200,
+    "request_id": "406786a8-f145-11f0-97b9-e1d9f1c58e1d",
+    "client_ref_num": "Apple",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U70109DL2006PTC149536",
+          "company_id": "",
+          "company_llp_name": "SLOTCO BUILDWELL PRIVATE LIMITED",
+          "roc_code": "ROC Delhi",
+          "registration_number": "149536",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "10000000",
+          "paid_up_capital": "6100000",
+          "number_of_members": "",
+          "date_of_incorporation": "07/06/2006",
+          "registered_address": "B-66,Naraina Industrial Area   Phase II, New Delhi, Delhi, India, 110027",
+          "email_id": "info@slotcogroup.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "New Delhi",
+          "company_registered_pin_code": "110027",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "31/12/2020",
+          "date_of_balance_sheet": "31/03/2020",
+          "company_status": "Converted to LLP",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case45": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple!@#$%",
+    "error": "One or more parameters format is wrong"
+  },
+  "case46": {
+    "http_response_code": 400,
+    "client_ref_num": "",
+    "error": "One or more parameters format is wrong"
+  },
+  "case47": {
+    "http_response_code": 400,
+    "client_ref_num": " ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case48": {
+    "http_response_code": 400,
+    "client_ref_num": "Apple ",
+    "error": "One or more parameters format is wrong"
+  },
+  "case49": {
+    "http_response_code": 400,
+    "client_ref_num": " Apple",
+    "error": "One or more parameters format is wrong"
+  },
+  "case50": {
+    "http_response_code": 200,
+    "request_id": "0b33451f-f15b-11f0-9636-473e68ca9561",
+    "client_ref_num": "Apple_-",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U70109DL2006PTC149536",
+          "company_id": "",
+          "company_llp_name": "SLOTCO BUILDWELL PRIVATE LIMITED",
+          "roc_code": "ROC Delhi",
+          "registration_number": "149536",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "10000000",
+          "paid_up_capital": "6100000",
+          "number_of_members": "",
+          "date_of_incorporation": "07/06/2006",
+          "registered_address": "B-66,Naraina Industrial Area   Phase II, New Delhi, Delhi, India, 110027",
+          "email_id": "info@slotcogroup.com",
+          "company_registered_state": "Delhi",
+          "company_registered_city": "New Delhi",
+          "company_registered_pin_code": "110027",
+          "active_compliance": "ACTIVE compliant",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "31/12/2020",
+          "date_of_balance_sheet": "31/03/2020",
+          "company_status": "Converted to LLP",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [],
+          "past_director_details": []
+        },
+        "potential_related_party_details": {
+          "related_party": []
+        },
+        "all_directorship_details": [
+          []
+        ]
+      },
+      "status": 200
+    }
+  },
+  "case51": {
+    "http_response_code": 400,
+    "client_ref_num": "test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test011",
+    "error": "One or more parameters format is wrong"
+  },
+  "case52": {
+    "http_response_code": 200,
+    "request_id": "6baac6c2-b860-11ef-8b11-d54ae9e8d016",
+    "client_ref_num": "test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0",
+    "result_code": 101,
+    "result": {
+      "data": {
+        "company_master_data": {
+          "cin": "U72900KA2019PTC129553",
+          "company_id": "",
+          "company_llp_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+          "roc_code": "ROC Bangalore",
+          "registration_number": "129553",
+          "company_category": "Company limited by shares",
+          "company_subcategory": "Non-government company",
+          "class_of_company": "Private",
+          "authorised_capital": "1000000",
+          "paid_up_capital": "100000",
+          "number_of_members": "",
+          "date_of_incorporation": "13/11/2019",
+          "registered_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar, athalli, Bangalore, Bangalore, Karnataka, India, 560037",
+          "email_id": "knageen@gmail.com",
+          "company_registered_state": "Karnataka",
+          "company_registered_city": "Bangalore",
+          "company_registered_pin_code": "560037",
+          "active_compliance": "",
+          "whether_listed_or_not": "Unlisted",
+          "date_of_last_agm": "27/09/2025",
+          "date_of_balance_sheet": "31/03/2025",
+          "company_status": "Active",
+          "status_under_CIRP": ""
+        },
+        "charges": [
+          {
+            "srn": "",
+            "charge_id": "",
+            "charge_holder_name": "",
+            "charge_amount": "",
+            "date_of_creation": "",
+            "date_of_modification": "",
+            "date_of_satisfaction": "",
+            "address": "",
+            "status": "",
+            "charge_reg_by_other_entity": "",
+            "assets_under_charges": "",
+            "asset_holder_name": ""
+          }
+        ],
+        "directors_signatory_details": {
+          "present_director_details": [
+            {
+              "din_pan": "07784146",
+              "name": "NAGEEN KOMMU",
+              "date_of_appointment": "13/11/2019",
+              "pan": "*****5404B",
+              "mobile_number": "XXXXXXX427",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXen@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            },
+            {
+              "din_pan": "09752932",
+              "name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU",
+              "date_of_appointment": "01/10/2022",
+              "pan": "*****7533P",
+              "mobile_number": "XXXXXXX475",
+              "educational_qualification": "",
+              "email_address": "XXXXXharaprasad@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "",
+              "end_date": ""
+            }
+          ],
+          "past_director_details": [
+            {
+              "din_pan": "09053516",
+              "name": "ANKOOR DAS",
+              "date_of_appointment": "",
+              "pan": "*****2603F",
+              "mobile_number": "",
+              "educational_qualification": "",
+              "email_address": "",
+              "nationality": "",
+              "gender": "",
+              "signatory_association_status": "",
+              "end_date": ""
+            },
+            {
+              "din_pan": "08609632",
+              "name": "HIMANSHU BHALOTIA",
+              "date_of_appointment": "13/11/2019",
+              "pan": "*****2658A",
+              "mobile_number": "XXXXXXX282",
+              "educational_qualification": "GRAD",
+              "email_address": "XXXXXshubhalotia@gmail.com",
+              "nationality": "Indian",
+              "gender": "Male",
+              "signatory_association_status": "Active",
+              "end_date": ""
+            }
+          ]
+        }
+        },
+        "potential_related_party_details": {
+          "related_party": [
+            {
+              "company_cin": "U72200KA2020PTC132270",
+              "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED",
+              "date_of_incorporation": "03/02/2020",
+              "din": "07784146"
+            },
+            {
+              "company_cin": "U74999AP2017PTC105830",
+              "company_name": "DRIBLING SPORTS PRIVATE LIMITED",
+              "date_of_incorporation": "15/05/2017",
+              "din": "07784146"
+            }
+          ]
+        },
+        "all_directorship_details": [
+          [
+            {
+              "director_name": "NAGEEN KOMMU",
+              "director_din": "07784146",
+              "director_designation": "Director",
+              "director_date_of_appointment": "13/11/2019",
+              "directorship": [
+                {
+                  "company_cin": "U72200KA2020PTC132270",
+                  "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED",
+                  "date_of_incorporation": "03/02/2020"
+                },
+                {
+                  "company_cin": "U72900KA2019PTC129553",
+                  "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                  "date_of_incorporation": "13/11/2019"
+                },
+                {
+                  "company_cin": "U74999AP2017PTC105830",
+                  "company_name": "DRIBLING SPORTS PRIVATE LIMITED",
+                  "date_of_incorporation": "15/05/2017"
+                }
+              ]
+            },
+            {
+              "director_name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU",
+              "director_din": "09752932",
+              "director_designation": "Director",
+              "director_date_of_appointment": "01/10/2022",
+              "directorship": [
+                {
+                  "company_cin": "U72900KA2019PTC129553",
+                  "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                  "date_of_incorporation": "01/10/2022"
+                }
+              ]
+            }
+          ]
+        ]
+      },
+      "status": 200
+    },
+    "case53": {
+      "http_response_code": 200,
+      "request_id": "0b33451f-f15b-11f0-9636-473e68ca9561",
+      "client_ref_num": "Apple",
+      "result_code": 101,
+      "result": {
+        "data": {
+          "company_master_data": {
+            "cin": "U70109DL2006PTC149536",
+            "company_id": "",
+            "company_llp_name": "SLOTCO BUILDWELL PRIVATE LIMITED",
+            "roc_code": "ROC Delhi",
+            "registration_number": "149536",
+            "company_category": "Company limited by shares",
+            "company_subcategory": "Non-government company",
+            "class_of_company": "Private",
+            "authorised_capital": "10000000",
+            "paid_up_capital": "6100000",
+            "number_of_members": "",
+            "date_of_incorporation": "07/06/2006",
+            "registered_address": "B-66,Naraina Industrial Area   Phase II, New Delhi, Delhi, India, 110027",
+            "email_id": "info@slotcogroup.com",
+            "company_registered_state": "Delhi",
+            "company_registered_city": "New Delhi",
+            "company_registered_pin_code": "110027",
+            "active_compliance": "ACTIVE compliant",
+            "whether_listed_or_not": "Unlisted",
+            "date_of_last_agm": "31/12/2020",
+            "date_of_balance_sheet": "31/03/2020",
+            "company_status": "Converted to LLP",
+            "status_under_CIRP": ""
+          },
+          "charges": [
+            {
+              "srn": "",
+              "charge_id": "",
+              "charge_holder_name": "",
+              "charge_amount": "",
+              "date_of_creation": "",
+              "date_of_modification": "",
+              "date_of_satisfaction": "",
+              "address": "",
+              "status": "",
+              "charge_reg_by_other_entity": "",
+              "assets_under_charges": "",
+              "asset_holder_name": ""
+            }
+          ],
+          "directors_signatory_details": {
+            "present_director_details": [],
+            "past_director_details": []
+          },
+          "potential_related_party_details": {
+            "related_party": []
+          },
+          "all_directorship_details": [
+            []
+          ]
+        },
+        "status": 200
+      }
+    },
+    "case54": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case55": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case56": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case57": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case58": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case59": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case60": {
+      "http_response_code": 401,
+      "client_ref_num": "Apple",
+      "error": "Client Authentication Failed"
+    },
+    "case61": {
+      "http_response_code": 503,
+      "client_ref_num": "Apple",
+      "error": "Source is busy or unavailable. Try again later"
+    }
+  }
+

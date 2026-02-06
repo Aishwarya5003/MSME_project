@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2026-01-14T20:54:39.418951" rpa="false" schemaversion="5">
+<suite id="s1" name="COI-advanced" source="C:\Users\Aishwarya\PycharmProjects\APIAutomation\Json_schema\COI services\COI-advanced.robot">
+<kw name="Connect To Database" owner="DatabaseLibrary" type="SETUP">
+<msg time="2026-01-14T20:54:39.599816" level="INFO">Looking for configuration file: 'resources\db.cfg'</msg>
+<msg time="2026-01-14T20:54:39.599889" level="INFO">Configuration file doesn't exist</msg>
+<msg time="2026-01-14T20:54:39.608179" level="INFO">Connect to DB using : pymysql.connect(db='validation', user='qa.aishwarya', passwd=***, host='dev-db.chjy1zjdr74q.ap-south-1.rds.amazonaws.com', port=3306, charset='utf8mb4')</msg>
+<arg>pymysql</arg>
+<arg>${DB_Name}</arg>
+<arg>${DB_user}</arg>
+<arg>${DB_pass}</arg>
+<arg>${DB_host}</arg>
+<arg>${DB_port}</arg>
+<doc>Creates a database connection using the DB API 2.0 ``db_module`` and the parameters provided.
+Along with listed commonly used arguments (`db_name`, `db_host` etc.)
+you can set any other DB module specific parameters as key/value pairs.</doc>
+<status status="PASS" start="2026-01-14T20:54:39.599553" elapsed="0.512886"/>
+</kw>
+<test id="s1-t1" name="MSME-T4712 (1.0)" line="632">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>To verify by enterng valid client user name and password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.113522" elapsed="0.000490"/>
+</kw>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.114719" level="INFO">${auth} = ['526526315047', 'BI9WnuOcxLBKKgPEB4qtLdADGc9PH0d5']</msg>
+<var>${auth}</var>
+<arg>${client-username}</arg>
+<arg>${client-password}</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.114382" elapsed="0.000381"/>
+</kw>
+<kw name="Read Test Data From CSV">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.115813" level="INFO">${test_data} = []</msg>
+<var>${test_data}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.115665" elapsed="0.000186"/>
+</kw>
+<kw name="Get File" owner="OperatingSystem">
+<msg time="2026-01-14T20:54:40.116143" level="INFO" html="true">Getting file '&lt;a href="file://C:\Users\Aishwarya\PycharmProjects\APIAutomation\data\COI-advancedData.csv"&gt;C:\Users\Aishwarya\PycharmProjects\APIAutomation\data\COI-advancedData.csv&lt;/a&gt;'.</msg>
+<msg time="2026-01-14T20:54:40.116664" level="INFO">${file_content} = Test Cases,cin,client_ref_num,company_id,test_scenario
+To verify by entering the valid CIN number,U72900KA2019PTC129553,Apple,,
+To verify by entering the valid CIN number which not found,U72890KA2012P...</msg>
+<var>${file_content}</var>
+<arg>${file_path}</arg>
+<doc>Returns the contents of a specified file.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.115981" elapsed="0.000725"/>
+</kw>
+<kw name="Split To Lines" owner="String">
+<msg time="2026-01-14T20:54:40.117051" level="INFO">54 lines returned.</msg>
+<msg time="2026-01-14T20:54:40.117185" level="INFO">${lines} = ['Test Cases,cin,client_ref_num,company_id,test_scenario', 'To verify by entering the valid CIN number,U72900KA2019PTC129553,Apple,,', 'To verify by entering the valid CIN number which not found,U7289...</msg>
+<var>${lines}</var>
+<arg>${file_content}</arg>
+<doc>Splits the given string to lines.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.116863" elapsed="0.000350"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.117977" level="INFO">${columns} = ['To verify by entering the valid CIN number', 'U72900KA2019PTC129553', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.117695" elapsed="0.000325"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.121484" level="INFO">${data} = {'cin': 'U72900KA2019PTC129553', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.118215" elapsed="0.003327"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.121781" elapsed="0.000257"/>
+</kw>
+<var name="${line}">To verify by entering the valid CIN number,U72900KA2019PTC129553,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.117560" elapsed="0.004562"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.122753" level="INFO">${columns} = ['To verify by entering the valid CIN number which not found', 'U72890KA2012PTC349541', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.122437" elapsed="0.000503"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.126440" level="INFO">${data} = {'cin': 'U72890KA2012PTC349541', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.123217" elapsed="0.003285"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.126746" elapsed="0.000285"/>
+</kw>
+<var name="${line}">To verify by entering the valid CIN number which not found,U72890KA2012PTC349541,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.122298" elapsed="0.004810"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.127764" level="INFO">${columns} = ['To verify by entering the invalid CIN number', 'U74999KA2016PTC09860$', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.127455" elapsed="0.000355"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.131029" level="INFO">${data} = {'cin': 'U74999KA2016PTC09860$', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.128018" elapsed="0.003081"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.131314" elapsed="0.000243"/>
+</kw>
+<var name="${line}">To verify by entering the invalid CIN number,U74999KA2016PTC09860$,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.127303" elapsed="0.004312"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.132186" level="INFO">${columns} = ['To verify by entering other then CIN number', '9843729991', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.131908" elapsed="0.000318"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.135571" level="INFO">${data} = {'cin': '9843729991', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.132706" elapsed="0.002914"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.135798" elapsed="0.000202"/>
+</kw>
+<var name="${line}">To verify by entering other then CIN number,9843729991,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.131771" elapsed="0.004280"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.136513" level="INFO">${columns} = ['To verify by entering only special char in the CIN number', '!@#$%^&amp;*()$$$', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.136298" elapsed="0.000249"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.138760" level="INFO">${data} = {'cin': '!@#$%^&amp;*()$$$', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.136690" elapsed="0.002106"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.138933" elapsed="0.000166"/>
+</kw>
+<var name="${line}">To verify by entering only special char in the CIN number,!@#$%^&amp;*()$$$,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.136186" elapsed="0.002954"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.139603" level="INFO">${columns} = ['To verify by entering only numeric char in the CIN number', '1234567', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.139392" elapsed="0.000243"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.141833" level="INFO">${data} = {'cin': '1234567', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.139771" elapsed="0.002093"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.142003" elapsed="0.000137"/>
+</kw>
+<var name="${line}">To verify by entering only numeric char in the CIN number,1234567,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.139295" elapsed="0.002882"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.142512" level="INFO">${columns} = ['To verify by entering only alpha char in the CIN number', 'QWERTYUIIOP', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.142357" elapsed="0.000178"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.144261" level="INFO">${data} = {'cin': 'QWERTYUIIOP', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.142654" elapsed="0.001634"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.144396" elapsed="0.000134"/>
+</kw>
+<var name="${line}">To verify by entering only alpha char in the CIN number,QWERTYUIIOP,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.142280" elapsed="0.002286"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.144877" level="INFO">${columns} = ['To verify by entering mixed of alpha numeric special char in the CIN number', 'QWERTY!@#$%12345', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.144725" elapsed="0.000175"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.146731" level="INFO">${data} = {'cin': 'QWERTY!@#$%12345', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.145005" elapsed="0.001756"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.146869" elapsed="0.000135"/>
+</kw>
+<var name="${line}">To verify by entering mixed of alpha numeric special char in the CIN number,QWERTY!@#$%12345,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.144651" elapsed="0.002393"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.147371" level="INFO">${columns} = ['To verify by leaving the COI field as empty', '', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.147226" elapsed="0.000166"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.150172" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.147482" elapsed="0.002733"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.150380" elapsed="0.000172"/>
+</kw>
+<var name="${line}">To verify by leaving the COI field as empty,,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.147153" elapsed="0.003435"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.150952" level="INFO">${columns} = ['To verify by leaving the COI field as empty space', ' ', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.150775" elapsed="0.000329"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.152843" level="INFO">${data} = {'cin': ' ', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.151222" elapsed="0.001650"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.152986" elapsed="0.000136"/>
+</kw>
+<var name="${line}">To verify by leaving the COI field as empty space, ,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.150691" elapsed="0.002467"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.153472" level="INFO">${columns} = ['To verify by giving Additional space at the end of the params for cin num', 'U74999KA2016PTC098609 ', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.153324" elapsed="0.000171"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.155149" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609 ', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.153598" elapsed="0.001577"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.155279" elapsed="0.000121"/>
+</kw>
+<var name="${line}">To verify by giving Additional space at the end of the params for cin num,U74999KA2016PTC098609 ,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.153247" elapsed="0.002187"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.155739" level="INFO">${columns} = ['To verify by giving Additional space at the front of the params for cin ref num', ' U74999KA2016PTC098609', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.155593" elapsed="0.000168"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.157493" level="INFO">${data} = {'cin': ' U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.155868" elapsed="0.001655"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.157651" elapsed="0.000131"/>
+</kw>
+<var name="${line}">To verify by giving Additional space at the front of the params for cin ref num, U74999KA2016PTC098609,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.155516" elapsed="0.002297"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.158111" level="INFO">${columns} = ['To verify by entering the deactivated company CIN number', 'U99999MH1911PLC007676', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.157960" elapsed="0.000172"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.159635" level="INFO">${data} = {'cin': 'U99999MH1911PLC007676', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.158222" elapsed="0.001437"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.159755" elapsed="0.000105"/>
+</kw>
+<var name="${line}">To verify by entering the deactivated company CIN number,U99999MH1911PLC007676,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.157893" elapsed="0.001994"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.160139" level="INFO">${columns} = ['To verify by entering Strike Off CIN number', 'U92490TZ2020PTC035264', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.160020" elapsed="0.000138"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.161486" level="INFO">${data} = {'cin': 'U92490TZ2020PTC035264', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.160237" elapsed="0.001271"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.161601" elapsed="0.000113"/>
+</kw>
+<var name="${line}">To verify by entering Strike Off CIN number,U92490TZ2020PTC035264,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.159962" elapsed="0.001780"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.161987" level="INFO">${columns} = ['To verify by entering Under Process of Striking Off CIN number', 'U72900WB2016PTC218292', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.161869" elapsed="0.000179"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.163567" level="INFO">${data} = {'cin': 'U72900WB2016PTC218292', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.162237" elapsed="0.001353"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.163681" elapsed="0.000106"/>
+</kw>
+<var name="${line}">To verify by entering Under Process of Striking Off CIN number,U72900WB2016PTC218292,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.161809" elapsed="0.002014"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.164371" level="INFO">${columns} = ['To verify by entering Converted to LLP CIN number', 'U70109DL2006PTC149536', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.164015" elapsed="0.000376"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.165663" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.164471" elapsed="0.001238"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.165797" elapsed="0.000100"/>
+</kw>
+<var name="${line}">To verify by entering Converted to LLP CIN number,U70109DL2006PTC149536,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.163951" elapsed="0.001973"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.166158" level="INFO">${columns} = ['To verify entering a valid FCIN number in the company_id field.', '', 'Apple', 'F06385', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.166046" elapsed="0.000130"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.167398" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'F06385', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.166249" elapsed="0.001171"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.167500" elapsed="0.000091"/>
+</kw>
+<var name="${line}">To verify entering a valid FCIN number in the company_id field.,,Apple,F06385,</var>
+<status status="PASS" start="2026-01-14T20:54:40.165991" elapsed="0.001624"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.167826" level="INFO">${columns} = ['To verify entering a valid FCRN number in the company_id field.', '', 'Apple', 'F05023', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.167726" elapsed="0.000116"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.168961" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'F05023', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.167909" elapsed="0.001071"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.169055" elapsed="0.000095"/>
+</kw>
+<var name="${line}">To verify entering a valid FCRN number in the company_id field.,,Apple,F05023,</var>
+<status status="PASS" start="2026-01-14T20:54:40.167674" elapsed="0.001500"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.169374" level="INFO">${columns} = ['To verify entering a valid LLPIN number in the company_id field.', '', 'Apple', 'AAE-9630', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.169280" elapsed="0.000110"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.170498" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'AAE-9630', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.169454" elapsed="0.001063"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.170592" elapsed="0.000083"/>
+</kw>
+<var name="${line}">To verify entering a valid LLPIN number in the company_id field.,,Apple,AAE-9630,</var>
+<status status="PASS" start="2026-01-14T20:54:40.169231" elapsed="0.001469"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.170894" level="INFO">${columns} = ['To verify entering an invalid FCIN number in the company_id field.', '', 'Apple', 'F063680', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.170802" elapsed="0.000106"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.171947" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'F063680', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.170966" elapsed="0.000998"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.172030" elapsed="0.000081"/>
+</kw>
+<var name="${line}">To verify entering an invalid FCIN number in the company_id field.,,Apple,F063680,</var>
+<status status="PASS" start="2026-01-14T20:54:40.170755" elapsed="0.001378"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.172329" level="INFO">${columns} = ['To verify entering an invalid FCRN number in the company_id field.', '', 'Apple', 'F049900', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.172236" elapsed="0.000118"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.173561" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'F049900', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.172421" elapsed="0.001158"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.173727" elapsed="0.000083"/>
+</kw>
+<var name="${line}">To verify entering an invalid FCRN number in the company_id field.,,Apple,F049900,</var>
+<status status="PASS" start="2026-01-14T20:54:40.172191" elapsed="0.001640"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.174012" level="INFO">${columns} = ['To verify entering an invalid LLPIN number in the company_id field.', '', 'Apple', 'A0009622', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.173926" elapsed="0.000100"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.175014" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'A0009622', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.174082" elapsed="0.000949"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.175119" elapsed="0.000107"/>
+</kw>
+<var name="${line}">To verify entering an invalid LLPIN number in the company_id field.,,Apple,A0009622,</var>
+<status status="PASS" start="2026-01-14T20:54:40.173882" elapsed="0.001367"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.175444" level="INFO">${columns} = ['To verify entering both a valid CIN and a valid company_id in the payload.', 'U74999KA2016PTC098609', 'Apple', 'F06368', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.175348" elapsed="0.000110"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.176435" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': 'F06368', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.175518" elapsed="0.000933"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.176514" elapsed="0.000074"/>
+</kw>
+<var name="${line}">To verify entering both a valid CIN and a valid company_id in the payload.,U74999KA2016PTC098609,Apple,F06368,</var>
+<status status="PASS" start="2026-01-14T20:54:40.175303" elapsed="0.001305"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.176788" level="INFO">${columns} = ['To verify entering both a invalid CIN and a invalid company_id in the payload.', 'U72890KA2012PTC349541', 'Apple', 'F06368000', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.176704" elapsed="0.000098"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.177870" level="INFO">${data} = {'cin': 'U72890KA2012PTC349541', 'client_ref_num': 'Apple', 'company_id': 'F06368000', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.176860" elapsed="0.001052"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.177991" elapsed="0.000112"/>
+</kw>
+<var name="${line}">To verify entering both a invalid CIN and a invalid company_id in the payload.,U72890KA2012PTC349541,Apple,F06368000,</var>
+<status status="PASS" start="2026-01-14T20:54:40.176657" elapsed="0.001470"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.178405" level="INFO">${columns} = ['To verify entering both a valid CIN and a invalid company_id in the payload.', 'U74899DL1994PTC061340', 'Apple', 'F06368000', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.178252" elapsed="0.000168"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.179499" level="INFO">${data} = {'cin': 'U74899DL1994PTC061340', 'client_ref_num': 'Apple', 'company_id': 'F06368000', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.178482" elapsed="0.001039"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.179603" elapsed="0.000085"/>
+</kw>
+<var name="${line}">To verify entering both a valid CIN and a invalid company_id in the payload.,U74899DL1994PTC061340,Apple,F06368000,</var>
+<status status="PASS" start="2026-01-14T20:54:40.178191" elapsed="0.001527"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.179912" level="INFO">${columns} = ['To verify entering both a invalid CIN and a valid company_id in the payload.', 'U72890KA2012PTC349541', 'Apple', 'F04999', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.179821" elapsed="0.000105"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.180942" level="INFO">${data} = {'cin': 'U72890KA2012PTC349541', 'client_ref_num': 'Apple', 'company_id': 'F04999', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.179993" elapsed="0.000966"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.181026" elapsed="0.000077"/>
+</kw>
+<var name="${line}">To verify entering both a invalid CIN and a valid company_id in the payload.,U72890KA2012PTC349541,Apple,F04999,</var>
+<status status="PASS" start="2026-01-14T20:54:40.179775" elapsed="0.001350"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.181316" level="INFO">${columns} = ['To verify entering a valid CIN and leaving the company_id field empty.', 'U99999MH1911PLC007676', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.181225" elapsed="0.000104"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.182375" level="INFO">${data} = {'cin': 'U99999MH1911PLC007676', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.181448" elapsed="0.000943"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.182455" elapsed="0.000075"/>
+</kw>
+<var name="${line}">To verify entering a valid CIN and leaving the company_id field empty.,U99999MH1911PLC007676,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.181180" elapsed="0.001370"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.182730" level="INFO">${columns} = ['To verify leaving the CIN field empty and entering a valid company_id.', '', 'Apple', 'F06368', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.182645" elapsed="0.000099"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.183731" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'F06368', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.182801" elapsed="0.000947"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.183813" elapsed="0.000080"/>
+</kw>
+<var name="${line}">To verify leaving the CIN field empty and entering a valid company_id.,,Apple,F06368,</var>
+<status status="PASS" start="2026-01-14T20:54:40.182602" elapsed="0.001312"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.184093" level="INFO">${columns} = ['To verify entering both company_id values in the CIN field.', 'F06368', 'Apple', 'F06368', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.184008" elapsed="0.000099"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.185096" level="INFO">${data} = {'cin': 'F06368', 'client_ref_num': 'Apple', 'company_id': 'F06368', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.184162" elapsed="0.000950"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.185176" elapsed="0.000077"/>
+</kw>
+<var name="${line}">To verify entering both company_id values in the CIN field.,F06368,Apple,F06368,</var>
+<status status="PASS" start="2026-01-14T20:54:40.183965" elapsed="0.001310"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.185488" level="INFO">${columns} = ['To verify entering the CIN field in the company_id and leaving the company_id field empty.', 'F06368', 'Apple', 'U74110KA2013PLC096530', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.185401" elapsed="0.000101"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.186464" level="INFO">${data} = {'cin': 'F06368', 'client_ref_num': 'Apple', 'company_id': 'U74110KA2013PLC096530', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.185561" elapsed="0.000919"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.186544" elapsed="0.000075"/>
+</kw>
+<var name="${line}">To verify entering the CIN field in the company_id and leaving the company_id field empty.,F06368,Apple,U74110KA2013PLC096530,</var>
+<status status="PASS" start="2026-01-14T20:54:40.185331" elapsed="0.001313"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.186830" level="INFO">${columns} = ['To verify leaving the CIN field empty and entering the CIN value in the company id field.', '', 'Apple', 'U74999KA2016PTC098609', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.186742" elapsed="0.000102"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.187882" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'U74999KA2016PTC098609', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.186903" elapsed="0.000995"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.187962" elapsed="0.000076"/>
+</kw>
+<var name="${line}">To verify leaving the CIN field empty and entering the CIN value in the company id field.,,Apple,U74999KA2016PTC098609,</var>
+<status status="PASS" start="2026-01-14T20:54:40.186696" elapsed="0.001363"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.188238" level="INFO">${columns} = ['To verify leaving both the CIN and company_id fields as empty strings.', '', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.188155" elapsed="0.000096"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.189221" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.188307" elapsed="0.000931"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.189304" elapsed="0.000091"/>
+</kw>
+<var name="${line}">To verify leaving both the CIN and company_id fields as empty strings.,,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.188109" elapsed="0.001326"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.189841" level="INFO">${columns} = ['To verify entering a valid company_id and numeric characters in the CIN field.', '1234567', 'Apple', 'F06367', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.189721" elapsed="0.000138"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.190898" level="INFO">${data} = {'cin': '1234567', 'client_ref_num': 'Apple', 'company_id': 'F06367', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.189941" elapsed="0.000974"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.190980" elapsed="0.000078"/>
+</kw>
+<var name="${line}">To verify entering a valid company_id and numeric characters in the CIN field.,1234567,Apple,F06367,</var>
+<status status="PASS" start="2026-01-14T20:54:40.189658" elapsed="0.001421"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.191262" level="INFO">${columns} = ['To verify entering a valid company_id and special characters in the CIN field.', '!@#$%^&amp;*()$$$', 'Apple', 'F06367', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.191175" elapsed="0.000101"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.192252" level="INFO">${data} = {'cin': '!@#$%^&amp;*()$$$', 'client_ref_num': 'Apple', 'company_id': 'F06367', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.191337" elapsed="0.000931"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.192332" elapsed="0.000074"/>
+</kw>
+<var name="${line}">To verify entering a valid company_id and special characters in the CIN field.,!@#$%^&amp;*()$$$,Apple,F06367,</var>
+<status status="PASS" start="2026-01-14T20:54:40.191131" elapsed="0.001295"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.192603" level="INFO">${columns} = ['To verify entering a valid company_id and alphabetic characters in the CIN field.', 'ASDFGERTHJKL', 'Apple', 'F06367', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.192516" elapsed="0.000100"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.193824" level="INFO">${data} = {'cin': 'ASDFGERTHJKL', 'client_ref_num': 'Apple', 'company_id': 'F06367', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.192672" elapsed="0.001173"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.193926" elapsed="0.000099"/>
+</kw>
+<var name="${line}">To verify entering a valid company_id and alphabetic characters in the CIN field.,ASDFGERTHJKL,Apple,F06367,</var>
+<status status="PASS" start="2026-01-14T20:54:40.192474" elapsed="0.001574"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.194350" level="INFO">${columns} = ['To verify entering a valid company_id and a mix of special alphabetic and numeric characters in the CIN field.', 'QWERTY!@#$%12345', 'Apple', 'F06367', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.194165" elapsed="0.000203"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.197510" level="INFO">${data} = {'cin': 'QWERTY!@#$%12345', 'client_ref_num': 'Apple', 'company_id': 'F06367', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.194440" elapsed="0.003154"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.197894" elapsed="0.000310"/>
+</kw>
+<var name="${line}">To verify entering a valid company_id and a mix of special alphabetic and numeric characters in the CIN field.,QWERTY!@#$%12345,Apple,F06367,</var>
+<status status="PASS" start="2026-01-14T20:54:40.194107" elapsed="0.004185"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.199008" level="INFO">${columns} = ['To verify entering a valid CIN and numeric characters in the company_id field.', 'U74999KA2016PTC098609', 'Apple', '123456', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.198714" elapsed="0.000338"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.203462" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': '123456', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.199235" elapsed="0.004270"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.203674" elapsed="0.000238"/>
+</kw>
+<var name="${line}">To verify entering a valid CIN and numeric characters in the company_id field.,U74999KA2016PTC098609,Apple,123456,</var>
+<status status="PASS" start="2026-01-14T20:54:40.198539" elapsed="0.005443"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.204475" level="INFO">${columns} = ['To verify entering a valid CIN and special characters in the company_id field.', 'U74999KA2016PTC098609', 'Apple', '!@#$%^&amp;', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.204243" elapsed="0.000268"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.206526" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': '!@#$%^&amp;', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.204646" elapsed="0.001962"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.206701" elapsed="0.000102"/>
+</kw>
+<var name="${line}">To verify entering a valid CIN and special characters in the company_id field.,U74999KA2016PTC098609,Apple,!@#$%^&amp;,</var>
+<status status="PASS" start="2026-01-14T20:54:40.204121" elapsed="0.002707"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.207074" level="INFO">${columns} = ['To verify entering a valid CIN and alphabetic characters in the company_id field.', 'U74999KA2016PTC098609', 'Apple', 'ASDFGHJ', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.206960" elapsed="0.000130"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.208367" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': 'ASDFGHJ', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.207163" elapsed="0.001229"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.208487" elapsed="0.000116"/>
+</kw>
+<var name="${line}">To verify entering a valid CIN and alphabetic characters in the company_id field.,U74999KA2016PTC098609,Apple,ASDFGHJ,</var>
+<status status="PASS" start="2026-01-14T20:54:40.206905" elapsed="0.001730"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.208937" level="INFO">${columns} = ['To verify entering a valid CIN and a mix of special alphabetic and numeric characters in the company_id field.', 'U74999KA2016PTC098609', 'Apple', '123!@#$%^ASD', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.208784" elapsed="0.000178"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.211139" level="INFO">${data} = {'cin': 'U74999KA2016PTC098609', 'client_ref_num': 'Apple', 'company_id': '123!@#$%^ASD', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.209059" elapsed="0.002168"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.211512" elapsed="0.000205"/>
+</kw>
+<var name="${line}">To verify entering a valid CIN and a mix of special alphabetic and numeric characters in the company_id field.,U74999KA2016PTC098609,Apple,123!@#$%^ASD,</var>
+<status status="PASS" start="2026-01-14T20:54:40.208713" elapsed="0.003032"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.211999" level="INFO">${columns} = ['To verify by not including the cin key in the input payload.', '', 'Apple', 'AAE-9622', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.211879" elapsed="0.000141"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.213274" level="INFO">${data} = {'cin': '', 'client_ref_num': 'Apple', 'company_id': 'AAE-9622', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.212100" elapsed="0.001196"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.213382" elapsed="0.000102"/>
+</kw>
+<var name="${line}">To verify by not including the cin key in the input payload.,,Apple,AAE-9622,</var>
+<status status="PASS" start="2026-01-14T20:54:40.211816" elapsed="0.001697"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.213754" level="INFO">${columns} = ['To verify by not including the company id key in the input payload.', 'U99999MH1911PLC007676', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.213645" elapsed="0.000126"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.216119" level="INFO">${data} = {'cin': 'U99999MH1911PLC007676', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.213843" elapsed="0.002338"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.216409" elapsed="0.000273"/>
+</kw>
+<var name="${line}">To verify by not including the company id key in the input payload.,U99999MH1911PLC007676,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.213588" elapsed="0.003163"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.217396" level="INFO">${columns} = ['To check the company_id key and value in the response.', 'U99999MH1911PLC007676', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.217091" elapsed="0.000352"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.220919" level="INFO">${data} = {'cin': 'U99999MH1911PLC007676', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.217701" elapsed="0.003278"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.221209" elapsed="0.000275"/>
+</kw>
+<var name="${line}">To check the company_id key and value in the response.,U99999MH1911PLC007676,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.216934" elapsed="0.004588"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.221929" level="INFO">${columns} = ['To verify by entering an valid client reference number.', 'U70109DL2006PTC149536', 'Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.221692" elapsed="0.000264"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.223369" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.222067" elapsed="0.001324"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.223479" elapsed="0.000134"/>
+</kw>
+<var name="${line}">To verify by entering an valid client reference number.,U70109DL2006PTC149536,Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.221618" elapsed="0.002044"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.224016" level="INFO">${columns} = ['To verify by entering an invalid client reference number.', 'U70109DL2006PTC149536', 'Apple!@#$%', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.223850" elapsed="0.000196"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.226365" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple!@#$%', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.224152" elapsed="0.002257"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.226689" elapsed="0.000339"/>
+</kw>
+<var name="${line}">To verify by entering an invalid client reference number.,U70109DL2006PTC149536,Apple!@#$%,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.223764" elapsed="0.003346"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.227642" level="INFO">${columns} = ['To verify by leaving the client reference number field empty.', 'U70109DL2006PTC149536', '', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.227515" elapsed="0.000143"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.228749" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': '', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.227729" elapsed="0.001036"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.228834" elapsed="0.000091"/>
+</kw>
+<var name="${line}">To verify by leaving the client reference number field empty.,U70109DL2006PTC149536,,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.227314" elapsed="0.001632"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.229145" level="INFO">${columns} = ['To verify by giving an empty space in the client reference number field.', 'U70109DL2006PTC149536', ' ', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.229047" elapsed="0.000113"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.230211" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': ' ', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.229221" elapsed="0.001008"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.230297" elapsed="0.000082"/>
+</kw>
+<var name="${line}">To verify by giving an empty space in the client reference number field.,U70109DL2006PTC149536, ,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.229000" elapsed="0.001401"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.230589" level="INFO">${columns} = ['To verify by giving Additional space at the end of the params for client ref num', 'U70109DL2006PTC149536', 'Apple ', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.230498" elapsed="0.000105"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.231627" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple ', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.230664" elapsed="0.000981"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.231715" elapsed="0.000086"/>
+</kw>
+<var name="${line}">To verify by giving Additional space at the end of the params for client ref num,U70109DL2006PTC149536,Apple ,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.230453" elapsed="0.001370"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.232015" level="INFO">${columns} = ['To verify by giving Additional space at the front of the params for client ref num', 'U70109DL2006PTC149536', ' Apple', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.231925" elapsed="0.000104"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.233085" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': ' Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.232092" elapsed="0.001011"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.233225" elapsed="0.000086"/>
+</kw>
+<var name="${line}">To verify by giving Additional space at the front of the params for client ref num,U70109DL2006PTC149536, Apple,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.231875" elapsed="0.001459"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.233532" level="INFO">${columns} = ["To verify that only '_'  '-' and '.' characters are accepted in the client reference number.", 'U70109DL2006PTC149536', 'Apple_-', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.233435" elapsed="0.000112"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.234564" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple_-', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.233610" elapsed="0.000972"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.234651" elapsed="0.000081"/>
+</kw>
+<var name="${line}">To verify that only '_'  '-' and '.' characters are accepted in the client reference number.,U70109DL2006PTC149536,Apple_-,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.233389" elapsed="0.001367"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.234966" level="INFO">${columns} = ['To verify by entering a client reference number with more than 45 characters.', 'U70109DL2006PTC149536', 'test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0te...</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.234866" elapsed="0.000115"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.236238" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test011', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.235049" elapsed="0.001208"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.236329" elapsed="0.000082"/>
+</kw>
+<var name="${line}">To verify by entering a client reference number with more than 45 characters.,U70109DL2006PTC149536,test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0...</var>
+<status status="PASS" start="2026-01-14T20:54:40.234813" elapsed="0.001621"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.236629" level="INFO">${columns} = ['To verify by entering a client ref num as 45 char', 'U72900KA2019PTC129553', 'test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0', '', '']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.236538" elapsed="0.000105"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.237664" level="INFO">${data} = {'cin': 'U72900KA2019PTC129553', 'client_ref_num': 'test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.236711" elapsed="0.000971"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.237752" elapsed="0.000083"/>
+</kw>
+<var name="${line}">To verify by entering a client ref num as 45 char,U72900KA2019PTC129553,test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0,,</var>
+<status status="PASS" start="2026-01-14T20:54:40.236490" elapsed="0.001367"/>
+</iter>
+<iter>
+<kw name="Split String" owner="String">
+<msg time="2026-01-14T20:54:40.238054" level="INFO">${columns} = ['To verify the test Scenarios with time out', 'U70109DL2006PTC149536', 'Apple', '', 'timeout']</msg>
+<var>${columns}</var>
+<arg>${line}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.237958" elapsed="0.000110"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.239113" level="INFO">${data} = {'cin': 'U70109DL2006PTC149536', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': 'timeout'}</msg>
+<var>${data}</var>
+<arg>cin=${columns[1]}</arg>
+<arg>client_ref_num=${columns[2]}</arg>
+<arg>company_id=${columns[3]}</arg>
+<arg>test_scenario=${columns[4]}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.238132" elapsed="0.000997"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${test_data}</arg>
+<arg>${data}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.239198" elapsed="0.000086"/>
+</kw>
+<var name="${line}">To verify the test Scenarios with time out,U70109DL2006PTC149536,Apple,,timeout</var>
+<status status="PASS" start="2026-01-14T20:54:40.237911" elapsed="0.001395"/>
+</iter>
+<var>${line}</var>
+<value>@{lines}[1:]</value>
+<status status="PASS" start="2026-01-14T20:54:40.117317" elapsed="0.122008"/>
+</for>
+<return>
+<value>${test_data}</value>
+<status status="PASS" start="2026-01-14T20:54:40.239362" elapsed="0.000035"/>
+</return>
+<msg time="2026-01-14T20:54:40.239538" level="INFO">${test_data} = [{'cin': 'U72900KA2019PTC129553', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}, {'cin': 'U72890KA2012PTC349541', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''},...</msg>
+<var>${test_data}</var>
+<arg>${file_path}</arg>
+<status status="PASS" start="2026-01-14T20:54:40.115282" elapsed="0.124272"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-01-14T20:54:40.239948" level="INFO">${row} = {'cin': 'U72900KA2019PTC129553', 'client_ref_num': 'Apple', 'company_id': '', 'test_scenario': ''}</msg>
+<var>${row}</var>
+<arg>${test_data}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.239821" elapsed="0.000144"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.241490" level="INFO">${body} = {'cin': 'U72900KA2019PTC129553', 'client_ref_num': 'Apple'}</msg>
+<var>${body}</var>
+<arg>cin=${row['cin']}</arg>
+<arg>client_ref_num=${row['client_ref_num']}</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.240348" elapsed="0.001200"/>
+</kw>
+<kw name="Send Post Request And Validate">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2026-01-14T20:54:40.243391" level="INFO">Creating Session using : alias=mysession, url=https://svcstage.digitap.work, headers={},                     cookies={}, auth=&lt;requests.auth.HTTPBasicAuth object at 0x00000165A8B9A510&gt;, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<arg>mysession</arg>
+<arg>${base_url}</arg>
+<arg>auth=${auth}</arg>
+<arg>verify=true</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2026-01-14T20:54:40.243027" elapsed="0.000650"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2026-01-14T20:54:40.244121" level="INFO">${header} = {'Content-Type': 'application/json'}</msg>
+<var>${header}</var>
+<arg>Content-Type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.243894" elapsed="0.000261"/>
+</kw>
+<kw name="Post Request" owner="RequestsLibrary">
+<msg time="2026-01-14T20:54:40.244331" level="WARN">Keyword 'RequestsLibrary.Post Request' is deprecated. Please use `POST On Session` instead.</msg>
+<msg time="2026-01-14T20:55:13.426211" level="INFO">POST Request : url=https://svcstage.digitap.work/cv/v1/coi_advanced 
+ path_url=/cv/v1/coi_advanced 
+ headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '59', 'Authorization': 'Basic NTI2NTI2MzE1MDQ3OkJJOVdudU9jeExCS0tnUEVCNHF0TGRBREdjOVBIMGQ1'} 
+ body=b'{"cin": "U72900KA2019PTC129553", "client_ref_num": "Apple"}' 
+ </msg>
+<msg time="2026-01-14T20:55:13.426423" level="INFO">POST Response : url=https://svcstage.digitap.work/cv/v1/coi_advanced 
+ status=200, reason=OK 
+ headers={'Date': 'Wed, 14 Jan 2026 15:25:13 GMT', 'Content-Type': 'application/json', 'Content-Length': '4094', 'Connection': 'keep-alive'} 
+ body={"http_response_code": 200, "request_id": "256cd8d0-f15d-11f0-b89e-dd547f83ba98", "client_ref_num": "Apple", "result_code": 101, "result": {"data": {"company_master_data": {"cin": "U72900KA2019PTC129553", "company_id": "", "company_llp_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED", "roc_code": "ROC Bangalore", "registration_number": "129553", "company_category": "Company limited by shares", "company_subcategory": "Non-government company", "class_of_company": "Private", "authorised_capital": "1000000", "paid_up_capital": "100000", "number_of_members": "", "date_of_incorporation": "13/11/2019", "registered_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar, athalli, Bangalore, Bangalore, Karnataka, India, 560037", "email_id": "knageen@gmail.com", "company_registered_state": "Karnataka", "company_registered_city": "Bangalore", "company_registered_pin_code": "560037", "active_compliance": "", "whether_listed_or_not": "Unlisted", "date_of_last_agm": "27/09/2025", "date_of_balance_sheet": "31/03/2025", "company_status": "Active", "status_under_CIRP": ""}, "charges": [{"srn": "", "charge_id": "", "charge_holder_name": "", "charge_amount": "", "date_of_creation": "", "date_of_modification": "", "date_of_satisfaction": "", "address": "", "status": "", "charge_reg_by_other_entity": "", "assets_under_charges": "", "asset_holder_name": ""}], "directors_signatory_details": {"present_director_details": [{"din_pan": "07784146", "name": "NAGEEN KOMMU", "date_of_appointment": "13/11/2019", "pan": "*****5404B", "mobile_number": "XXXXXXX427", "educational_qualification": "GRAD", "email_address": "XXXXXen@gmail.com", "nationality": "Indian", "gender": "Male", "signatory_association_status": "Active", "end_date": ""}, {"din_pan": "09752932", "name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU", "date_of_appointment": "01/10/2022", "pan": "*****7533P", "mobile_number": "XXXXXXX475", "educational_qualification": "", "email_address": "XXXXXharaprasad@gmail.com", "nationality": "Indian", "gender": "Male", "signatory_association_status": "", "end_date": ""}], "past_director_details": [{"din_pan": "09053516", "name": "ANKOOR DAS", "date_of_appointment": "", "pan": "*****2603F", "mobile_number": "", "educational_qualification": "", "email_address": "", "nationality": "", "gender": "", "signatory_association_status": "", "end_date": ""}, {"din_pan": "08609632", "name": "HIMANSHU BHALOTIA", "date_of_appointment": "13/11/2019", "pan": "*****2658A", "mobile_number": "XXXXXXX282", "educational_qualification": "GRAD", "email_address": "XXXXXshubhalotia@gmail.com", "nationality": "Indian", "gender": "Male", "signatory_association_status": "Active", "end_date": ""}]}, "potential_related_party_details": {"related_party": [{"company_cin": "U72200KA2020PTC132270", "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED", "date_of_incorporation": "03/02/2020", "din": "07784146"}, {"company_cin": "U74999AP2017PTC105830", "company_name": "DRIBLING SPORTS PRIVATE LIMITED", "date_of_incorporation": "15/05/2017", "din": "07784146"}]}, "all_directorship_details": [[{"director_name": "NAGEEN KOMMU", "director_din": "07784146", "director_designation": "Director", "director_date_of_appointment": "13/11/2019", "directorship": [{"company_cin": "U72200KA2020PTC132270", "company_name": "FINVAULT ACCOUNT AGGREGATOR SERVICES PRIVATE LIMITED", "date_of_incorporation": "03/02/2020"}, {"company_cin": "U72900KA2019PTC129553", "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED", "date_of_incorporation": "13/11/2019"}, {"company_cin": "U74999AP2017PTC105830", "company_name": "DRIBLING SPORTS PRIVATE LIMITED", "date_of_incorporation": "15/05/2017"}]}, {"director_name": "GIRIDHARAPRASAD PURUSHOTHAMAN MALUVADU", "director_din": "09752932", "director_designation": "Director", "director_date_of_appointment": "01/10/2022", "directorship": [{"company_cin": "U72900KA2019PTC129553", "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED", "date_of_incorporation": "01/10/2022"}]}]]}, "status": 200}} 
+ </msg>
+<msg time="2026-01-14T20:55:13.426689" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>mysession</arg>
+<arg>${endpoint_url}</arg>
+<arg>json=${body}</arg>
+<arg>headers=${header}</arg>
+<doc>*DEPRECATED* Please use `POST On Session` instead.</doc>
+<status status="PASS" start="2026-01-14T20:54:40.244296" elapsed="33.182439"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${body}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.427010" elapsed="0.000883"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${response.status_code}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.428163" elapsed="0.001113"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${response.content}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.429499" elapsed="0.001243"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${EMPTY}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.430962" elapsed="0.000792"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${EMPTY}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.431932" elapsed="0.000714"/>
+</kw>
+<kw name="Convert To Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.433674" level="INFO">${actual_json} = {'http_response_code': 200, 'request_id': '256cd8d0-f15d-11f0-b89e-dd547f83ba98', 'client_ref_num': 'Apple', 'result_code': 101, 'result': {'data': {'company_master_data': {'cin': 'U72900KA2019PTC1295...</msg>
+<var>${actual_json}</var>
+<arg>${response.json()}</arg>
+<doc>Converts the given ``item`` to a Python ``dict`` type.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.432806" elapsed="0.000908"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${actual_json}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.433935" elapsed="0.000606"/>
+</kw>
+<kw name="Load Json From File" owner="JSONLibrary">
+<msg time="2026-01-14T20:55:13.438517" level="INFO">${expected_json} = {'case1': {'http_response_code': 200, 'request_id': 'eb87bae8-f13f-11f0-9411-8dd23fb25575', 'client_ref_num': 'Apple', 'result_code': 101, 'result': {'data': {'company_master_data': {'cin': 'U72900KA2...</msg>
+<var>${expected_json}</var>
+<arg>${expected_schema_file}</arg>
+<doc>Load JSON from file.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.434707" elapsed="0.003898"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.439147" level="INFO">${expected_case_json} = {'http_response_code': 200, 'request_id': 'eb87bae8-f13f-11f0-9411-8dd23fb25575', 'client_ref_num': 'Apple', 'result_code': 101, 'result': {'data': {'company_master_data': {'cin': 'U72900KA2019PTC1295...</msg>
+<var>${expected_case_json}</var>
+<arg>${expected_json}</arg>
+<arg>${case_key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.438793" elapsed="0.000388"/>
+</kw>
+<kw name="Validate JSON Response">
+<kw name="Get Dictionary Keys" owner="Collections">
+<msg time="2026-01-14T20:55:13.440500" level="INFO">${expected_keys} = ['client_ref_num', 'http_response_code', 'request_id', 'result', 'result_code']</msg>
+<var>${expected_keys}</var>
+<arg>${expected_json}</arg>
+<doc>Returns keys of the given ``dictionary`` as a list.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.440285" elapsed="0.000252"/>
+</kw>
+<kw name="Get Dictionary Keys" owner="Collections">
+<msg time="2026-01-14T20:55:13.440842" level="INFO">${actual_keys} = ['client_ref_num', 'http_response_code', 'request_id', 'result', 'result_code']</msg>
+<var>${actual_keys}</var>
+<arg>${actual_json}</arg>
+<doc>Returns keys of the given ``dictionary`` as a list.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.440664" elapsed="0.000208"/>
+</kw>
+<kw name="Remove Values From List" owner="Collections">
+<arg>${actual_keys}</arg>
+<arg>request_id</arg>
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.440987" elapsed="0.000135"/>
+</kw>
+<kw name="Remove Values From List" owner="Collections">
+<arg>${expected_keys}</arg>
+<arg>request_id</arg>
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.441242" elapsed="0.000134"/>
+</kw>
+<kw name="Copy List" owner="Collections">
+<msg time="2026-01-14T20:55:13.441652" level="INFO">${missing_keys} = ['client_ref_num', 'http_response_code', 'result', 'result_code']</msg>
+<var>${missing_keys}</var>
+<arg>${expected_keys}</arg>
+<doc>Returns a copy of the given list.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.441486" elapsed="0.000195"/>
+</kw>
+<kw name="Remove Values From List" owner="Collections">
+<arg>${missing_keys}</arg>
+<arg>@{actual_keys}</arg>
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.441795" elapsed="0.000275"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${missing_keys}</arg>
+<arg>Fail</arg>
+<arg>Missing keys in response: ${missing_keys}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.442228" elapsed="0.000134"/>
+</kw>
+<kw name="Copy List" owner="Collections">
+<msg time="2026-01-14T20:55:13.442660" level="INFO">${extra_keys} = ['client_ref_num', 'http_response_code', 'result', 'result_code']</msg>
+<var>${extra_keys}</var>
+<arg>${actual_keys}</arg>
+<doc>Returns a copy of the given list.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.442483" elapsed="0.000207"/>
+</kw>
+<kw name="Remove Values From List" owner="Collections">
+<arg>${extra_keys}</arg>
+<arg>@{expected_keys}</arg>
+<doc>Removes all occurrences of given ``values`` from ``list``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.442802" elapsed="0.000160"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<arg>${extra_keys}</arg>
+<arg>Fail</arg>
+<arg>Unexpected extra keys in response: ${extra_keys}</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.443087" elapsed="0.000125"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.443797" level="INFO">${expected_value} = Apple</msg>
+<var>${expected_value}</var>
+<arg>${expected_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.443592" elapsed="0.000241"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.444160" level="INFO">${actual_value} = Apple</msg>
+<var>${actual_value}</var>
+<arg>${actual_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.443954" elapsed="0.000238"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${actual_value}</arg>
+<arg>${expected_value}</arg>
+<arg>msg=Mismatch for key ${key}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.444321" elapsed="0.000345"/>
+</kw>
+<var name="${key}">client_ref_num</var>
+<status status="PASS" start="2026-01-14T20:55:13.443491" elapsed="0.001229"/>
+</iter>
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.445202" level="INFO">${expected_value} = 200</msg>
+<var>${expected_value}</var>
+<arg>${expected_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.444964" elapsed="0.000272"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.445608" level="INFO">${actual_value} = 200</msg>
+<var>${actual_value}</var>
+<arg>${actual_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.445370" elapsed="0.000273"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${actual_value}</arg>
+<arg>${expected_value}</arg>
+<arg>msg=Mismatch for key ${key}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.445778" elapsed="0.000325"/>
+</kw>
+<var name="${key}">http_response_code</var>
+<status status="PASS" start="2026-01-14T20:55:13.444856" elapsed="0.001302"/>
+</iter>
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.446756" level="INFO">${expected_value} = {'data': {'company_master_data': {'cin': 'U72900KA2019PTC129553', 'company_id': '', 'company_llp_name': 'DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED', 'roc_code': 'ROC Bangalore', 'registration_nu...</msg>
+<var>${expected_value}</var>
+<arg>${expected_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.446396" elapsed="0.000400"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.447287" level="INFO">${actual_value} = {'data': {'company_master_data': {'cin': 'U72900KA2019PTC129553', 'company_id': '', 'company_llp_name': 'DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED', 'roc_code': 'ROC Bangalore', 'registration_nu...</msg>
+<var>${actual_value}</var>
+<arg>${actual_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.446948" elapsed="0.000376"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${actual_value}</arg>
+<arg>${expected_value}</arg>
+<arg>msg=Mismatch for key ${key}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.447693" elapsed="0.000527"/>
+</kw>
+<var name="${key}">result</var>
+<status status="PASS" start="2026-01-14T20:55:13.446285" elapsed="0.001997"/>
+</iter>
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.448766" level="INFO">${expected_value} = 101</msg>
+<var>${expected_value}</var>
+<arg>${expected_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.448530" elapsed="0.000269"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-01-14T20:55:13.449145" level="INFO">${actual_value} = 101</msg>
+<var>${actual_value}</var>
+<arg>${actual_json}</arg>
+<arg>${key}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.448933" elapsed="0.000244"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${actual_value}</arg>
+<arg>${expected_value}</arg>
+<arg>msg=Mismatch for key ${key}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.449321" elapsed="0.000340"/>
+</kw>
+<var name="${key}">result_code</var>
+<status status="PASS" start="2026-01-14T20:55:13.448417" elapsed="0.001304"/>
+</iter>
+<var>${key}</var>
+<value>@{expected_keys}</value>
+<status status="PASS" start="2026-01-14T20:55:13.443294" elapsed="0.006470"/>
+</for>
+<arg>${expected_case_json}</arg>
+<arg>${actual_json}</arg>
+<status status="PASS" start="2026-01-14T20:55:13.439820" elapsed="0.010048"/>
+</kw>
+<arg>${auth}</arg>
+<arg>${body}</arg>
+<arg>${json_schema_file}</arg>
+<arg>case1</arg>
+<status status="PASS" start="2026-01-14T20:54:40.242452" elapsed="33.207488"/>
+</kw>
+<status status="PASS" start="2026-01-14T20:54:40.112678" elapsed="33.337851"/>
+</test>
+<kw name="Disconnect From Database" owner="DatabaseLibrary" type="TEARDOWN">
+<doc>Disconnects from the database.</doc>
+<status status="PASS" start="2026-01-14T20:55:13.452366" elapsed="0.000703"/>
+</kw>
+<status status="PASS" start="2026-01-14T20:54:39.420581" elapsed="34.032582"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="COI-advanced" id="s1" pass="1" fail="0" skip="0">COI-advanced</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-01-14T20:54:39.407757" level="WARN">Error in file 'C:\Users\Aishwarya\PycharmProjects\APIAutomation\Json_schema\COI services\COI-advanced.robot' on line 41: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2026-01-14T20:54:40.244331" level="WARN">Keyword 'RequestsLibrary.Post Request' is deprecated. Please use `POST On Session` instead.</msg>
+</errors>
+</robot>

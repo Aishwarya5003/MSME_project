@@ -1,0 +1,2965 @@
+{
+    "case1": {
+        "http_response_code": 200,
+        "request_id": "9d4297a7-aca9-11ef-92d4-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+   },
+    "case2": {
+        "http_response_code": 200,
+        "request_id": "c315eb2f-acab-11ef-9c36-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case3": {
+        "http_response_code": 200,
+        "request_id": "37b32de3-acac-11ef-b427-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+    "case4":{
+        "http_response_code": 200,
+        "request_id": "91f0fef7-acac-11ef-a899-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 10,
+        "result": [
+            {
+                "company_name": "QUESS CORP LIMITED",
+                "cin": "L74140KA2007PLC043909",
+                "state": "Karnataka",
+                "status": "Active"
+            },
+            {
+                "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+                "cin": "U72400MH1990PTC057492",
+                "state": "Maharashtra",
+                "status": "Active"
+            },
+            {
+                "company_name": "LARSEN AND TOUBRO LIMITED",
+                "cin": "L99999MH1946PLC004768",
+                "state": "Maharashtra",
+                "status": "Active"
+            },
+            {
+                "company_name": "TEAMLEASE SERVICES LIMITED",
+                "cin": "L74140KA2000PLC118395",
+                "state": "Karnataka",
+                "status": "Active"
+            },
+            {
+                "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+                "cin": "L22210MH1995PLC084781",
+                "state": "Maharashtra",
+                "status": "Active"
+            },
+            {
+                "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+                "cin": "U72300TN1994PTC026590",
+                "state": "Tamil Nadu",
+                "status": "Active"
+            },
+            {
+                "company_name": "INFOSYS LIMITED",
+                "cin": "L85110KA1981PLC013115",
+                "state": "Karnataka",
+                "status": "Active"
+            },
+            {
+                "company_name": "WIPRO LIMITED",
+                "cin": "L32102KA1945PLC020800",
+                "state": "Karnataka",
+                "status": "Active"
+            },
+            {
+                "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+                "cin": "U72501GJ2019PLC108755",
+                "state": "Gujarat",
+                "status": "Active"
+            },
+            {
+                "company_name": "SIS LIMITED",
+                "cin": "L75230BR1985PLC002083",
+                "state": "Bihar",
+                "status": "Active"
+            }
+        ]
+    },
+    "case5": {
+        "http_response_code": 200,
+        "request_id": "bb1d3037-acac-11ef-81f1-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case6": {
+        "http_response_code": 200,
+        "request_id": "fe620419-acac-11ef-b12c-35dec0e0a904",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case7":{
+        "http_response_code": 200,
+        "request_id": "13045524-acae-11ef-8a8c-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case8":{
+        "http_response_code": 200,
+        "request_id": "71da8260-acae-11ef-8061-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case9": {
+        "http_response_code": 200,
+        "request_id": "058b0079-acaf-11ef-b801-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+         "result_count": 3,
+    "result": [
+        {
+            "company_name": "ASDF SOCIAL FOUNDATION",
+            "company_id": "U88900RJ2024NPL093665",
+            "state": "Rajasthan",
+            "status": "Active"
+        },
+        {
+            "company_name": "ASDF EVENT SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U74990KA2021PTC153135",
+            "state": "Karnataka",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "ASDFLO INNOVATIONS (OPC) PRIVATE LIMITED",
+            "company_id": "U88900TS2025OPC200365",
+            "state": "Telangana",
+            "status": "Active"
+        }
+    ]
+},
+    "case10": {
+        "http_response_code": 200,
+        "request_id": "602744b9-acaf-11ef-9bdd-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 103,
+        "message": "No record found for the given input"
+    },
+    "case11":{
+        "http_response_code": 200,
+        "request_id": "a720eb32-acaf-11ef-bc5c-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 2,
+        "result": [
+            {
+                "company_name": "XXXXXXXXXXXXXXXXXX",
+                "company_id": "U45202PB1985PTC008261",
+                "state": "Punjab",
+                "status": "Active"
+            },
+            {
+                "company_name": "XXXXXXXXXXXXXXXXXXXXXX",
+                "company_id": "U45202PB1985PTC008354",
+                "state": "Punjab",
+                "status": "Active"
+            }
+        ]
+    },
+    "case12": {
+        "http_response_code": 200,
+        "request_id": "e42fc6e5-acaf-11ef-947f-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "YYYYYYYYYYYYYY AND PRESSING COMPANY LIMITED",
+                "company_id": "U99999MH1918PTC000150",
+                "state": "Maharashtra",
+                "status": "Inactive for e-filing"
+            }
+        ]
+    },
+    "case13":{
+        "http_response_code": 400,
+        "request_id": "f892319a-acaf-11ef-b843-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "error": "One or more parameters format is wrong"
+    },
+    "case14":{
+    "http_response_code": 200,
+    "request_id": "fbb95afe-ba19-11f0-a863-7719d2a8e845",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "VEN CONSTRUCTIONS LLP",
+            "company_id": "AAV-5373",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN AND VARN CAFERY LLP",
+            "company_id": "ACD-0423",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CONVAVE PRIVATE LTD",
+            "company_id": "U74899DL1980PTC010266",
+            "state": "Delhi",
+            "status": "Under process of striking off"
+        },
+        {
+            "company_name": "VEN DOADS PRIVATE LIMITED",
+            "company_id": "U70109TN2021PTC144969",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VEN BIOTECH PRIVATE LIMITED",
+            "company_id": "U24232TN2009PTC071115",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CABLE SERVICES PRIVATE LIMITED",
+            "company_id": "U74900WB2013PTC193332",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VEN COZ CHIT FUNDS PRIVATE LIMITED",
+            "company_id": "U65992TG2009PTC062799",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN AND WILLS TAVERN PRIVATE LIMITED",
+            "company_id": "U74999TN2017PTC117407",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CONSULTING INDIA PRIVATE LIMITED",
+            "company_id": "U74140KA2010PTC053967",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN DRILLING ADDITIVES PRIVATE LIMITED",
+            "company_id": "U24111TG2001PTC038119",
+            "state": "Telangana",
+            "status": "Active"
+        }
+    ]
+},
+    "case15":{
+        "http_response_code": 200,
+        "request_id": "24c662a3-acb0-11ef-bb18-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+    "case16": {
+        "http_response_code": 200,
+        "request_id": "38c7449e-acb0-11ef-a158-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 10,
+    "result": [
+        {
+            "company_name": "DIGI- SCALE PVT LTD",
+            "company_id": "U31909WB1985PTC039701",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "DIGI-EGO LLP",
+            "company_id": "AAL-4932",
+            "state": "Karnataka",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "DIGI-DOCORA LLP",
+            "company_id": "ACR-9098",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "DIGI-MARKETERZ LLP",
+            "company_id": "AAL-7576",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "DIGI-SAM FOUNDATION",
+            "company_id": "U88900UP2025NPL224545",
+            "state": "Uttar Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "DIGI-COM SYSTEMS LTD",
+            "company_id": "U72100RJ1985PLC003385",
+            "state": "Rajasthan",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "DIGI-ANTS DIGITAL WORLD LLP",
+            "company_id": "AAZ-9078",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "DIGI-ED BETA PRIVATE LIMITED",
+            "company_id": "U80903DL2012PTC238957",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "DIGI-FINMART PRIVATE LIMITED",
+            "company_id": "U66190GJ2023PTC142646",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "Digi-Infy Media Solutions LLP",
+            "company_id": "ABB-9020",
+            "state": "Madhya Pradesh",
+            "status": "Active"
+        }
+    ]
+},
+    "case17":{
+        "http_response_code": 400,
+        "request_id": "602e0c65-acb0-11ef-9c76-dda06c5509c6",
+        "client_ref_num": "Walnut",
+        "error": "One or more parameters format is wrong"
+    },
+    "case18": {
+      "http_response_code": 400,
+      "client_ref_num": "Walnut",
+      "error": "One or more parameters format is wrong"
+  },
+    "case19":{
+        "http_response_code": 200,
+        "request_id": "f18a514a-acb2-11ef-997c-594c8152984c",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 10,
+    "result": [
+        {
+            "company_name": "VEN CONSTRUCTIONS LLP",
+            "company_id": "AAV-5373",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN AND VARN CAFERY LLP",
+            "company_id": "ACD-0423",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CONVAVE PRIVATE LTD",
+            "company_id": "U74899DL1980PTC010266",
+            "state": "Delhi",
+            "status": "Under process of striking off"
+        },
+        {
+            "company_name": "VEN DOADS PRIVATE LIMITED",
+            "company_id": "U70109TN2021PTC144969",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VEN BIOTECH PRIVATE LIMITED",
+            "company_id": "U24232TN2009PTC071115",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CABLE SERVICES PRIVATE LIMITED",
+            "company_id": "U74900WB2013PTC193332",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VEN COZ CHIT FUNDS PRIVATE LIMITED",
+            "company_id": "U65992TG2009PTC062799",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN AND WILLS TAVERN PRIVATE LIMITED",
+            "company_id": "U74999TN2017PTC117407",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN CONSULTING INDIA PRIVATE LIMITED",
+            "company_id": "U74140KA2010PTC053967",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "VEN DRILLING ADDITIVES PRIVATE LIMITED",
+            "company_id": "U24111TG2001PTC038119",
+            "state": "Telangana",
+            "status": "Active"
+        }
+    ]
+},
+    "case20":{
+        "http_response_code": 400,
+        "request_id": "11abf466-acb3-11ef-94d1-594c8152984c",
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case21":{
+        "http_response_code": 200,
+        "request_id": "e0e7c33f-ad7a-11ef-b952-39f270bfd89e",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+           "result_count": 10,
+    "result": [
+        {
+            "company_name": "AIR ASTANA",
+            "company_id": "F06352",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "AIR ARABIA PJSC",
+            "company_id": "F04131",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "AIR AGRO FOODS LLP",
+            "company_id": "AAD-4657",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "AIR ASIATIC LIMITED",
+            "company_id": "U63033TN1990PLC018613",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "AIR AUTOMOBILES LLP",
+            "company_id": "AAR-5156",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "Air Bliss Solutions LLP",
+            "company_id": "ACA-2548",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "Air Arabia Abu Dhabi LLC",
+            "company_id": "F06823",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "AIR AXOM PRIVATE LIMITED",
+            "company_id": "U62200AS2016PTC012340",
+            "state": "Assam",
+            "status": "Active"
+        },
+        {
+            "company_name": "AIR BLUE PRIVATE LIMITED",
+            "company_id": "U99999PY1999PTC001473",
+            "state": "Pondicherry",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "AIR BOOKINGS TRAVELS LLP",
+            "company_id": "AAO-3918",
+            "state": "Maharashtra",
+            "status": "Active"
+        }
+    ]
+},
+    "case22": {
+        "http_response_code": 400,
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case23": {
+        "http_response_code": 400,
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case24": {
+        "http_response_code": 400,
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case25": {
+        "http_response_code": 400,
+        "request_id": "8bd18467-acb5-11ef-baa3-938ab0a5adb8",
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case26":{
+        "http_response_code": 400,
+        "request_id": "8bd18467-acb5-11ef-baa3-938ab0a5adb8",
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case27": {
+        "http_response_code": 200,
+        "request_id": "349c6eae-ae12-11ef-bf3c-3bdfba6650a2",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 50,
+    "result": [
+        {
+            "company_name": "VENUS EDGE LLP",
+            "company_id": "ACP-3598",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS GROUP INC",
+            "company_id": "F03761",
+            "state": "Gujarat",
+            "status": "Inactive for e-filing"
+        },
+        {
+            "company_name": "VENUS HABITAT LLP",
+            "company_id": "AAG-2394",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFOTEL LLP",
+            "company_id": "AAN-1096",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DEALCOMM LLP",
+            "company_id": "AAP-1940",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FORGE PVTLTD",
+            "company_id": "U99999DL1997PTC084733",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS LANDBASE LLP",
+            "company_id": "ACO-7348",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS AESTHETIC LLP",
+            "company_id": "AAD-4425",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS CLEARSHIP LLP",
+            "company_id": "ACH-0463",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ENGINEERS LLP",
+            "company_id": "AAI-9723",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS EN SANTE' LLP",
+            "company_id": "AAJ-6661",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FURNITURE LLP",
+            "company_id": "ACR-3116",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRAREAL LLP",
+            "company_id": "AAF-5826",
+            "state": "Madhya Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LANDMARKS LLP",
+            "company_id": "ACB-7705",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LIFESPACE LLP",
+            "company_id": "AAI-0156",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ALLOYS PVT LTD",
+            "company_id": "U27201MP1992PTC006983",
+            "state": "Madhya Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BARTER PVT LTD",
+            "company_id": "U51109WB1994PTC062753",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS COLONIZERS LLP",
+            "company_id": "AAA-8200",
+            "state": "Rajasthan",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ENVIROTECH LLP",
+            "company_id": "ACO-3080",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRASPACE LLP",
+            "company_id": "AAR-7871",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS JEWEL EXIM LLP",
+            "company_id": "AAO-7152",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BIOTECH LIMITED",
+            "company_id": "U99999MH1997PLC105393",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS CEMENTS LIMITED",
+            "company_id": "U51109UP1982PLC005575",
+            "state": "Uttar Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DEALING PVT LTD",
+            "company_id": "U51109WB1996PTC078581",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DIAGNOSTICS LTD",
+            "company_id": "U85195KL1993PLC007306",
+            "state": "Kerala",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FABRICS PVT LTD",
+            "company_id": "U17120MH1989PTC052100",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FINTECH LIMITED",
+            "company_id": "U65923DL1994PLC060333",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GREEN BUILD LLP",
+            "company_id": "ABZ-3791",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS HOUSING PVT LTD",
+            "company_id": "U70101TN1990PTC018718",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS KNITFAB LIMITED",
+            "company_id": "U18109DL2012PLC231519",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AGENCIES PVT LTD",
+            "company_id": "U21019WB1980PTC032613",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AGENCIES PVT LTD",
+            "company_id": "U51109MH1987PTC043263",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS CABLES PVT. LTD.",
+            "company_id": "U31300HR1989PTC030773",
+            "state": "Haryana",
+            "status": "Under process of striking off"
+        },
+        {
+            "company_name": "VENUS CIRAMICS PVT LTD",
+            "company_id": "U26933MP1988PTC004322",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FINTABAC LIMITED",
+            "company_id": "U51900MH1985PLC035418",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FOOTARTS LIMITED",
+            "company_id": "U19201RJ2006PLC022333",
+            "state": "Rajasthan",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS GRANITES PVT LTD",
+            "company_id": "U14299TN1990PTC018826",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS HOSPITAL PVT LTD",
+            "company_id": "U85110AS1995PTC004352",
+            "state": "Assam",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS INFOTECH PVT LTD",
+            "company_id": "U30006MP1996PTC010679",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS CYBERTECH LIMITED",
+            "company_id": "U72200TG1998PLC030182",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRA ESTATES LLP",
+            "company_id": "AAN-0241",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS APPLIANCES PVT LTD",
+            "company_id": "U29309HR1983PTC016906",
+            "state": "Haryana",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AQUA FOODS LIMITED",
+            "company_id": "U05002AP2009PLC066325",
+            "state": "Andhra Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BUSINESSES PVT LTD",
+            "company_id": "U07414MP1995PTC010245",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GRANITES PVT. LTD.",
+            "company_id": "U14101GJ1991PTC016263",
+            "state": "Gujarat",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GREENERIES LIMITED",
+            "company_id": "U00003BR1997PLC007731",
+            "state": "Bihar",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRA REALTORS LLP",
+            "company_id": "AAC-5843",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INSULATORS PVT LTD",
+            "company_id": "U32104PN1983PTC030304",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LIFESTYLES LIMITED",
+            "company_id": "U17111GJ2004PLC043911",
+            "state": "Gujarat",
+            "status": "Under Liquidation"
+        },
+        {
+            "company_name": "VENUS ADS PRIVATE LIMITED",
+            "company_id": "U74300RJ2011PTC037485",
+            "state": "Rajasthan",
+            "status": "Active"
+        }
+    ]
+},
+    "case28": {
+        "http_response_code": 400,
+        "request_id": "ebb05916-acb7-11ef-90a4-a50415b53154",
+        "client_ref_num": "Walnut",
+        "error": "The `output_count` key value should be a multiple of 10 and must not exceed 50"
+    },
+    "case29": {
+        "http_response_code": 200,
+        "request_id": "58ec6c9e-ae11-11ef-9003-3bdfba6650a2",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 50,
+    "result": [
+        {
+            "company_name": "VENUS EDGE LLP",
+            "company_id": "ACP-3598",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS GROUP INC",
+            "company_id": "F03761",
+            "state": "Gujarat",
+            "status": "Inactive for e-filing"
+        },
+        {
+            "company_name": "VENUS HABITAT LLP",
+            "company_id": "AAG-2394",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFOTEL LLP",
+            "company_id": "AAN-1096",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DEALCOMM LLP",
+            "company_id": "AAP-1940",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FORGE PVTLTD",
+            "company_id": "U99999DL1997PTC084733",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS LANDBASE LLP",
+            "company_id": "ACO-7348",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS AESTHETIC LLP",
+            "company_id": "AAD-4425",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS CLEARSHIP LLP",
+            "company_id": "ACH-0463",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ENGINEERS LLP",
+            "company_id": "AAI-9723",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS EN SANTE' LLP",
+            "company_id": "AAJ-6661",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FURNITURE LLP",
+            "company_id": "ACR-3116",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRAREAL LLP",
+            "company_id": "AAF-5826",
+            "state": "Madhya Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LANDMARKS LLP",
+            "company_id": "ACB-7705",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LIFESPACE LLP",
+            "company_id": "AAI-0156",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ALLOYS PVT LTD",
+            "company_id": "U27201MP1992PTC006983",
+            "state": "Madhya Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BARTER PVT LTD",
+            "company_id": "U51109WB1994PTC062753",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS COLONIZERS LLP",
+            "company_id": "AAA-8200",
+            "state": "Rajasthan",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS ENVIROTECH LLP",
+            "company_id": "ACO-3080",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRASPACE LLP",
+            "company_id": "AAR-7871",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS JEWEL EXIM LLP",
+            "company_id": "AAO-7152",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BIOTECH LIMITED",
+            "company_id": "U99999MH1997PLC105393",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS CEMENTS LIMITED",
+            "company_id": "U51109UP1982PLC005575",
+            "state": "Uttar Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DEALING PVT LTD",
+            "company_id": "U51109WB1996PTC078581",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS DIAGNOSTICS LTD",
+            "company_id": "U85195KL1993PLC007306",
+            "state": "Kerala",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FABRICS PVT LTD",
+            "company_id": "U17120MH1989PTC052100",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FINTECH LIMITED",
+            "company_id": "U65923DL1994PLC060333",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GREEN BUILD LLP",
+            "company_id": "ABZ-3791",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS HOUSING PVT LTD",
+            "company_id": "U70101TN1990PTC018718",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS KNITFAB LIMITED",
+            "company_id": "U18109DL2012PLC231519",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AGENCIES PVT LTD",
+            "company_id": "U21019WB1980PTC032613",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AGENCIES PVT LTD",
+            "company_id": "U51109MH1987PTC043263",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS CABLES PVT. LTD.",
+            "company_id": "U31300HR1989PTC030773",
+            "state": "Haryana",
+            "status": "Under process of striking off"
+        },
+        {
+            "company_name": "VENUS CIRAMICS PVT LTD",
+            "company_id": "U26933MP1988PTC004322",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS FINTABAC LIMITED",
+            "company_id": "U51900MH1985PLC035418",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS FOOTARTS LIMITED",
+            "company_id": "U19201RJ2006PLC022333",
+            "state": "Rajasthan",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS GRANITES PVT LTD",
+            "company_id": "U14299TN1990PTC018826",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS HOSPITAL PVT LTD",
+            "company_id": "U85110AS1995PTC004352",
+            "state": "Assam",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS INFOTECH PVT LTD",
+            "company_id": "U30006MP1996PTC010679",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS CYBERTECH LIMITED",
+            "company_id": "U72200TG1998PLC030182",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRA ESTATES LLP",
+            "company_id": "AAN-0241",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS APPLIANCES PVT LTD",
+            "company_id": "U29309HR1983PTC016906",
+            "state": "Haryana",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS AQUA FOODS LIMITED",
+            "company_id": "U05002AP2009PLC066325",
+            "state": "Andhra Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS BUSINESSES PVT LTD",
+            "company_id": "U07414MP1995PTC010245",
+            "state": "Madhya Pradesh",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GRANITES PVT. LTD.",
+            "company_id": "U14101GJ1991PTC016263",
+            "state": "Gujarat",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "VENUS GREENERIES LIMITED",
+            "company_id": "U00003BR1997PLC007731",
+            "state": "Bihar",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INFRA REALTORS LLP",
+            "company_id": "AAC-5843",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS INSULATORS PVT LTD",
+            "company_id": "U32104PN1983PTC030304",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "VENUS LIFESTYLES LIMITED",
+            "company_id": "U17111GJ2004PLC043911",
+            "state": "Gujarat",
+            "status": "Under Liquidation"
+        },
+        {
+            "company_name": "VENUS ADS PRIVATE LIMITED",
+            "company_id": "U74300RJ2011PTC037485",
+            "state": "Rajasthan",
+            "status": "Active"
+        }
+    ]
+},
+    "case30": {
+        "http_response_code": 200,
+        "request_id": "e4a7f9c0-acb9-11ef-a47c-e1aaf381657d",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+    "case31":{
+        "http_response_code": 400,
+        "request_id": "8c98e6b0-acba-11ef-8cdd-e1aaf381657d",
+        "client_ref_num": "Walnut!@#",
+        "error": "One or more parameters format is wrong"
+    },
+    "case32": {
+      "http_response_code": 400,
+      "request_id": "b107c260-181f-4017-87e7-992286b98f95",
+      "client_ref_num": "",
+      "error": "One or more parameters format is wrong"
+  },
+    "case33": {
+      "http_response_code": 400,
+      "request_id": "b107c260-181f-4017-87e7-992286b98f95",
+      "client_ref_num": " ",
+      "error": "One or more parameters format is wrong"
+  },
+    "case34": {"http_response_code": 400,
+      "request_id": "b107c260-181f-4017-87e7-992286b98f95",
+      "client_ref_num": " walnut  ",
+      "error": "One or more parameters format is wrong"
+  },
+    "case35":{
+        "http_response_code": 200,
+        "request_id": "090cfd22-acc1-11ef-9529-c1f21ea089bf",
+        "client_ref_num": "test_-",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+    "case36": {
+        "http_response_code": 400,
+        "request_id": "49a55a47-acc1-11ef-8ad8-c1f21ea089bf",
+        "client_ref_num": "test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0test0111",
+        "error": "One or more parameters format is wrong"
+    },
+    "case37":{
+        "http_response_code": 200,
+        "request_id": "67a9623c-acc1-11ef-9ec7-c1f21ea089bf",
+        "client_ref_num": "test0test0test0test0test0test0test0test0test50000000000000000000000000000000001234567890123456782345",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+    "case38": {
+        "http_response_code": 400,
+        "request_id": "b2bd562d-acc1-11ef-8f15-c1f21ea089bf",
+        "client_ref_num": "",
+        "error": "One or more parameters format is wrong"
+    },
+    "case39": {
+        "http_response_code": 200,
+        "request_id": "67a9623c-acc1-11ef-9ec7-c1f21ea089bf",
+        "client_ref_num": "Walnut",
+        "result_code": 101,
+        "result_count": 1,
+        "result": [
+            {
+                "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+                "company_id": "U72900KA2019PTC129553",
+                "state": "Karnataka",
+                "status": "Active"
+            }
+        ]
+    },
+  "case40": {
+      "http_response_code": 401,
+      "client_ref_num": "Walnut",
+      "error": "Client Authentication Failed"
+  },
+  "case41": {
+      "http_response_code": 401,
+      "client_ref_num": "Walnut",
+      "error": "Client Authentication Failed"
+  },
+  "case42": {
+      "http_response_code": 401,
+      "client_ref_num": "Walnut",
+      "error": "Client Authentication Failed"
+  },
+  "case43":{
+    "http_response_code": 401,
+    "client_ref_num": "Walnut",
+    "error": "Client Authentication Failed"
+ },
+ "case44":{
+    "http_response_code": 401,
+    "client_ref_num": "Walnut",
+    "error": "Client Authentication Failed"
+ },
+ "case45":{
+    "http_response_code": 200,
+    "request_id": "b283a546-eaff-11f0-83f9-6db92c2b5c07",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case46":{
+    "http_response_code": 200,
+    "request_id": "522cd1e4-ad58-11ef-982a-6338c54d32ae",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "SOLUTIONS@INFINITE PRIVATE LIMITED",
+            "company_id": "U80301RJ2002PTC017880",
+            "state": "Rajasthan",
+            "status": "Active"
+        }
+    ]
+},
+"case47":{
+    "http_response_code": 200,
+    "request_id": "014f65f1-ad5a-11ef-98c5-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "L&T SOLAR LIMITED",
+            "company_id": "U40109MH2010PLC205058",
+            "state": "Maharashtra",
+            "status": "Amalgamated"
+        },
+        {
+            "company_name": "L&T REALTY LIMITED",
+            "company_id": "U74200MH2007PLC176358",
+            "state": "Maharashtra",
+            "status": "Amalgamated"
+        },
+        {
+            "company_name": "L&T VALVES LIMITED",
+            "company_id": "U74999MH1961PLC012188",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "L&T FINANCE LIMITED",
+            "company_id": "U65910WB1993FLC060810",
+            "state": "West Bengal",
+            "status": "Amalgamated"
+        },
+        {
+            "company_name": "L&T FINANCE LIMITED",
+            "company_id": "L67120MH2008PLC181833",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "L&T FINCORP LIMITED",
+            "company_id": "U65910MH1997PLC108179",
+            "state": "Maharashtra",
+            "status": "Amalgamated"
+        },
+        {
+            "company_name": "L&T GEOSTRUCTURE LLP",
+            "company_id": "AAA-8370",
+            "state": "Tamil Nadu",
+            "status": "Converted to CMP and Dissolved"
+        },
+        {
+            "company_name": "L&T POWERGEN LIMITED",
+            "company_id": "U40103MH2010PLC209313",
+            "state": "Maharashtra",
+            "status": "Amalgamated"
+        },
+        {
+            "company_name": "L&T CASSIDIAN LIMITED",
+            "company_id": "U29253MH2011PLC216258",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "L&T PAREL PROJECT LLP",
+            "company_id": "AAA-8510",
+            "state": "Maharashtra",
+            "status": "Converted to CMP and Dissolved"
+        }
+    ]
+},
+"case48":{
+    "http_response_code": 200,
+    "request_id": "95ff0de0-ad5a-11ef-8f2f-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+     "result_count": 10,
+    "result": [
+        {
+            "company_name": "PRIVATE BLEND FRAGRANCE LLP",
+            "company_id": "ACP-3499",
+            "state": "Haryana",
+            "status": "Active"
+        },
+        {
+            "company_name": "PRIVATE EYE PRIVATE LIMITED",
+            "company_id": "U85110KA1988PTC009671",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "PRIVATE HEALTH PLAN PVT. LTD.",
+            "company_id": "U85195WB1986PTC041537",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "PRIVATE COMPANY LIMITED BY SHARES",
+            "company_id": "U99999WB1948PLC016808",
+            "state": "West Bengal",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "PRIVATE EQUITY ASSOCIATION OF INDIA",
+            "company_id": "U65999DL2008NPL340173",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "PRIVATE WHOIS ESCROW DOMAINS PRIVATE LIMITED",
+            "company_id": "U72900MH2007PTC177049",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "PRIVATE CLUB CONSULTANTS INDIA PRIVATE LIMITED",
+            "company_id": "U70101DL1994PTC062013",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "PRIVATECH GARDEN LLP",
+            "company_id": "ACB-9075",
+            "state": "Assam",
+            "status": "Active"
+        },
+        {
+            "company_name": "PRIVATEYES CONSULTANCY LLP",
+            "company_id": "AAR-9929",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "PRIVATEYE SECURITY SERVICES LLP",
+            "company_id": "AAI-4288",
+            "state": "Maharashtra",
+            "status": "Active"
+        }
+    ]
+},
+"case49":{
+    "http_response_code": 200,
+    "request_id": "e4df53d9-ad5a-11ef-9203-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 4,
+    "result": [
+        {
+            "company_name": "PVT REALTORS AND HOSPITALITY PRIVATE LIMITED",
+            "company_id": "U70100KL2008PTC022003",
+            "state": "Kerala",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVTL PROJECTS LLP",
+            "company_id": "AAO-0571",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVTI CARBON BLACK PRIVATE LIMITED",
+            "company_id": "U74140TN2004PTC053839",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVTATA RECRUITMENTOR PRIVATE LIMITED",
+            "company_id": "U74999TG2019PTC136449",
+            "state": "Telangana",
+            "status": "Active"
+        }
+    ]
+},
+"case50": {
+    "http_response_code": 200,
+    "request_id": "181c2edf-ad5b-11ef-a7d9-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 4,
+    "result": [
+        {
+            "company_name": "PVTL PROJECTS LLP",
+            "company_id": "AAO-0571",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVTI CARBON BLACK PRIVATE LIMITED",
+            "company_id": "U74140TN2004PTC053839",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVTATA RECRUITMENTOR PRIVATE LIMITED",
+            "company_id": "U74999TG2019PTC136449",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "PVT REALTORS AND HOSPITALITY PRIVATE LIMITED",
+            "company_id": "U70100KL2008PTC022003",
+            "state": "Kerala",
+            "status": "Active"
+        }
+    ]
+},
+"case51": {
+    "http_response_code": 200,
+    "request_id": "35f815aa-eb00-11f0-880f-6db92c2b5c07",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 5,
+    "result": [
+        {
+            "company_name": "LIMITED EDITION MODEL ADVISORY PRIVATE LIMITED",
+            "company_id": "U70200DL2023PTC421211",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "Limited Liability Company Magnitogorsk Service Center",
+            "company_id": "F06831",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LIMITED LIABILITY COMPANY SCIENTIFIC AND PRODUCTION CENTRE GEOSTRA",
+            "company_id": "F06257",
+            "state": "Haryana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LIMITEDEDITION EVENTS PRIVATE LIMITED",
+            "company_id": "U93000DL2011PTC216084",
+            "state": "Delhi",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "LIMITEDXDROPS SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U47912KA2025PTC211494",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case52": {
+    "http_response_code": 200,
+    "request_id": "a7d1e88f-ad5b-11ef-ad90-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 2,
+    "result": [
+        {
+            "company_name": "LTDC SERVICES (OPC) PRIVATE LIMITED",
+            "company_id": "U72900TG2018OPC126427",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LTDEDITION SOURCING PRIVATE LIMITED",
+            "company_id": "U51909DL2020PTC369676",
+            "state": "Delhi",
+            "status": "Active"
+        }
+    ]
+},
+"case53": {
+    "http_response_code": 200,
+    "request_id": "e5292f3d-ad5b-11ef-8b72-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 2,
+    "result": [
+        {
+            "company_name": "LTDC SERVICES (OPC) PRIVATE LIMITED",
+            "company_id": "U72900TG2018OPC126427",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LTDEDITION SOURCING PRIVATE LIMITED",
+            "company_id": "U51909DL2020PTC369676",
+            "state": "Delhi",
+            "status": "Active"
+        }
+    ]
+},
+"case54":{
+    "http_response_code": 200,
+    "request_id": "9687510d-eb00-11f0-b372-6db92c2b5c07",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "INC DEVELOPERS PRIVATE LIMITED",
+            "company_id": "U70102PN2008PTC158667",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "INC ENGINEERING PRIVATE LIMITED",
+            "company_id": "U50400DL2011FTC221929",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCCO LLP",
+            "company_id": "ACR-6984",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCBEATS LLP",
+            "company_id": "AAQ-1147",
+            "state": "Kerala",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCAP LIMITED",
+            "company_id": "L32101AP1990PLC011311",
+            "state": "Andhra Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCENTIUS LLP",
+            "company_id": "ACR-0623",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCAMO LIMITED",
+            "company_id": "U31100KA1974PLC002510",
+            "state": "Karnataka",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "INCARE LAB LLP",
+            "company_id": "AAX-1368",
+            "state": "Himachal Pradesh",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCEPTA IQ LLP",
+            "company_id": "AAR-0941",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "INCEPTHINK LLP",
+            "company_id": "AAY-2687",
+            "state": "Maharashtra",
+            "status": "Active"
+        }
+    ]
+},
+"case55": {
+    "http_response_code": 200,
+    "request_id": "a0115e8f-ad5c-11ef-b4c9-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+     "result_count": 6,
+    "result": [
+        {
+            "company_name": "LLC SHOAES PRIVATE LIMITED",
+            "company_id": "U19116TN2005PTC057120",
+            "state": "Tamil Nadu",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "LLC INFRA PROJECTS PRIVATE LIMITED",
+            "company_id": "U45209TG2014PTC096949",
+            "state": "Telangana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLCO PROPERTIES INDIA LIMITED",
+            "company_id": "U43900KA2024PLC188756",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLCL CONFECTIONERY INDIA PRIVATE LIMITED",
+            "company_id": "U15100KL2018PTC052503",
+            "state": "Kerala",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLCM LEGITLEGAL CONSULTING PRIVATE LIMITED",
+            "company_id": "U74140HR2022PTC108489",
+            "state": "Haryana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLCREAM INTERIOR AND FURNITURE STUDIO PRIVATE LIMITED",
+            "company_id": "U74102AP2025PTC119163",
+            "state": "Andhra Pradesh",
+            "status": "Active"
+        }
+    ]
+},
+"case56": {
+    "http_response_code": 200,
+    "request_id": "baa6b4e7-ad5d-11ef-9395-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 3,
+    "result": [
+        {
+            "company_name": "LLPFORMATION SERVICES LLP",
+            "company_id": "AAE-6302",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLPWALA.COM CONSULTING LLP",
+            "company_id": "AAI-0433",
+            "state": "Haryana",
+            "status": "Active"
+        },
+        {
+            "company_name": "LLPM INTERNATIONAL PRIVATE LIMITED",
+            "company_id": "U15136GJ2020PTC115086",
+            "state": "Gujarat",
+            "status": "Active"
+        }
+    ]
+},
+"case57": {
+    "http_response_code": 200,
+    "request_id": "a5500a0a-e79e-11ef-8a58-272132c0051c",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+        "result_count": 10,
+    "result": [
+        {
+            "company_name": "CORPHICS LLP",
+            "company_id": "AAX-3592",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPINFO LLP",
+            "company_id": "ACS-2903",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORP JURIX LLP",
+            "company_id": "AAB-3862",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPLIAZON LLP",
+            "company_id": "AAE-0879",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPOLEGAL LLP",
+            "company_id": "AAS-9535",
+            "state": "West Bengal",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPAID DSC LLP",
+            "company_id": "AAD-7352",
+            "state": "Maharashtra",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "CORPEX POWER LLP",
+            "company_id": "ACJ-8382",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPIND CART LLP",
+            "company_id": "AAS-5269",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORP LEGATUS LLP",
+            "company_id": "AAK-1474",
+            "state": "Delhi",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPORATE BOX LLP",
+            "company_id": "AAM-6655",
+            "state": "Karnataka",
+            "status": "Strike Off"
+        }
+    ]
+},
+"case58": {
+    "http_response_code": 200,
+    "request_id": "35d9b3fa-ad5f-11ef-b744-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 7,
+    "result": [
+        {
+            "company_name": "CORPORATION BANK",
+            "company_id": "CORP",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPORATION BANK LTD",
+            "company_id": "U99999KA1901PLC000893",
+            "state": "Karnataka",
+            "status": "Dissolved (Liquidated)"
+        },
+        {
+            "company_name": "CORPORATION BANK LIMITED",
+            "company_id": "U99999KA1972PLC001067",
+            "state": "Karnataka",
+            "status": "Strike Off"
+        },
+        {
+            "company_name": "CORPORATION BANK LIMITED",
+            "company_id": "U99999MH1936PTC002552",
+            "state": "Maharashtra",
+            "status": "Inactive for e-filing"
+        },
+        {
+            "company_name": "CORPORATION TRANSSTROY OPEN JIONT STOCK CO",
+            "company_id": "F02208",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPORATION OF THE SISTERS OF THE HOLY CROSS",
+            "company_id": "U80100MH1951NPL010582",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "CORPORATION OF INCOME TAX ACCOUNTANTS LIMITED",
+            "company_id": "U99999MH1931PTC001674",
+            "state": "Maharashtra",
+            "status": "Dissolved (Liquidated)"
+        }
+    ]
+},
+"case59": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case60": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case61": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case62": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case63": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case64": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case65": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case66": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case67": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case68": {
+    "http_response_code": 200,
+    "request_id": "18137236-ad63-11ef-a736-a7f40eac6e3d",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 2,
+    "result": [
+        {
+            "company_name": "XXXXXXXXXXXXXXXXXX",
+            "company_id": "U45202PB1985PTC008261",
+            "state": "Punjab",
+            "status": "Active"
+        },
+        {
+            "company_name": "XXXXXXXXXXXXXXXXXXXXXX",
+            "company_id": "U45202PB1985PTC008354",
+            "state": "Punjab",
+            "status": "Active"
+        }
+    ]
+},
+"case69": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case70": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case71": {
+    "http_response_code": 200,
+    "request_id": "877edfdf-ad5f-11ef-942b-e703dd625a94",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case72": {
+    "http_response_code": 200,
+    "request_id": "d032de87-ad6f-11ef-af70-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 10,
+    "result": [
+        {
+            "company_name": "QUESS CORP LIMITED",
+            "cin": "L74140KA2007PLC043909",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "ACCENTURE SOLUTIONS PRIVATE LIMITED",
+            "cin": "U72400MH1990PTC057492",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "LARSEN AND TOUBRO LIMITED",
+            "cin": "L99999MH1946PLC004768",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "TEAMLEASE SERVICES LIMITED",
+            "cin": "L74140KA2000PLC118395",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "TATA CONSULTANCY SERVICES LIMITED",
+            "cin": "L22210MH1995PLC084781",
+            "state": "Maharashtra",
+            "status": "Active"
+        },
+        {
+            "company_name": "COGNIZANT TECHNOLOGY SOLUTIONS INDIA PRIVATE LIMITED",
+            "cin": "U72300TN1994PTC026590",
+            "state": "Tamil Nadu",
+            "status": "Active"
+        },
+        {
+            "company_name": "INFOSYS LIMITED",
+            "cin": "L85110KA1981PLC013115",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "WIPRO LIMITED",
+            "cin": "L32102KA1945PLC020800",
+            "state": "Karnataka",
+            "status": "Active"
+        },
+        {
+            "company_name": "RELIANCE PROJECTS & PROPERTY MANAGEMENT SERVICES LIMITED",
+            "cin": "U72501GJ2019PLC108755",
+            "state": "Gujarat",
+            "status": "Active"
+        },
+        {
+            "company_name": "SIS LIMITED",
+            "cin": "L75230BR1985PLC002083",
+            "state": "Bihar",
+            "status": "Active"
+        }
+    ]
+},
+"case73": {
+    "http_response_code": 200,
+    "request_id": "c489722d-ad70-11ef-98a2-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case74": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case75": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case76": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case77": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case78": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case79": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case80": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case81": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case82": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case83": {
+    "http_response_code": 200,
+    "request_id": "1233cf03-ad71-11ef-8602-2d8ea5ab9259",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "DIGITAP.AI ENTERPRISE SOLUTIONS PRIVATE LIMITED",
+            "company_id": "U72900KA2019PTC129553",
+            "state": "Karnataka",
+            "status": "Active"
+        }
+    ]
+},
+"case84": {
+    "http_response_code": 200,
+    "request_id": "033d51f2-ad74-11ef-814d-75791c4414ee",
+    "client_ref_num": "Walnut",
+    "result_code": 101,
+    "result_count": 1,
+    "result": [
+        {
+            "company_name": "HOUSING DEVELOPMENT FINANCE CORPORATION LIMITED",
+            "company_id": "L70100MH1977PLC019916",
+            "state": "Maharashtra",
+            "status": "Amalgamated"
+        }
+    ]
+}
+}

@@ -1,7 +1,7 @@
 {
     "case1": {
     "http_response_code": 200,
-    "request_id": "9ab1c913-ba1c-11f0-b503-e38df2d373a5",
+    "request_id": "a7c9b20a-e634-11f0-b6e2-fde2c6860fd7",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -34,8 +34,8 @@
             "principal_office_type": "",
             "active_compliance": "",
             "whether_listed_or_not": "Unlisted",
-            "date_of_last_agm": "30/09/2024",
-            "date_of_balance_sheet": "31/03/2024",
+            "date_of_last_agm": "27/09/2025",
+            "date_of_balance_sheet": "31/03/2025",
             "company_status": "Active",
             "INC22A_flag_status": "",
             "suspended_at_stock_exchange": "",
@@ -49,6 +49,72 @@
             "total_pan_found": 1,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "232, 7th Cross, Indiranagar,   1st Stage",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "648/L, Swami Vivekananda Rd   Binnamangala, Hoysala Nagar, Indiranagar",
+                "street_address_2": ",",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar",
+                "street_address_2": "athalli",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "kadubeesanahalli, marathahalli, 88   marathahali ,sarjapur outer ring rd",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -179,6 +245,10 @@
         },
         "balance_sheet_details": [
             {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "10/12/2025"
+            },
+            {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "29/10/2024"
             },
@@ -200,6 +270,10 @@
             }
         ],
         "annual_return_details": [
+            {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "19/12/2025"
+            },
             {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "28/11/2024"
@@ -286,7 +360,7 @@
     },
     "case13": {
     "http_response_code": 200,
-    "request_id": "5c9875e0-ba29-11f0-b52c-7f4605dd5ba6",
+    "request_id": "c71e028f-eae8-11f0-8241-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -334,6 +408,24 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "NA",
+                "street_address_2": "AT POST DEUL GALLI LOHA",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "",
+                "district": "",
+                "city": "NA",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "431708",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -361,7 +453,7 @@
 },
     "case14": {
     "http_response_code": 200,
-    "request_id": "a8ca05f6-ba1d-11f0-8d7f-515a3ade1ab8",
+    "request_id": "e919f89c-eae8-11f0-9c00-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -409,6 +501,40 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "W/O V NAGAKEDRAN, D.NO 250/G   METUPALAYAM ROAD, SAIBABACOLONY",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Coimbatore",
+                "city": "COIMBATORE",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "postal_code": "641043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "W/O V NAGAKEDRAN, D.NO 250/G   METUPALAYAM ROAD, SAIBABACOLONY",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Coimbatore",
+                "city": "COIMBATORE",
+                "state": "Tamil Nadu",
+                "country": "India",
+                "postal_code": "641043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -531,7 +657,7 @@
 },
     "case15": {
     "http_response_code": 200,
-    "request_id": "c20539cf-ba1d-11f0-8e67-d97d7ecd56bb",
+    "request_id": "04b86956-eae9-11f0-8545-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -579,6 +705,56 @@
             "total_pan_found": 2,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "WEST JAGADANANDAPUR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "NADIA",
+                "state": "West Bengal",
+                "country": "India",
+                "postal_code": "741126",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "WEST JAGADANANDAPUR   BETHUADAHARI",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Permanent Address",
+                "locality": "NA",
+                "district": "Nadia",
+                "city": "NADIA",
+                "state": "West Bengal",
+                "country": "India",
+                "postal_code": "741126",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "WEST JAGADANANDAPUR   BETHUADAHARI",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Nadia",
+                "city": "NADIA",
+                "state": "West Bengal",
+                "country": "India",
+                "postal_code": "741126",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -694,15 +870,21 @@
         "potential_related_party_details": {
             "related_party": [
                 {
-                    "company_cin": "U70200WB2025PTC281456",
-                    "company_name": "PN EXPLORE PRIVATE LIMITED",
-                    "date_of_incorporation": "30/07/2025",
+                    "company_cin": "U72200WB2016PTC218295",
+                    "company_name": "HARIDIPSANT TECHNOSOFT PRIVATE LIMITED",
+                    "date_of_incorporation": "15/11/2016",
                     "din": "07613713"
                 },
                 {
                     "company_cin": "U73100KA2025PTC205075",
                     "company_name": "PN COMPLIANCE PRIVATE LIMITED",
                     "date_of_incorporation": "04/07/2025",
+                    "din": "07613713"
+                },
+                {
+                    "company_cin": "U70200WB2025PTC281456",
+                    "company_name": "PN EXPLORE PRIVATE LIMITED",
+                    "date_of_incorporation": "30/07/2025",
                     "din": "07613713"
                 },
                 {
@@ -712,21 +894,15 @@
                     "din": "07613713"
                 },
                 {
-                    "company_cin": "U72200WB2016PTC218295",
-                    "company_name": "HARIDIPSANT TECHNOSOFT PRIVATE LIMITED",
-                    "date_of_incorporation": "15/11/2016",
-                    "din": "07613713"
+                    "company_cin": "U73100KA2025PTC205075",
+                    "company_name": "PN COMPLIANCE PRIVATE LIMITED",
+                    "date_of_incorporation": "04/07/2025",
+                    "din": "07610793"
                 },
                 {
                     "company_cin": "U70200WB2025PTC281456",
                     "company_name": "PN EXPLORE PRIVATE LIMITED",
                     "date_of_incorporation": "30/07/2025",
-                    "din": "07610793"
-                },
-                {
-                    "company_cin": "U73100KA2025PTC205075",
-                    "company_name": "PN COMPLIANCE PRIVATE LIMITED",
-                    "date_of_incorporation": "04/07/2025",
                     "din": "07610793"
                 },
                 {
@@ -744,7 +920,7 @@
 },
     "case16": {
     "http_response_code": 200,
-    "request_id": "deda1376-ba1d-11f0-b18a-ad46e758af52",
+    "request_id": "17391476-eae9-11f0-8624-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -792,6 +968,56 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Annual Return Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "Ring Road   Naraina",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "New Delhi",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110028",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -933,7 +1159,7 @@
 },
     "case17": {
     "http_response_code": 200,
-    "request_id": "000011f8-ba1e-11f0-8996-3147e6b4e3fb",
+    "request_id": "37f96a8b-eae9-11f0-8fde-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -981,6 +1207,72 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "12, KRASNOPRESNENSKAYA NAB.",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Foreign Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "MOSCOW",
+                "state": "NA",
+                "country": "Russian Fed.",
+                "postal_code": "123610",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "OFFICE NO. G-303, GROUND FLOOR, RAGHULEELA MEGA MA   CTS NO. 26 & 26/1, KANDIVALI WEST,",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Other Address in India",
+                "locality": "NA",
+                "district": "",
+                "city": "MUMBAI",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "400067",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "Shop No.11, Arcade Ground Floor,   World Trade Centre, Cuffe Parade, Colaba",
+                "street_address_2": ",",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "400005",
+                "office_type": "Liaison office",
+                "active_status": "Y",
+                "establishment_date": "09/15/2018"
+            },
+            {
+                "street_address": "Shop No.11, Arcade Ground Floor,   World Trade Centre, Cuffe Parade, Colaba",
+                "street_address_2": ",",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Other Address in India",
+                "locality": "NA",
+                "district": "",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "400005",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -998,6 +1290,53 @@
             }
         ],
         "active_directors_contact_info": [
+            {
+                "director_name": "MAMED AKHMEDOV",
+                "role": "Authorised Representative",
+                "date_of_appointment": "21/10/2025",
+                "din": "",
+                "pan": "",
+                "gender": "",
+                "dob": "01/09/1990",
+                "mobile": "",
+                "email": "",
+                "nationality": "Russian",
+                "ucin_of_director": "F06385",
+                "educational_qualification": "",
+                "signatory_association_status": "",
+                "category": "",
+                "cessation_date": "",
+                "signatory": "Yes",
+                "role_effective_date": "",
+                "current_designation_date": "",
+                "birth_place": "",
+                "driving_license_number": "",
+                "role_lic_value": "Manager/Secretary/Auth Rep",
+                "profit_sharing_percentage": "",
+                "is_disqualified": "N",
+                "passport_number": "",
+                "resident_of_india": "",
+                "company_id": "5-4S0-2",
+                "director_death_date": "",
+                "membership_number": "",
+                "contribution_form": "",
+                "fathers_first_name": "XXXXXIN",
+                "fathers_middle_name": "",
+                "fathers_last_name": "XXXXXDOV",
+                "share_holding_percentage": "",
+                "person_type": "Signatory",
+                "opc_type": "",
+                "other_occupation": "",
+                "director_flag": "",
+                "oid_flag": "N",
+                "body_corporate_type": "",
+                "body_corp_inside_india_name": "",
+                "body_corp_outside_india_name": "",
+                "monetary_contribution_value": "",
+                "authorization_status": "",
+                "area_of_occupation": "",
+                "share_holding_of_director": ""
+            },
             {
                 "director_name": "ANNA BENEDIKTOVA",
                 "role": "Authorised Representative",
@@ -1054,9 +1393,9 @@
         "irp_rp_liquidator_details": []
     }
 },
-    "case18": {
+    "case18":{
     "http_response_code": 200,
-    "request_id": "0d999aa2-ba1e-11f0-8fe3-ad46e758af52",
+    "request_id": "61d1f0ed-eae9-11f0-ad06-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -1104,6 +1443,72 @@
             "total_pan_found": 0,
             "total_contact_found": 1
         },
+        "company_address": [
+            {
+                "street_address": "REGUS BUSINESS CENTER OFFICE NO;434 4TH FLOOR   RECTANGLE ONE D-4COMMERCIAL COMPLEX SAKE",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Other Address in India",
+                "locality": "NA",
+                "district": "",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110017",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "86 CHEONGGYECHEON-RO-JUNG GU SEOUL",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Foreign Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "SEOUL",
+                "state": "NA",
+                "country": "Korea, South",
+                "postal_code": "0000000000",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "OFFICE 116/117, RECTANGLE 1,   COMMERCIAL COMPLEX D-4, SAKET,",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110017",
+                "office_type": "Liaison office",
+                "active_status": "Y",
+                "establishment_date": "02/15/2016"
+            },
+            {
+                "street_address": "OFFICE 116/117, RECTANGLE 1,   COMMERCIAL COMPLEX D-4, SAKET,",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Other Address in India",
+                "locality": "NA",
+                "district": "",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110017",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -1179,7 +1584,7 @@
 },
     "case19": {
     "http_response_code": 200,
-    "request_id": "1f9c8189-ba1e-11f0-9f5e-3147e6b4e3fb",
+    "request_id": "78012f90-eae9-11f0-b33c-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -1227,6 +1632,24 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "LGF-10, VASANT SQUARE MALL, PLOT-A, SECTOR-B,   POCKET-V, COMMUNITY CENTRE, VASANT KUNJ",
+                "street_address_2": "NEW DELHI",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "South West Delhi",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110070",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -1342,27 +1765,51 @@
         "potential_related_party_details": {
             "related_party": [
                 {
-                    "company_cin": "U74999HR2016PTC064862",
-                    "company_name": "SECUREBYTE CYBER SOLUTIONS PRIVATE LIMITED",
-                    "date_of_incorporation": "01/11/2023",
+                    "company_cin": "U45200MH2005PTC152917",
+                    "company_name": "E-CITY REALTY HOLDINGS PVT. LTD.",
+                    "date_of_incorporation": "01/04/2014",
                     "din": "00129266"
                 },
                 {
-                    "company_cin": "U74899DL1989PTC054735",
-                    "company_name": "SHARAD FARMS AND HOLDINGS PRIVATE LIMITED",
-                    "date_of_incorporation": "30/07/2024",
+                    "company_cin": "U45201DL1996PTC079163",
+                    "company_name": "M.N. PROPERTY PRIVATE LIMITED",
+                    "date_of_incorporation": "30/03/2015",
                     "din": "00129266"
                 },
                 {
-                    "company_cin": "U74899DL1994PTC061699",
-                    "company_name": "UDDAR GAGAN PROPERTIES PRIVATE LIMITED",
-                    "date_of_incorporation": "30/07/2024",
+                    "company_cin": "U45201DL1996PTC083906",
+                    "company_name": "MAATESHWARI PROPERTIES PRIVATE LIMITED",
+                    "date_of_incorporation": "18/03/2015",
                     "din": "00129266"
                 },
                 {
-                    "company_cin": "U24231UR1891PLC000005",
-                    "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
-                    "date_of_incorporation": "27/09/2011",
+                    "company_cin": "U45201GJ2003PTC096260",
+                    "company_name": "SUNCITY BUILDCON PRIVATE LIMITED",
+                    "date_of_incorporation": "11/12/2013",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U45201DL2003PTC121742",
+                    "company_name": "SUNCITY REALTORS PRIVATE LIMITED",
+                    "date_of_incorporation": "14/05/2007",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U45201DL2003PTC121997",
+                    "company_name": "A.T. PROPERTIES PRIVATE LIMITED",
+                    "date_of_incorporation": "16/01/2016",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U45201DL2005PTC141757",
+                    "company_name": "PAARTH PROMOTERS AND DEVELOPERS PVT LTD",
+                    "date_of_incorporation": "26/03/2015",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U45201DL2005PTC142581",
+                    "company_name": "MATRIX PROPERTIES PRIVATE LIMITED",
+                    "date_of_incorporation": "15/12/2011",
                     "din": "00129266"
                 },
                 {
@@ -1432,64 +1879,28 @@
                     "din": "00129266"
                 },
                 {
-                    "company_cin": "U45201DL2005PTC142581",
-                    "company_name": "MATRIX PROPERTIES PRIVATE LIMITED",
-                    "date_of_incorporation": "15/12/2011",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201DL2005PTC141757",
-                    "company_name": "PAARTH PROMOTERS AND DEVELOPERS PVT LTD",
-                    "date_of_incorporation": "26/03/2015",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201DL2003PTC121997",
-                    "company_name": "A.T. PROPERTIES PRIVATE LIMITED",
-                    "date_of_incorporation": "16/01/2016",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201DL2003PTC121742",
-                    "company_name": "SUNCITY REALTORS PRIVATE LIMITED",
-                    "date_of_incorporation": "14/05/2007",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201GJ2003PTC096260",
-                    "company_name": "SUNCITY BUILDCON PRIVATE LIMITED",
-                    "date_of_incorporation": "11/12/2013",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201DL1996PTC083906",
-                    "company_name": "MAATESHWARI PROPERTIES PRIVATE LIMITED",
-                    "date_of_incorporation": "18/03/2015",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45201DL1996PTC079163",
-                    "company_name": "M.N. PROPERTY PRIVATE LIMITED",
-                    "date_of_incorporation": "30/03/2015",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U45200MH2005PTC152917",
-                    "company_name": "E-CITY REALTY HOLDINGS PVT. LTD.",
-                    "date_of_incorporation": "01/04/2014",
-                    "din": "00129266"
-                },
-                {
-                    "company_cin": "U85420DL2023NPL423916",
-                    "company_name": "EKAL BHARAT MEDIA FOUNDATION",
-                    "date_of_incorporation": "15/12/2023",
-                    "din": "00031438"
-                },
-                {
                     "company_cin": "U24231UR1891PLC000005",
                     "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
-                    "date_of_incorporation": "30/12/2008",
-                    "din": "00031438"
+                    "date_of_incorporation": "27/09/2011",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U74899DL1994PTC061699",
+                    "company_name": "UDDAR GAGAN PROPERTIES PRIVATE LIMITED",
+                    "date_of_incorporation": "30/07/2024",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U74999HR2016PTC064862",
+                    "company_name": "SECUREBYTE CYBER SOLUTIONS PRIVATE LIMITED",
+                    "date_of_incorporation": "01/11/2023",
+                    "din": "00129266"
+                },
+                {
+                    "company_cin": "U74899DL1989PTC054735",
+                    "company_name": "SHARAD FARMS AND HOLDINGS PRIVATE LIMITED",
+                    "date_of_incorporation": "30/07/2024",
+                    "din": "00129266"
                 },
                 {
                     "company_cin": "U74900DL1995PTC073253",
@@ -1742,6 +2153,18 @@
                     "company_name": "PULKIT BUILDWELL PRIVATE LIMITED",
                     "date_of_incorporation": "27/04/2009",
                     "din": "00031438"
+                },
+                {
+                    "company_cin": "U24231UR1891PLC000005",
+                    "company_name": "EAST HOPETOWN ESTATE CO LIMITED",
+                    "date_of_incorporation": "30/12/2008",
+                    "din": "00031438"
+                },
+                {
+                    "company_cin": "U85420DL2023NPL423916",
+                    "company_name": "EKAL BHARAT MEDIA FOUNDATION",
+                    "date_of_incorporation": "15/12/2023",
+                    "din": "00031438"
                 }
             ]
         },
@@ -1816,7 +2239,7 @@
     },
     "case23": {
     "http_response_code": 200,
-    "request_id": "85150425-ba2a-11f0-b2c9-3d7f7a0eed61",
+    "request_id": "bc039157-eae9-11f0-a19c-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -1864,6 +2287,56 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "37, II FLOOR   ANUGRAHA LAYOUT, MAHADEVAPURA",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560048",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5TH MAIN 3RD CROSS   KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -2036,9 +2509,9 @@
             "status": "Invalid"
         }
     },
-    "case25": {
+    "case25":{
     "http_response_code": 200,
-    "request_id": "bb191b7c-ba2b-11f0-8b4c-edf221fb9d61",
+    "request_id": "1636402c-eaf0-11f0-85a2-ad176d7f421c",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -2086,6 +2559,40 @@
             "total_pan_found": 0,
             "total_contact_found": 3
         },
+        "company_address": [
+            {
+                "street_address": "309-312, SOMDUTT CHAMBERS II   BHIKAJI CAMA PLACE",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Annual Return Address",
+                "locality": "NA",
+                "district": "",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110066",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "309 312 SOMDUTT CHAMBERS   II9 BHIKAJI CAMA PLACE",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "NEW DELHI",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110066",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "AA7509843",
@@ -2276,9 +2783,9 @@
         "potential_related_party_details": {
             "related_party": [
                 {
-                    "company_cin": "U56100DL2025PTC450802",
-                    "company_name": "RUMRS HOSPITALITY PRIVATE LIMITED",
-                    "date_of_incorporation": "07/09/2025",
+                    "company_cin": "U63000DL2015PTC286547",
+                    "company_name": "UDAAN VISA FACILITATION PRIVATE LIMITED",
+                    "date_of_incorporation": "16/10/2015",
                     "din": "01133616"
                 },
                 {
@@ -2288,9 +2795,9 @@
                     "din": "01133616"
                 },
                 {
-                    "company_cin": "U63000DL2015PTC286547",
-                    "company_name": "UDAAN VISA FACILITATION PRIVATE LIMITED",
-                    "date_of_incorporation": "16/10/2015",
+                    "company_cin": "U56100DL2025PTC450802",
+                    "company_name": "RUMRS HOSPITALITY PRIVATE LIMITED",
+                    "date_of_incorporation": "07/09/2025",
                     "din": "01133616"
                 },
                 {
@@ -2472,7 +2979,7 @@
     },
     "case27": {
     "http_response_code": 200,
-    "request_id": "c68f0cbf-c9e8-11f0-9bcf-ed4676d480f9",
+    "request_id": "18481d9b-eaea-11f0-b92f-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -2520,6 +3027,24 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "NA",
+                "street_address_2": "AT POST DEUL GALLI LOHA",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "",
+                "district": "",
+                "city": "NA",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "431708",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -2547,7 +3072,7 @@
 },
     "case28": {
     "http_response_code": 200,
-    "request_id": "1853a127-c9e9-11f0-872f-ed4676d480f9",
+    "request_id": "33ad181a-eaea-11f0-8083-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -2595,6 +3120,56 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "UNIT 2205, 22F   TELFORD HOUSE 16 WANG HOI ROAD",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Foreign Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "KOWLOON BAY",
+                "state": "NA",
+                "country": "Hong Kong",
+                "postal_code": "0000000000",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "305   TPWER-B, DLF TOWERS",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Other Address in India",
+                "locality": "NA",
+                "district": "",
+                "city": "JASOLA",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110025",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "305   TPWER-B, DLF TOWERS",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "JASOLA",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110025",
+                "office_type": "Liaison office",
+                "active_status": "Y",
+                "establishment_date": "08/10/2018"
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -2710,7 +3285,7 @@
     },
     "case37": {
     "http_response_code": 200,
-    "request_id": "4fb41deb-c9e9-11f0-af68-a5e55c42f5dd",
+    "request_id": "e6630911-eaea-11f0-8d07-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -2758,6 +3333,56 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "37, II FLOOR   ANUGRAHA LAYOUT, MAHADEVAPURA",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560048",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5TH MAIN 3RD CROSS   KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -2922,7 +3547,7 @@
 },
     "case38": {
     "http_response_code": 200,
-    "request_id": "4fb41deb-c9e9-11f0-af68-a5e55c42f5dd",
+    "request_id": "e6630911-eaea-11f0-8d07-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -2970,6 +3595,56 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "37, II FLOOR   ANUGRAHA LAYOUT, MAHADEVAPURA",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560048",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5TH MAIN 3RD CROSS   KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -3134,7 +3809,7 @@
 },
     "case39": {
     "http_response_code": 200,
-    "request_id": "4fb41deb-c9e9-11f0-af68-a5e55c42f5dd",
+    "request_id": "e6630911-eaea-11f0-8d07-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3182,6 +3857,56 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "37, II FLOOR   ANUGRAHA LAYOUT, MAHADEVAPURA",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560048",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5TH MAIN 3RD CROSS   KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -3346,7 +4071,7 @@
 },
   "case40": {
     "http_response_code": 200,
-    "request_id": "75f3e557-ba1e-11f0-88fe-756b8c68a17b",
+    "request_id": "e6630911-eaea-11f0-8d07-61c4caebbe35",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3394,6 +4119,56 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "37, II FLOOR   ANUGRAHA LAYOUT, MAHADEVAPURA",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560048",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5AC-104 5TH A CROSS   III BLOCK, HRBR LAYOUT, KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5TH MAIN 3RD CROSS   KALYAN NAGAR",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560043",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -3559,7 +4334,7 @@
 
     "case41": {
     "http_response_code": 200,
-    "request_id": "775ec112-c9ea-11f0-95c5-a5e55c42f5dd",
+    "request_id": "40fd7280-eaee-11f0-ae59-ad176d7f421c",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3607,6 +4382,24 @@
             "total_pan_found": 0,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "PLOT NO. 1010 GROUND FLOOR",
+                "street_address_2": "BLOCK-G DSIIDC,NARELA",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "Narela",
+                "district": "North West Delhi",
+                "city": "Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110040",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "M28696855",
@@ -3722,12 +4515,6 @@
         "potential_related_party_details": {
             "related_party": [
                 {
-                    "company_cin": "U27320HR2025PTC132586",
-                    "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
-                    "date_of_incorporation": "27/05/2025",
-                    "din": "05345570"
-                },
-                {
                     "company_cin": "U31900DL2021PTC378629",
                     "company_name": "SIEGER TECHNO PRIVATE LIMITED",
                     "date_of_incorporation": "16/03/2021",
@@ -3737,6 +4524,12 @@
                     "company_cin": "U51900DL2012PTC246513",
                     "company_name": "ROBOTEK PRIVATE LIMITED",
                     "date_of_incorporation": "20/12/2012",
+                    "din": "05345570"
+                },
+                {
+                    "company_cin": "U27320HR2025PTC132586",
+                    "company_name": "RISETRON TECHNOLOGIES PRIVATE LIMITED",
+                    "date_of_incorporation": "27/05/2025",
                     "din": "05345570"
                 },
                 {
@@ -3792,7 +4585,7 @@
 },
     "case42": {
     "http_response_code": 200,
-    "request_id": "c9e48ab1-ba1e-11f0-bea7-cf540cb3fc2e",
+    "request_id": "871af13a-eaee-11f0-b893-ad176d7f421c",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3840,6 +4633,24 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "NA",
+                "street_address_2": "AT POST DEUL GALLI LOHA",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "",
+                "district": "",
+                "city": "NA",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "431708",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -3867,7 +4678,7 @@
 },
     "case43":{
     "http_response_code": 200,
-    "request_id": "5c9875e0-ba29-11f0-b52c-7f4605dd5ba6",
+    "request_id": "871af13a-eaee-11f0-b893-ad176d7f421c",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3915,6 +4726,24 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "NA",
+                "street_address_2": "AT POST DEUL GALLI LOHA",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "",
+                "district": "",
+                "city": "NA",
+                "state": "Maharashtra",
+                "country": "India",
+                "postal_code": "431708",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -3942,7 +4771,7 @@
 },
     "case44": {
     "http_response_code": 200,
-    "request_id": "e013364a-ba1e-11f0-9105-e38df2d373a5",
+    "request_id": "16a02585-eaef-11f0-a959-ad176d7f421c",
     "client_ref_num": "Walnut",
     "result_code": 101,
     "result": {
@@ -3990,6 +4819,56 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Annual Return Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "Ring Road   Naraina",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "New Delhi",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110028",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -4159,7 +5038,7 @@
     "request_id": "e013364a-ba1e-11f0-9105-e38df2d373a5",
     "client_ref_num": "Walnut_-",
     "result_code": 101,
-    "result": {
+     "result": {
         "company_data": {
             "cin": "U70109DL2006PTC149536",
             "company_id": "",
@@ -4204,6 +5083,56 @@
             "total_pan_found": 0,
             "total_contact_found": 0
         },
+        "company_address": [
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Annual Return Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "B-66,Naraina Industrial Area   Phase II",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110027",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "Ring Road   Naraina",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "New Delhi",
+                "city": "New Delhi",
+                "state": "Delhi",
+                "country": "India",
+                "postal_code": "110028",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -4353,7 +5282,7 @@
     "request_id": "b04af63d-7121-11f0-92b1-05691c60bfc3",
     "client_ref_num": "test0test0test0test0test0test0test0test0test50000000000000000000000000000000001234567890123456782345",
     "result_code": 101,
-    "result": {
+   "result": {
         "company_data": {
             "cin": "U72900KA2019PTC129553",
             "company_id": "",
@@ -4383,8 +5312,8 @@
             "principal_office_type": "",
             "active_compliance": "",
             "whether_listed_or_not": "Unlisted",
-            "date_of_last_agm": "30/09/2024",
-            "date_of_balance_sheet": "31/03/2024",
+            "date_of_last_agm": "27/09/2025",
+            "date_of_balance_sheet": "31/03/2025",
             "company_status": "Active",
             "INC22A_flag_status": "",
             "suspended_at_stock_exchange": "",
@@ -4398,6 +5327,72 @@
             "total_pan_found": 1,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "232, 7th Cross, Indiranagar,   1st Stage",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "648/L, Swami Vivekananda Rd   Binnamangala, Hoysala Nagar, Indiranagar",
+                "street_address_2": ",",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar",
+                "street_address_2": "athalli",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "kadubeesanahalli, marathahalli, 88   marathahali ,sarjapur outer ring rd",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -4528,6 +5523,10 @@
         },
         "balance_sheet_details": [
             {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "10/12/2025"
+            },
+            {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "29/10/2024"
             },
@@ -4549,6 +5548,10 @@
             }
         ],
         "annual_return_details": [
+            {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "19/12/2025"
+            },
             {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "28/11/2024"
@@ -4578,7 +5581,7 @@
     "request_id": "9ab1c913-ba1c-11f0-b503-e38df2d373a5",
     "client_ref_num": "Walnut",
     "result_code": 101,
-    "result": {
+   "result": {
         "company_data": {
             "cin": "U72900KA2019PTC129553",
             "company_id": "",
@@ -4608,8 +5611,8 @@
             "principal_office_type": "",
             "active_compliance": "",
             "whether_listed_or_not": "Unlisted",
-            "date_of_last_agm": "30/09/2024",
-            "date_of_balance_sheet": "31/03/2024",
+            "date_of_last_agm": "27/09/2025",
+            "date_of_balance_sheet": "31/03/2025",
             "company_status": "Active",
             "INC22A_flag_status": "",
             "suspended_at_stock_exchange": "",
@@ -4623,6 +5626,72 @@
             "total_pan_found": 1,
             "total_contact_found": 2
         },
+        "company_address": [
+            {
+                "street_address": "232, 7th Cross, Indiranagar,   1st Stage",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Present Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "BANGALORE",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "648/L, Swami Vivekananda Rd   Binnamangala, Hoysala Nagar, Indiranagar",
+                "street_address_2": ",",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560038",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "5th floor, Novel MSR Park, K. NO. 731/2389   93/9 Varthur Main Road, Munnekolalu, Mar",
+                "street_address_2": "athalli",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Registered Address",
+                "locality": "NA",
+                "district": "Bangalore",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            },
+            {
+                "street_address": "kadubeesanahalli, marathahalli, 88   marathahali ,sarjapur outer ring rd",
+                "street_address_2": "",
+                "street_address_3": "",
+                "street_address_4": "",
+                "address_type": "Police Station Address",
+                "locality": "NA",
+                "district": "",
+                "city": "Bangalore",
+                "state": "Karnataka",
+                "country": "India",
+                "postal_code": "560037",
+                "office_type": "",
+                "active_status": "Y",
+                "establishment_date": ""
+            }
+        ],
         "charges": [
             {
                 "srn": "",
@@ -4753,6 +5822,10 @@
         },
         "balance_sheet_details": [
             {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "10/12/2025"
+            },
+            {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "29/10/2024"
             },
@@ -4774,6 +5847,10 @@
             }
         ],
         "annual_return_details": [
+            {
+                "financial_year": "31/03/2025",
+                "date_of_filing": "19/12/2025"
+            },
             {
                 "financial_year": "31/03/2024",
                 "date_of_filing": "28/11/2024"
